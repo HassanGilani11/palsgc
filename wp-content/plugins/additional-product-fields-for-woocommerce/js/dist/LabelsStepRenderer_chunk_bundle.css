@@ -1,0 +1,43 @@
+.rnStepLabels.rnStep{
+    color:#999;
+
+    margin:20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 0;
+    padding: 10px 5px;
+    background: white no-repeat;
+
+    /*
+    * IMPORTANT PART HERE
+    */
+
+    /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+    background-image: linear-gradient(to bottom, #3498db, #3498db), linear-gradient(to bottom, #999, #999);
+    /* sizes for the 2 images (default state) */
+    background-size: 0 2px, 100% 1px;
+    /* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+    background-position: 50% 100%, 50% 100%;
+
+    /* animation solely on background-size */
+    transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+.rnStepLabels.rnStep.rnActive{
+    color:#3498db;
+    /* sizes for the 2 images (focus state) */
+    background-size: 100% 2px, 100% 1px;
+    outline: none;
+}
+
+.rnStepLabels.rnStep.rnValidated{
+    color:#75daad;
+    background-image: linear-gradient(to bottom, #75daad, #75daad), linear-gradient(to bottom, #999, #999);
+    /* sizes for the 2 images (focus state) */
+    background-size: 100% 2px, 100% 1px;
+    outline: none;
+}
+
+
+
+

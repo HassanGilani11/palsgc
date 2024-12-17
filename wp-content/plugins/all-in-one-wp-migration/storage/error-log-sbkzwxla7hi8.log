@@ -1,0 +1,3 @@
+Dec 17 2024 09:33:37
+{"type":8192,"message":"Creation of dynamic property Merlin::$slug is deprecated","file":"C:\\xampp\\htdocs\\github-repo\\wp-content\\themes\\printec\\inc\\merlin\\class-merlin.php","line":281}
+

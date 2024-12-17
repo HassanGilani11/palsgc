@@ -1,0 +1,1104 @@
+2024-04-14T07:00:15+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+account
+====End Log====
+
+2024-04-14T07:33:38+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+customers request: Array
+(
+    [email] => info@vrtechsol.com
+    [description] => Name: Yasir Noor, Username: vrtechsol
+    [name] => Yasir Noor
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+    [address] => Array
+        (
+            [line1] => 73 Bayview Close
+            [line2] => 
+            [postal_code] => 4707
+            [city] => Collaroy
+            [state] => QLD
+            [country] => AU
+        )
+
+)
+
+====End Log====
+
+2024-04-14T07:33:38+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+customers response with stripe-version: 2019-09-09
+====End Log====
+
+2024-04-14T07:33:38+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_methods/pm_1P5NZEJ4iuQrXQLOBCYnxVAg
+====End Log====
+
+2024-04-14T07:33:39+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents request: Array
+(
+    [capture_method] => automatic
+    [payment_method] => pm_1P5NZEJ4iuQrXQLOBCYnxVAg
+    [shipping] => 
+    [amount] => 64288
+    [confirm] => true
+    [currency] => aud
+    [customer] => cus_PvE1xfMWukstkt
+    [description] => Print and Laminating Specialists - Order 11678
+    [metadata] => Array
+        (
+            [customer_name] => Yasir Noor
+            [customer_email] => info@vrtechsol.com
+            [site_url] => https://testing10.divlogic.tech
+            [order_id] => 11678
+            [order_key] => wc_order_Bz3FqEYezbdGN
+            [payment_type] => single
+        )
+
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+2024-04-14T07:33:40+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents response with stripe-version: 2019-09-09
+====End Log====
+
+2024-04-14T07:33:40+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3P5NZHJ4iuQrXQLO1aEE0D1X
+    [object] => charge
+    [amount] => 64288
+    [amount_captured] => 64288
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3P5NZHJ4iuQrXQLO1buw4dEH
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Collaroy
+                    [country] => AU
+                    [line1] => 73 Bayview Close
+                    [line2] => 
+                    [postal_code] => 4707
+                    [state] => QLD
+                )
+
+            [email] => info@vrtechsol.com
+            [name] => Yasir Noor
+            [phone] => (07) 4940 1627
+        )
+
+    [calculated_statement_descriptor] => WWW.PALSGC.COM.AU
+    [captured] => 1
+    [created] => 1713080019
+    [currency] => aud
+    [customer] => cus_PvE1xfMWukstkt
+    [description] => Print and Laminating Specialists - Order 11678
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => info@vrtechsol.com
+            [customer_name] => Yasir Noor
+            [order_id] => 11678
+            [order_key] => wc_order_Bz3FqEYezbdGN
+            [payment_type] => single
+            [site_url] => https://testing10.divlogic.tech
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 10
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3P5NZHJ4iuQrXQLO1Kooz3JV
+    [payment_method] => pm_1P5NZEJ4iuQrXQLOBCYnxVAg
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [amount_authorized] => 64288
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 4
+                    [exp_year] => 2024
+                    [extended_authorization] => stdClass Object
+                        (
+                            [status] => disabled
+                        )
+
+                    [fingerprint] => MwBZVaRZsgFKvWow
+                    [funding] => credit
+                    [incremental_authorization] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [multicapture] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [overcapture] => stdClass Object
+                        (
+                            [maximum_amount_capturable] => 64288
+                            [status] => unavailable
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [radar_options] => stdClass Object
+        (
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xUDRuSW9KNGl1UXJYUUxPKNSN7rAGMgZbExGiJnI6LBZKAcKU7DlA1eHLGOUGGU2UEPvQMQdIGVQdOjo7sd6g_dlexlrvWymDXstv
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3P5NZHJ4iuQrXQLO1aEE0D1X/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+2024-04-14T07:33:40+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+balance/history/txn_3P5NZHJ4iuQrXQLO1buw4dEH
+====End Log====
+
+2024-04-14T07:34:54+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents/pi_3P5NZHJ4iuQrXQLO1Kooz3JV?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+2024-04-14T07:34:54+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents/pi_3P5NZHJ4iuQrXQLO1Kooz3JV?expand[]=payment_method response with stripe-version: 2019-09-09
+====End Log====
+
+2024-04-14T07:36:43+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents/pi_3P5NZHJ4iuQrXQLO1Kooz3JV?expand[]=payment_method request: Array
+(
+)
+
+====End Log====
+
+2024-04-14T07:36:44+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents/pi_3P5NZHJ4iuQrXQLO1Kooz3JV?expand[]=payment_method response with stripe-version: 2019-09-09
+====End Log====
+
+2024-04-14T08:18:39+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+account
+====End Log====
+
+2024-04-14T08:18:39+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+account
+====End Log====
+
+2024-04-14T10:19:55+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+account
+====End Log====
+
+2024-04-14T12:24:57+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+account
+====End Log====
+
+2024-04-14T12:28:22+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+customers request: Array
+(
+    [email] => hasansajj@gmail.com
+    [description] => Name: Hassan Sajjad, Guest
+    [name] => Hassan Sajjad
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+    [address] => Array
+        (
+            [line1] => 18 Sanur Street
+            [line2] => 
+            [postal_code] => 4132
+            [city] => Brisbane
+            [state] => QLD
+            [country] => AU
+        )
+
+)
+
+====End Log====
+
+2024-04-14T12:28:22+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+customers response with stripe-version: 2019-09-09
+====End Log====
+
+2024-04-14T12:28:22+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_methods/pm_1P5SASJ4iuQrXQLOvDYqnlUX
+====End Log====
+
+2024-04-14T12:28:23+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents request: Array
+(
+    [capture_method] => automatic
+    [payment_method] => pm_1P5SASJ4iuQrXQLOvDYqnlUX
+    [shipping] => 
+    [amount] => 4400
+    [confirm] => true
+    [currency] => aud
+    [customer] => cus_PvImB9TaI7z1p2
+    [description] => Print and Laminating Specialists - Order 11685
+    [metadata] => Array
+        (
+            [customer_name] => Hassan Sajjad
+            [customer_email] => hasansajj@gmail.com
+            [site_url] => https://testing10.divlogic.tech
+            [order_id] => 11685
+            [order_key] => wc_order_fzowyISBiJ6YM
+            [payment_type] => single
+        )
+
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+2024-04-14T12:28:24+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents response with stripe-version: 2019-09-09
+====End Log====
+
+2024-04-14T12:28:24+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [charge] => ch_3P5SAVJ4iuQrXQLO0elohG0z
+            [code] => card_declined
+            [decline_code] => test_mode_live_card
+            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+            [message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+            [payment_intent] => stdClass Object
+                (
+                    [id] => pi_3P5SAVJ4iuQrXQLO0J8LrRif
+                    [object] => payment_intent
+                    [amount] => 4400
+                    [amount_capturable] => 0
+                    [amount_details] => stdClass Object
+                        (
+                            [tip] => stdClass Object
+                                (
+                                )
+
+                        )
+
+                    [amount_received] => 0
+                    [application] => 
+                    [application_fee_amount] => 
+                    [automatic_payment_methods] => 
+                    [canceled_at] => 
+                    [cancellation_reason] => 
+                    [capture_method] => automatic
+                    [charges] => stdClass Object
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [id] => ch_3P5SAVJ4iuQrXQLO0elohG0z
+                                            [object] => charge
+                                            [amount] => 4400
+                                            [amount_captured] => 0
+                                            [amount_refunded] => 0
+                                            [application] => 
+                                            [application_fee] => 
+                                            [application_fee_amount] => 
+                                            [balance_transaction] => 
+                                            [billing_details] => stdClass Object
+                                                (
+                                                    [address] => stdClass Object
+                                                        (
+                                                            [city] => Brisbane
+                                                            [country] => AU
+                                                            [line1] => 18 Sanur Street
+                                                            [line2] => 
+                                                            [postal_code] => 4132
+                                                            [state] => QLD
+                                                        )
+
+                                                    [email] => hasansajj@gmail.com
+                                                    [name] => Hassan Sajjad
+                                                    [phone] => +61425830091
+                                                )
+
+                                            [calculated_statement_descriptor] => WWW.PALSGC.COM.AU
+                                            [captured] => 
+                                            [created] => 1713097703
+                                            [currency] => aud
+                                            [customer] => cus_PvImB9TaI7z1p2
+                                            [description] => Print and Laminating Specialists - Order 11685
+                                            [destination] => 
+                                            [dispute] => 
+                                            [disputed] => 
+                                            [failure_balance_transaction] => 
+                                            [failure_code] => card_declined
+                                            [failure_message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+                                            [fraud_details] => stdClass Object
+                                                (
+                                                )
+
+                                            [invoice] => 
+                                            [livemode] => 
+                                            [metadata] => stdClass Object
+                                                (
+                                                    [order_key] => wc_order_fzowyISBiJ6YM
+                                                    [site_url] => https://testing10.divlogic.tech
+                                                    [order_id] => 11685
+                                                    [payment_type] => single
+                                                    [customer_email] => hasansajj@gmail.com
+                                                    [customer_name] => Hassan Sajjad
+                                                )
+
+                                            [on_behalf_of] => 
+                                            [order] => 
+                                            [outcome] => stdClass Object
+                                                (
+                                                    [network_status] => not_sent_to_network
+                                                    [reason] => test_mode_live_card
+                                                    [risk_level] => normal
+                                                    [risk_score] => 37
+                                                    [seller_message] => This charge request was in test mode, but did not use a Stripe test card number. For the list of these numbers, see stripe.com/docs/testing
+                                                    [type] => invalid
+                                                )
+
+                                            [paid] => 
+                                            [payment_intent] => pi_3P5SAVJ4iuQrXQLO0J8LrRif
+                                            [payment_method] => pm_1P5SASJ4iuQrXQLOvDYqnlUX
+                                            [payment_method_details] => stdClass Object
+                                                (
+                                                    [card] => stdClass Object
+                                                        (
+                                                            [amount_authorized] => 
+                                                            [brand] => mastercard
+                                                            [checks] => stdClass Object
+                                                                (
+                                                                    [address_line1_check] => unchecked
+                                                                    [address_postal_code_check] => unchecked
+                                                                    [cvc_check] => unchecked
+                                                                )
+
+                                                            [country] => AU
+                                                            [exp_month] => 8
+                                                            [exp_year] => 2025
+                                                            [extended_authorization] => stdClass Object
+                                                                (
+                                                                    [status] => disabled
+                                                                )
+
+                                                            [fingerprint] => 8ApObZoiIMHnlrFS
+                                                            [funding] => credit
+                                                            [incremental_authorization] => stdClass Object
+                                                                (
+                                                                    [status] => unavailable
+                                                                )
+
+                                                            [installments] => 
+                                                            [last4] => 8192
+                                                            [mandate] => 
+                                                            [multicapture] => stdClass Object
+                                                                (
+                                                                    [status] => unavailable
+                                                                )
+
+                                                            [network] => mastercard
+                                                            [network_token] => stdClass Object
+                                                                (
+                                                                    [used] => 
+                                                                )
+
+                                                            [overcapture] => stdClass Object
+                                                                (
+                                                                    [maximum_amount_capturable] => 4400
+                                                                    [status] => unavailable
+                                                                )
+
+                                                            [three_d_secure] => 
+                                                            [wallet] => 
+                                                        )
+
+                                                    [type] => card
+                                                )
+
+                                            [radar_options] => stdClass Object
+                                                (
+                                                )
+
+                                            [receipt_email] => 
+                                            [receipt_number] => 
+                                            [receipt_url] => 
+                                            [refunded] => 
+                                            [refunds] => stdClass Object
+                                                (
+                                                    [object] => list
+                                                    [data] => Array
+                                                        (
+                                                        )
+
+                                                    [has_more] => 
+                                                    [total_count] => 0
+                                                    [url] => /v1/charges/ch_3P5SAVJ4iuQrXQLO0elohG0z/refunds
+                                                )
+
+                                            [review] => 
+                                            [shipping] => 
+                                            [source] => 
+                                            [source_transfer] => 
+                                            [statement_descriptor] => 
+                                            [statement_descriptor_suffix] => 
+                                            [status] => failed
+                                            [transfer_data] => 
+                                            [transfer_group] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/charges?payment_intent=pi_3P5SAVJ4iuQrXQLO0J8LrRif
+                        )
+
+                    [client_secret] => pi_3P5SAVJ4iuQrXQLO0J8LrRif_secret_rV33mUfIzkSurdP0Ui1SmRwK7
+                    [confirmation_method] => automatic
+                    [created] => 1713097703
+                    [currency] => aud
+                    [customer] => cus_PvImB9TaI7z1p2
+                    [description] => Print and Laminating Specialists - Order 11685
+                    [invoice] => 
+                    [last_payment_error] => stdClass Object
+                        (
+                            [charge] => ch_3P5SAVJ4iuQrXQLO0elohG0z
+                            [code] => card_declined
+                            [decline_code] => test_mode_live_card
+                            [doc_url] => https://stripe.com/docs/error-codes/card-declined
+                            [message] => Your card was declined. Your request was in test mode, but used a non test (live) card. For a list of valid test cards, visit: https://stripe.com/docs/testing.
+                            [payment_method] => stdClass Object
+                                (
+                                    [id] => pm_1P5SASJ4iuQrXQLOvDYqnlUX
+                                    [object] => payment_method
+                                    [billing_details] => stdClass Object
+                                        (
+                                            [address] => stdClass Object
+                                                (
+                                                    [city] => Brisbane
+                                                    [country] => AU
+                                                    [line1] => 18 Sanur Street
+                                                    [line2] => 
+                                                    [postal_code] => 4132
+                                                    [state] => QLD
+                                                )
+
+                                            [email] => hasansajj@gmail.com
+                                            [name] => Hassan Sajjad
+                                            [phone] => +61425830091
+                                        )
+
+                                    [card] => stdClass Object
+                                        (
+                                            [brand] => mastercard
+                                            [checks] => stdClass Object
+                                                (
+                                                    [address_line1_check] => unchecked
+                                                    [address_postal_code_check] => unchecked
+                                                    [cvc_check] => unchecked
+                                                )
+
+                                            [country] => AU
+                                            [display_brand] => eftpos_australia
+                                            [exp_month] => 8
+                                            [exp_year] => 2025
+                                            [fingerprint] => 8ApObZoiIMHnlrFS
+                                            [funding] => credit
+                                            [generated_from] => 
+                                            [last4] => 8192
+                                            [networks] => stdClass Object
+                                                (
+                                                    [available] => Array
+                                                        (
+                                                            [0] => mastercard
+                                                        )
+
+                                                    [preferred] => 
+                                                )
+
+                                            [three_d_secure_usage] => stdClass Object
+                                                (
+                                                    [supported] => 1
+                                                )
+
+                                            [wallet] => 
+                                        )
+
+                                    [created] => 1713097700
+                                    [customer] => 
+                                    [livemode] => 
+                                    [metadata] => stdClass Object
+                                        (
+                                        )
+
+                                    [radar_options] => stdClass Object
+                                        (
+                                        )
+
+                                    [type] => card
+                                )
+
+                            [type] => card_error
+                        )
+
+                    [latest_charge] => ch_3P5SAVJ4iuQrXQLO0elohG0z
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                            [order_key] => wc_order_fzowyISBiJ6YM
+                            [site_url] => https://testing10.divlogic.tech
+                            [order_id] => 11685
+                            [payment_type] => single
+                            [customer_email] => hasansajj@gmail.com
+                            [customer_name] => Hassan Sajjad
+                        )
+
+                    [next_action] => 
+                    [on_behalf_of] => 
+                    [payment_method] => 
+                    [payment_method_configuration_details] => 
+                    [payment_method_options] => stdClass Object
+                        (
+                            [card] => stdClass Object
+                                (
+                                    [installments] => 
+                                    [mandate_options] => 
+                                    [network] => 
+                                    [request_three_d_secure] => automatic
+                                )
+
+                        )
+
+                    [payment_method_types] => Array
+                        (
+                            [0] => card
+                        )
+
+                    [processing] => 
+                    [receipt_email] => 
+                    [review] => 
+                    [setup_future_usage] => 
+                    [shipping] => 
+                    [source] => 
+                    [statement_descriptor] => 
+                    [statement_descriptor_suffix] => 
+                    [status] => requires_payment_method
+                    [transfer_data] => 
+                    [transfer_group] => 
+                )
+
+            [payment_method] => stdClass Object
+                (
+                    [id] => pm_1P5SASJ4iuQrXQLOvDYqnlUX
+                    [object] => payment_method
+                    [billing_details] => stdClass Object
+                        (
+                            [address] => stdClass Object
+                                (
+                                    [city] => Brisbane
+                                    [country] => AU
+                                    [line1] => 18 Sanur Street
+                                    [line2] => 
+                                    [postal_code] => 4132
+                                    [state] => QLD
+                                )
+
+                            [email] => hasansajj@gmail.com
+                            [name] => Hassan Sajjad
+                            [phone] => +61425830091
+                        )
+
+                    [card] => stdClass Object
+                        (
+                            [brand] => mastercard
+                            [checks] => stdClass Object
+                                (
+                                    [address_line1_check] => unchecked
+                                    [address_postal_code_check] => unchecked
+                                    [cvc_check] => unchecked
+                                )
+
+                            [country] => AU
+                            [display_brand] => eftpos_australia
+                            [exp_month] => 8
+                            [exp_year] => 2025
+                            [fingerprint] => 8ApObZoiIMHnlrFS
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 8192
+                            [networks] => stdClass Object
+                                (
+                                    [available] => Array
+                                        (
+                                            [0] => mastercard
+                                        )
+
+                                    [preferred] => 
+                                )
+
+                            [three_d_secure_usage] => stdClass Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1713097700
+                    [customer] => 
+                    [livemode] => 
+                    [metadata] => stdClass Object
+                        (
+                        )
+
+                    [radar_options] => stdClass Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_xBz2sOpM6sp5RD?t=1713097703
+            [type] => card_error
+        )
+
+)
+
+====End Log====
+
+2024-04-14T13:19:48+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+customers request: Array
+(
+    [email] => hasansajj@gmail.com
+    [description] => Name: Hassan Sajjad, Guest
+    [name] => Hassan Sajjad
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+    [address] => Array
+        (
+            [line1] => 18 Sanur Street
+            [line2] => 
+            [postal_code] => 4132
+            [city] => Brisbane
+            [state] => QLD
+            [country] => AU
+        )
+
+)
+
+====End Log====
+
+2024-04-14T13:19:48+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+customers response with stripe-version: 2019-09-09
+====End Log====
+
+2024-04-14T13:19:48+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_methods/pm_1P5SyEJ4iuQrXQLO6iSdHdyr
+====End Log====
+
+2024-04-14T13:19:49+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents request: Array
+(
+    [capture_method] => automatic
+    [payment_method] => pm_1P5SyEJ4iuQrXQLO6iSdHdyr
+    [shipping] => 
+    [amount] => 182325
+    [confirm] => true
+    [currency] => aud
+    [customer] => cus_PvJbPOvCOBI3by
+    [description] => Print and Laminating Specialists - Order 11692
+    [metadata] => Array
+        (
+            [customer_name] => Hassan Sajjad
+            [customer_email] => hasansajj@gmail.com
+            [site_url] => https://testing10.divlogic.tech
+            [order_id] => 11692
+            [order_key] => wc_order_JZEcFpCJF6lRc
+            [payment_type] => single
+        )
+
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+)
+
+====End Log====
+
+2024-04-14T13:19:50+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+payment_intents response with stripe-version: 2019-09-09
+====End Log====
+
+2024-04-14T13:19:50+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3P5SyHJ4iuQrXQLO024D2yj9
+    [object] => charge
+    [amount] => 182325
+    [amount_captured] => 182325
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3P5SyHJ4iuQrXQLO0vVdeq6h
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Brisbane
+                    [country] => AU
+                    [line1] => 18 Sanur Street
+                    [line2] => 
+                    [postal_code] => 4132
+                    [state] => QLD
+                )
+
+            [email] => hasansajj@gmail.com
+            [name] => Hassan Sajjad
+            [phone] => +61425830091
+        )
+
+    [calculated_statement_descriptor] => WWW.PALSGC.COM.AU
+    [captured] => 1
+    [created] => 1713100789
+    [currency] => aud
+    [customer] => cus_PvJbPOvCOBI3by
+    [description] => Print and Laminating Specialists - Order 11692
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => hasansajj@gmail.com
+            [customer_name] => Hassan Sajjad
+            [order_id] => 11692
+            [order_key] => wc_order_JZEcFpCJF6lRc
+            [payment_type] => single
+            [site_url] => https://testing10.divlogic.tech
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 7
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3P5SyHJ4iuQrXQLO02j2KZ3d
+    [payment_method] => pm_1P5SyEJ4iuQrXQLO6iSdHdyr
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [amount_authorized] => 182325
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 8
+                    [exp_year] => 2026
+                    [extended_authorization] => stdClass Object
+                        (
+                            [status] => disabled
+                        )
+
+                    [fingerprint] => MwBZVaRZsgFKvWow
+                    [funding] => credit
+                    [incremental_authorization] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [multicapture] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [overcapture] => stdClass Object
+                        (
+                            [maximum_amount_capturable] => 182325
+                            [status] => unavailable
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [radar_options] => stdClass Object
+        (
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xUDRuSW9KNGl1UXJYUUxPKPav77AGMganhorMXCo6LBbxe5hnWfQ4GtdsooqIeB5kq5Bx5AHVr0-Ht6O8mHJpfdfGVTEj7X1vWhfA
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3P5SyHJ4iuQrXQLO024D2yj9/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+2024-04-14T13:19:50+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+balance/history/txn_3P5SyHJ4iuQrXQLO0vVdeq6h
+====End Log====
+
+2024-04-14T15:22:27+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+account
+====End Log====
+
+2024-04-14T20:35:27+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+account
+====End Log====
+
+2024-04-14T22:46:31+00:00 DEBUG 
+====Stripe Version: 8.2.0====
+====Stripe Plugin API Version: 2019-09-09====
+====Start Log====
+account
+====End Log====
+

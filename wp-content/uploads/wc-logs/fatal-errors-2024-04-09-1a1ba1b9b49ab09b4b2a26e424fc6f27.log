@@ -1,0 +1,30 @@
+2024-04-09T04:50:18+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to wc_add_number_precision() must be of the type float or null, string given, called in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php on line 57 and defined in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php:1937
+Stack trace:
+#0 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php(57): wc_add_number_precision('')
+#1 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-discount.php(215): AWDP_typeTotalAmount->apply_discount_fixed_price_total_amount(Array, Object(WC_Product_Simple), '40', 4, Array, Array, 10766, '40', false)
+#2 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class- in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 1937
+
+2024-04-09T04:50:29+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to wc_add_number_precision() must be of the type float or null, string given, called in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php on line 57 and defined in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php:1937
+Stack trace:
+#0 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php(57): wc_add_number_precision('')
+#1 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-discount.php(215): AWDP_typeTotalAmount->apply_discount_fixed_price_total_amount(Array, Object(WC_Product_Simple), '40', 4, Array, Array, 10766, '40', false)
+#2 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class- in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 1937
+
+2024-04-09T04:51:05+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to wc_add_number_precision() must be of the type float or null, string given, called in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php on line 57 and defined in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php:1937
+Stack trace:
+#0 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php(57): wc_add_number_precision('')
+#1 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-discount.php(215): AWDP_typeTotalAmount->apply_discount_fixed_price_total_amount(Array, Object(WC_Product_Simple), '40', 3, Array, Array, 10766, '40', false)
+#2 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class- in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 1937
+
+2024-04-09T04:51:10+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to wc_add_number_precision() must be of the type float or null, string given, called in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php on line 57 and defined in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php:1937
+Stack trace:
+#0 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php(57): wc_add_number_precision('')
+#1 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-discount.php(215): AWDP_typeTotalAmount->apply_discount_fixed_price_total_amount(Array, Object(WC_Product_Simple), '40', 3, Array, Array, 10766, '40', false)
+#2 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class- in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 1937
+
+2024-04-09T04:51:31+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to wc_add_number_precision() must be of the type float or null, string given, called in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php on line 57 and defined in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php:1937
+Stack trace:
+#0 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-typetotalamount.php(57): wc_add_number_precision('')
+#1 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class-awdp-discount.php(215): AWDP_typeTotalAmount->apply_discount_fixed_price_total_amount(Array, Object(WC_Product_Simple), '40', 3, Array, Array, 10766, '40', false)
+#2 /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/aco-woo-dynamic-pricing/includes/class- in /home/u700441347/domains/divlogic.tech/public_html/testing10/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 1937
+

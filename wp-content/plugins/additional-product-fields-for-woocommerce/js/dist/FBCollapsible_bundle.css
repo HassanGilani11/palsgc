@@ -1,0 +1,27 @@
+.rncollapsible {
+    margin:15px 0;
+}
+
+.rncollapsible  .rnTitle{
+    margin:0;
+}
+
+.rncollapsible hr{
+    margin-bottom: 3px;
+}
+
+.collapsibleTitle{
+    cursor: pointer;
+}
+
+.collapsibleContainer{
+    margin-top: 3px;
+}
+
+.rednaoCollapsible .chevron{
+    transition: transform 200ms ease-in-out;
+}
+
+.rednaoCollapsible.rnClosed .chevron{
+    transform: rotate(180deg);
+}

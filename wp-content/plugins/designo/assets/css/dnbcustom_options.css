@@ -1,0 +1,73 @@
+.custom-image-dropdown {
+    position: relative;
+    border: 1px solid #333;
+    font-size: 13px;
+    border-radius: 4px;
+    height: 41px;
+}
+
+.validation-message-width , .validation-message-height{
+    color:red;
+}
+
+.custom-image-dropdown .selected-option {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.custom-image-dropdown .options-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+    border: 1px solid #333;
+    z-index: 999999;
+    background-color: white;
+}
+
+.custom-image-dropdown .arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.custom-image-dropdown .options-list li {
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.custom-image-dropdown .options-list li:hover {
+background-color: #f0f0f0;
+}
+
+.woocommerce-page .dnb_custom_radiobtn span.woocommerce-input-wrapper label {
+    margin-bottom: 0;
+}
+.woocommerce div.product table.variations tr .dnb_custom_radiobtn span.woocommerce-input-wrapper {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.cart button {
+    /*display: block !important;*/
+    margin: 5px !important;
+    /*min-width: 60% !important;*/
+}
+.summary.entry-summary .cart .custom-image-dropdown {
+    margin-bottom: 20px;
+}
+.summary.entry-summary .cart .custom-image-dropdown {
+    width: 100%;
+}
+.dnb-custom-table-variation {
+    overflow: visible !important;
+}

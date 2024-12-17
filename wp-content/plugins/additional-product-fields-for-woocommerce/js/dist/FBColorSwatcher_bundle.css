@@ -1,0 +1,98 @@
+.rnImagePickerContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rnImagePickerContainer .rnImagePickerItem{
+    margin:5px;
+    cursor:pointer;
+    text-align: center;
+}
+
+
+.rnImagePickerContainer .rnSelected span{
+    font-weight: 600;
+}
+
+
+
+
+.rnImagePickerContainer .rnImagePickerImage{
+    border:2px #dfdfdf solid;
+    transition: border 200ms ease-in-out;
+}
+
+
+.rnImagePickerContainer .rnImagePickerImage:hover
+{
+    border-color: #afafaf;
+}
+
+.rnImagePickerContainer .rnSelected .rnImagePickerImage,.rnImagePickerContainer .rnSelected .rnImagePickerImage:hover{
+    border-color:red;
+}
+.rnColorSwatcherItem {
+    margin:5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.rnColorSwatcherItem{
+    transition: opacity 200ms ease-in-out;
+}
+
+.rnColorSwatcherItem .RNPreset{
+    border:2px solid transparent;
+    transition: all 200ms ease-in-out;
+    padding: 5px;
+}
+
+.rnColorSwatcherContainer{
+    margin-bottom: -5px;
+}
+
+.rnColorSwatcherItem .RNPreset:hover{
+    border-color: #66afe9;
+    box-shadow: 0 0 20px 1px #66afe9;
+}
+
+.rnColorSwatcherItem label{
+    font-weight: bold;
+}
+
+.rnColorSwatcherItem.rnSelected .RNPreset{
+    border:2px solid red !important;
+
+}
+
+.rnColorSwatcherItem.rnDisabled{
+    pointer-events: none;
+    opacity: .5;
+}
+
+.RNPreset{
+    max-width: 36px;
+    margin: auto;
+}
+/*
+.rnColorSwatcherItem {
+    margin:5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.rnColorSwatcherItem .RNPreset{
+    border:1px solid #dfdfdf;
+}
+
+.rnColorSwatcherItem .RNPreset:hover{
+    border-color: red;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(233, 0, 0, 0.6);
+}
+
+.rnColorSwatcherItem label{
+    font-weight: bold;
+}
+ */

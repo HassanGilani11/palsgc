@@ -1,0 +1,2674 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ELEX WooCommerce Request a Quote - Basic\n"
+"POT-Creation-Date: 2023-11-22 13:11+0530\n"
+"PO-Revision-Date: 2023-11-22 13:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-elex-request-a-quote.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: assets/js/components/form/fields/form.js:402
+msgid "Send Request"
+msgstr "Invia Richiesta"
+
+#: assets/js/components/form_settings.js:209
+#: assets/js/components/settings/form_setting_header.js:14
+msgid "Form Settings"
+msgstr "Impostazioni  Modulo"
+
+#: assets/js/components/form_settings.js:218
+msgid "Show Request a Quote Form"
+msgstr "Mostra il modulo di richiesta di preventivo"
+
+#: assets/js/components/form_settings.js:229
+#: assets/js/components/settings/form_setting_header.js:35
+
+msgid ""
+"Turn this Off, if you want to use any third party form to get the quote "
+"requests."
+msgstr ""
+"Disattiva questa opzione se desideri utilizzare qualsiasi modulo di terze "
+"parti per ottenere le richieste di preventivo."
+
+#: assets/js/components/form_settings.js:238
+#: assets/js/components/settings/form_setting_header.js:44
+
+msgid "Form Header Title"
+msgstr "Titolo dell'intestazione del modulo"
+
+#: assets/js/components/form_settings.js:239
+
+msgid ""
+"Enter the text you want to display as the header/title of the quote form."
+msgstr ""
+"Immettere il testo che si desidera visualizzare come intestazione/titolo del "
+"modulo di preventivo."
+
+#: assets/js/components/form_settings.js:259
+
+msgid "Fill Your Details"
+msgstr "Inserisci i tuoi dati"
+
+#: assets/js/components/form_settings.js:263
+#: assets/js/components/settings/form_setting_header.js:67
+
+msgid "Form Submit Actions"
+msgstr "Azioni di invio del modulo"
+
+#: assets/js/components/form_settings.js:268
+#: assets/js/components/settings/form_setting_header.js:72
+
+msgid "\"Send Request\" Button Redirectional URl"
+msgstr "Pulsante \"Invia richiesta\" URl redirezionale"
+
+#: assets/js/components/form_settings.js:270
+
+msgid ""
+"Please provide the page URL that you wish to redirect to, After clicking the "
+"'Send Request' button"
+msgstr ""
+"Fornisci l'URL della pagina a cui desideri reindirizzare, dopo aver fatto "
+"clic sul pulsante \"Invia richiesta\""
+
+#: assets/js/components/form_settings.js:299
+#: assets/js/components/settings/form_setting_header.js:98
+
+msgid "\"Send Request\" Success Message"
+msgstr "Messaggio di successo \"Invia richiesta\""
+
+#: assets/js/components/form_settings.js:301
+
+msgid ""
+"Enter the text that you want to display as a message after the successful "
+"submission of the quote request."
+msgstr ""
+"Immettere il testo che si desidera visualizzare come messaggio dopo l'invio "
+"della richiesta di preventivo."
+
+#: assets/js/components/form_settings.js:322
+msgid "Your request has been sent successfully."
+msgstr "La tua richiesta è stata inviata correttamente."
+
+#: assets/js/components/form_settings.js:328
+
+msgid "Form Field Settings"
+msgstr "Impostazioni dei campi modulo"
+
+#: assets/js/components/form_settings.js:334
+
+msgid ""
+"When you create custom fields, the placeholder for the email template will "
+"be created based on the label text (For eg: Upload Image will be "
+"@Upload_Image). If you make changes to the label text in the future, please "
+"make sure to use the updated placeholder in the email body. Also, the label "
+"text cannot be modified for orders placed before the change."
+msgstr ""
+"Quando crei campi personalizzati, il segnaposto per il modello di email "
+"verrà creato in base al testo dell'etichetta (ad esempio: Carica immagine "
+"sarà @Upload_Image). Se in futuro apporti modifiche al testo dell'etichetta, "
+"assicurati di utilizzare il segnaposto aggiornato nel corpo dell'e-mail. "
+"Inoltre, il testo dell'etichetta non può essere modificato per gli ordini "
+"effettuati prima della modifica."
+
+#: assets/js/components/form_settings.js:342
+msgid "Label Name"
+msgstr "Nome Etichetta"
+
+#: assets/js/components/form_settings.js:343
+
+msgid "Field Type "
+msgstr "Tipo di campo "
+
+#: assets/js/components/form_settings.js:344
+
+msgid "Placeholder "
+msgstr "Segnaposto "
+
+#: assets/js/components/form_settings.js:345
+
+msgid "Connected To "
+msgstr "Collegato a "
+
+#: assets/js/components/form_settings.js:346
+msgid "Required "
+msgstr "Richiesto "
+
+#: assets/js/components/form_settings.js:347
+
+msgid "Actions "
+msgstr "Azioni "
+
+#: assets/js/components/form_settings.js:372
+
+msgid "Add New Field "
+msgstr "Aggiungi nuovo campo "
+
+#: assets/js/components/form_settings.js:376
+#: view/listpage_form_setting/additional_options.php:172
+#: view/listpage_form_setting/quote_list.php:249
+#: view/notification_settings/general.php:121
+#: view/notification_settings/google_chat.php:84
+#: view/notification_settings/sms.php:179 view/settings/general.php:974
+#: view/settings/hide_addtocart_price.php:368 view/settings/template.php:815
+#: view/settings/widget.php:195
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: assets/js/components/mini_quote_list/render_mini_quote_list.js:31
+
+msgid "items in Quote List"
+msgstr "articoli nell'elenco dei preventivi"
+
+#: assets/js/components/mini_quote_list/render_mini_quote_list.js:56
+#: view/quote/view_quote_list.php:4
+msgid "View Quote List"
+msgstr "Aggiungi"
+
+#: assets/js/components/quote_list/quote_list_content.js:87
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:62
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:70
+#: src/Templates/order_items.php:10
+msgid "Price"
+msgstr "Prezzo"
+
+#: assets/js/components/quote_list/quote_list_content.js:99
+#: view/listpage_form_setting/quote_list.php:200
+msgid "Quantity"
+msgstr "Quantità"
+
+#: assets/js/components/quote_list/quote_list_content.js:110
+#: assets/js/components/quote_list/quote_list_content.js:121
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:64
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:117
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:72
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:125
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:122
+#: src/Templates/order_items.php:20 src/Templates/order_items.php:122
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: assets/js/components/quote_list/quote_list_content.js:136
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:125
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:133
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:130
+#: src/Templates/order_items.php:157
+msgid "Total"
+msgstr "Totale"
+
+#: assets/js/components/quote_list/quote_list_content.js:214
+msgid "Update List"
+msgstr "Aggiorna"
+
+#: assets/js/components/quote_list/quote_list_content.js:457
+msgid "Product Detail"
+msgstr "Dettagli del Prodotto"
+
+#: assets/js/components/quote_list/quote_list_empty.js:21
+
+msgid "Go to Shop Page"
+msgstr "Vai alla pagina del negozio"
+
+#: assets/js/components/quote_list/show_clear_list.js:14
+
+msgid "Clear List"
+msgstr "Cancella elenco"
+
+#: assets/js/components/quote_list/success_alert_toast.js:14
+#: src/FormSetting/FormSettingController.php:290
+
+msgid "Saved Successfully."
+msgstr "Salvato con successo."
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Select a type"
+msgstr "Selezionare un tipo"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Text"
+msgstr "Testo"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Textarea"
+msgstr "Area di testo"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Email"
+msgstr "Email"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Url"
+msgstr "Url"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Image"
+msgstr "Immagine"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Date"
+msgstr "Data"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Number"
+msgstr "Numero"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Radio"
+msgstr "Radio"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Tel"
+msgstr "Tel"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "Select Connected To"
+msgstr "Seleziona Connesso a"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_first_name"
+msgstr "billing_first_name"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_last_name"
+msgstr "billing_last_name"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_email"
+msgstr "billing_email"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_company"
+msgstr "billing_company"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_country"
+msgstr "billing_country"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_address_1"
+msgstr "billing_address_1"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_address_2"
+msgstr "billing_address_2"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_city"
+msgstr "billing_city"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_state"
+msgstr "billing_state"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_postcode"
+msgstr "billing_postcode"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_phone"
+msgstr "billing_phone"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "order_comments"
+msgstr "order_comments"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "Custom Field"
+msgstr "Campo personalizzato"
+
+#: assets/js/components/settings/form_fields.js:395
+
+msgid "Enter values and click enter to add more"
+msgstr "Immettere i valori e fare clic su Invio per aggiungerne altri"
+
+#: assets/js/components/settings/form_fields.js:396
+
+msgid "Click Enter to add more"
+msgstr "Fare clic su Invio per aggiungere altro"
+
+#: assets/js/components/settings/form_setting_header.js:23
+
+msgid "Show Request a Quote"
+msgstr "Mostra Richiedi un preventivo"
+
+#: assets/js/components/toast_message/update_message.js:17
+
+msgid "Updated Successfully"
+msgstr "Aggiornato con Successo"
+
+#: class-elex-request-a-quote.php:50
+
+msgid ""
+"WooCommerce plugin must be active for ELEX Request a Quote Plugin to work."
+msgstr ""
+"Il plug-in WooCommerce deve essere attivo affinché il plug-in ELEX Request a "
+"Quote funzioni."
+
+#: class-elex-request-a-quote.php:63 src/RequestAQuote.php:418
+#: src/RequestAQuote.php:419 view/header.php:4
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class-elex-request-a-quote.php:64 view/market.php:115
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: class-elex-request-a-quote.php:65
+msgid "Support"
+msgstr "Supporto"
+
+#: class-elex-request-a-quote.php:74
+
+msgid ""
+"The Premium version of ELEX Request a Quote is already installed and "
+"activated. Please deactivate it in order to activate the basic version. If "
+"you encounter any issues, kindly contact our "
+msgstr ""
+"La versione Premium di ELEX Richiedi un preventivo è già installata e "
+"attivata. Si prega di disattivarlo per attivare la versione base. In caso di "
+"problemi, si prega di contattare il nostro "
+
+#: class-elex-request-a-quote.php:75
+
+msgid ""
+"The WooCommerce version of ELEX Request a Quote is already installed and "
+"activated. Please deactivate it in order to activate the basic version. If "
+"you encounter any issues, kindly contact our "
+msgstr ""
+"La versione WooCommerce di ELEX Request a Quote è già installata e attivata. "
+"Si prega di disattivarlo per attivare la versione base. In caso di problemi, "
+"si prega di contattare il nostro "
+
+#: class-elex-request-a-quote.php:77
+
+msgid "for assistance."
+msgstr "per assistenza."
+
+#: class-elex-request-a-quote.php:86 class-elex-request-a-quote.php:90
+
+msgid "Support "
+msgstr "Appoggiare "
+
+#: src/ElementorWidget/Eraq_add_to_quote_widget.php:9
+#: src/Settings/Models/GeneralSettings.php:93
+#: src/Settings/SettingsController.php:390
+msgid "Add to Quote"
+msgstr "Aggiungi al preventivo"
+
+#: src/FormSetting/FormSettingController.php:83
+#: src/FormSetting/FormSettingController.php:114
+#: src/FormSetting/FormSettingController.php:342
+#: src/FormSetting/FormSettingController.php:439
+
+msgid "Name and type Can not be empty"
+msgstr "Nome e tipo Non possono essere vuoti"
+
+#: src/FormSetting/FormSettingController.php:98
+
+msgid "Field has been rearranged successfully"
+msgstr "Il campo è stato riorganizzato con successo"
+
+#: src/FormSetting/FormSettingController.php:138
+#: src/FormSetting/FormSettingController.php:327
+#: src/FormSetting/FormSettingController.php:462
+
+msgid "Enter options for the selcted types"
+msgstr "Immettere le opzioni per i tipi selezionati"
+
+#: src/FormSetting/FormSettingController.php:152
+#: src/FormSetting/FormSettingController.php:374
+#: src/FormSetting/FormSettingController.php:407
+#: src/FormSetting/FormSettingController.php:479
+
+msgid "Atleast one option is required"
+msgstr "È necessaria almeno un'opzione"
+
+#: src/FormSetting/FormSettingController.php:165
+#: src/FormSetting/FormSettingController.php:387
+
+msgid "Already exist"
+msgstr "Esistono già"
+
+#: src/FormSetting/FormSettingController.php:178
+
+msgid "Field has been added successfully"
+msgstr "Il campo è stato aggiunto correttamente"
+
+#: src/FormSetting/FormSettingController.php:420
+#: src/FormSetting/FormSettingController.php:492
+#: src/FormSetting/FormSettingController.php:531
+
+msgid "No Field Exist"
+msgstr "Nessun campo esiste"
+
+#: src/FormSetting/FormSettingController.php:503
+
+msgid "Field has been edited successfully"
+msgstr "Il campo è stato modificato correttamente"
+
+#: src/FormSetting/FormSettingController.php:547
+
+msgid "Field has been "
+msgstr "Il campo è stato "
+
+#: src/FormSetting/FormSettingController.php:571
+msgid "Invalid field"
+msgstr "Campo non valido"
+
+#: src/FormSetting/FormSettingController.php:582
+
+msgid "Field has been deleted"
+msgstr "Il campo è stato eliminato"
+
+#: src/FormSetting/FormSettingController.php:659
+#: src/FormSetting/FormSettingController.php:667
+msgid "The "
+msgstr "Il "
+
+#: src/FormSetting/Models/FormSettings.php:42
+
+msgid "Your request has been submitted."
+msgstr "La tua richiesta è stata inviata."
+
+#: src/FormSetting/Models/FormSettings.php:49
+
+msgid "Add your first name."
+msgstr "Aggiungi il tuo nome."
+
+#: src/FormSetting/Models/FormSettings.php:64
+
+msgid "Add your last name."
+msgstr "Aggiungi il tuo cognome."
+
+#: src/FormSetting/Models/FormSettings.php:79
+
+msgid "Add your email."
+msgstr "Aggiungi il tuo indirizzo e-mail."
+
+#: src/FormSetting/Models/FormSettings.php:95
+
+msgid "Enter your Phone number"
+msgstr "Inserisci il tuo numero di telefono"
+
+#: src/HelpAndSupport/HelpAndSupportController.php:44
+msgid "FAQs"
+msgstr "FAQ"
+
+#: src/HelpAndSupport/HelpAndSupportController.php:49
+
+msgid "Raise a Ticket"
+msgstr "Alza un ticket"
+
+#: src/Notification/NotificationController.php:330
+
+msgid "General notification"
+msgstr "Avviso generale"
+
+#: src/Notification/NotificationController.php:335
+#: view/notification_settings/sms.php:13
+msgid "SMS Notification"
+msgstr "Notifica SMS"
+
+#: src/Notification/NotificationController.php:340
+#: view/notification_settings/google_chat.php:14
+
+msgid "Google Chat Notification"
+msgstr "Notifica di Google Chat"
+
+#: src/Quotelist/ListPageController.php:117
+
+msgid "Quote List Page"
+msgstr "Pagina dell'elenco dei preventivi"
+
+#: src/Quotelist/ListPageController.php:122
+msgid "Additional Options"
+msgstr "Opzioni Aggiuntive"
+
+#: src/Quotelist/ListPageController.php:127
+msgid "Quote Form"
+msgstr "Modulo preventivo"
+
+#: src/Quotelist/ListPageController.php:158
+#: src/Quotelist/Models/ListPageSettings.php:28
+#: src/Widget/Models/WidgetModel.php:29 src/Widget/WidgetController.php:37
+#: src/Widget/WidgetController.php:62
+#: view/listpage_form_setting/quote_list.php:66
+
+msgid "Quote List"
+msgstr "Elenco dei preventivi"
+
+#: src/Quotelist/ListPageController.php:163
+#: src/Quotelist/Models/ListPageSettings.php:37
+
+msgid "Your Quote List is Empty"
+msgstr "L'elenco dei preventivi è vuoto"
+
+#: src/Quotelist/ListPageController.php:189
+#: src/Quotelist/Models/ListPageSettings.php:57
+msgid "Add More Items"
+msgstr "Aggiungi altri articoli"
+
+#: src/Quotelist/Models/QuoteListModel.php:997
+#: src/Quotelist/Models/QuoteListModel.php:1046
+msgid "First name"
+msgstr "Nome"
+
+#: src/Quotelist/Models/QuoteListModel.php:1001
+#: src/Quotelist/Models/QuoteListModel.php:1050
+msgid "Last name"
+msgstr "Cognome"
+
+#: src/Quotelist/Models/QuoteListModel.php:1005
+#: src/Quotelist/Models/QuoteListModel.php:1054
+msgid "Company"
+msgstr "Azienda"
+
+#: src/Quotelist/Models/QuoteListModel.php:1009
+#: src/Quotelist/Models/QuoteListModel.php:1058
+msgid "Address line 1"
+msgstr "Indirizzo riga 1"
+
+#: src/Quotelist/Models/QuoteListModel.php:1013
+#: src/Quotelist/Models/QuoteListModel.php:1062
+msgid "Address line 2"
+msgstr "Indirizzo riga 2"
+
+#: src/Quotelist/Models/QuoteListModel.php:1017
+#: src/Quotelist/Models/QuoteListModel.php:1066
+msgid "City"
+msgstr "Città"
+
+#: src/Quotelist/Models/QuoteListModel.php:1021
+#: src/Quotelist/Models/QuoteListModel.php:1070
+msgid "Postcode / ZIP"
+msgstr "CAP"
+
+#: src/Quotelist/Models/QuoteListModel.php:1025
+#: src/Quotelist/Models/QuoteListModel.php:1074
+msgid "Country / Region"
+msgstr "Paese / Regione"
+
+#: src/Quotelist/Models/QuoteListModel.php:1029
+#: src/Quotelist/Models/QuoteListModel.php:1078
+msgid "Select a country / region&hellip;"
+msgstr "Seleziona un Paese / regione&hellip;"
+
+#: src/Quotelist/Models/QuoteListModel.php:1032
+#: src/Quotelist/Models/QuoteListModel.php:1081
+msgid "State / County"
+msgstr "Stato / Paese"
+
+#: src/Quotelist/Models/QuoteListModel.php:1037
+msgid "Email address"
+msgstr "Indirizzo email"
+
+#: src/Quotelist/Models/QuoteListModel.php:1040
+msgid "Phone"
+msgstr "Telefono"
+
+#: src/Quotelist/Models/QuoteListModel.php:1096
+msgid "Billing"
+msgstr "Fatturazione"
+
+#: src/Quotelist/Models/QuoteListModel.php:1141
+msgid "Shipping"
+msgstr "Spedizione"
+
+#: src/Quotelist/Models/QuoteListModel.php:1185
+msgid "General"
+msgstr "Generale"
+
+#: src/Quotelist/Models/QuoteListModel.php:1341
+
+msgid "First name should be a string."
+msgstr "Il nome deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1347
+
+msgid "Last name should be a string."
+msgstr "Il cognome deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1352
+
+msgid "Company name should be a string."
+msgstr "Il nome dell'azienda deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1357
+
+msgid "Email should be in valid format."
+msgstr "L'e-mail deve essere in un formato valido."
+
+#: src/Quotelist/Models/QuoteListModel.php:1362
+
+msgid "Email should be a int of length 10."
+msgstr "L'e-mail deve essere un int di lunghezza 10."
+
+#: src/Quotelist/Models/QuoteListModel.php:1367
+
+msgid "Address 1  should be a string."
+msgstr "L'indirizzo 1 deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1372
+
+msgid "Address 2  should be a string."
+msgstr "L'indirizzo 2 deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1377
+
+msgid "City name  should be a string."
+msgstr "Il nome della città deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1382
+
+msgid "state name  should be a string."
+msgstr "Il nome dello stato deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1387
+
+msgid "Postcode  should be a string."
+msgstr "Il codice postale deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1393
+
+msgid "Country name should be a string."
+msgstr "Il nome del paese deve essere una stringa."
+
+#: src/Quotelist/Models/QuoteListModel.php:1398
+
+msgid "Address array is empty"
+msgstr "L'array di indirizzi è vuoto"
+
+#: src/Quotelist/Models/QuoteListModel.php:1406
+
+msgid "Custom Fields array is empty"
+msgstr "L'array Campi personalizzati è vuoto"
+
+#: src/Quotelist/Models/QuoteListModel.php:1420
+msgid "User not found"
+msgstr "Utente non trovato"
+
+#: src/Quotelist/Models/QuoteListModel.php:1435
+
+msgid "Unauthorize Access"
+msgstr "Accesso non autorizzato"
+
+#: src/Quotelist/QuoteListController.php:173
+
+msgid "Your request has been sent successfully"
+msgstr "La tua richiesta è stata inviata con successo"
+
+#: src/Quotelist/QuoteListController.php:197
+
+msgid "ELEX Quote Request Details"
+msgstr "ELEX Preventivo Richiesta Dettagli"
+
+#: src/RequestAQuote.php:189
+msgid "Quotes List"
+msgstr "Elenco Quotazioni"
+
+#: src/RequestAQuote.php:200 view/settings/template.php:470
+
+msgid "Quote Received"
+msgstr "Preventivo ricevuto"
+
+#: src/RequestAQuote.php:407 src/RequestAQuote.php:408
+msgid "Request a Quote"
+msgstr "Richiedi un Preventivo"
+
+#: src/RequestAQuote.php:427 src/RequestAQuote.php:428 view/header.php:4
+
+msgid "Customize Quote List & Form"
+msgstr "Personalizza l'elenco e il modulo dei preventivi"
+
+#: src/RequestAQuote.php:435 src/RequestAQuote.php:436
+#: view/help_support_header.php:1
+msgid "Help & Support"
+msgstr "Aiuto e Supporto"
+
+#: src/Settings/Models/GeneralSettings.php:92
+#: src/Settings/SettingsController.php:389 view/settings/general.php:150
+
+msgid "Product successfully added to the Quote List"
+msgstr "Prodotto aggiunto con successo all'elenco dei preventivi"
+
+#: src/Settings/SettingsController.php:407
+
+msgid "show_for_all_products"
+msgstr "show_for_all_products"
+
+#: src/Settings/SettingsController.php:520
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: src/Settings/SettingsController.php:525
+
+msgid "Hide Add to Cart & Price"
+msgstr "Nascondi Aggiungi al carrello e prezzo"
+
+#: src/Settings/SettingsController.php:530
+msgid "Notification Settings"
+msgstr "Impostazioni delle notifiche"
+
+#: src/Settings/SettingsController.php:534
+msgid "Template Settings"
+msgstr "Impostazione Template"
+
+#: src/Settings/SettingsController.php:538
+msgid "Quote List Menu"
+msgstr "Menu Elenco Preventivi"
+
+#: src/Settings/SettingsController.php:542
+msgid "Go Premium!"
+msgstr "Passa a Premium!"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:7
+
+msgid "Received a Quote!"
+msgstr "Ho ricevuto un preventivo!"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:21
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:26
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:23
+
+msgid "Quote #213"
+msgstr "Citazione #213"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:26
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:30
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:32
+
+msgid "Issued By: Max Smith"
+msgstr "Rilasciato da: Max Smith"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:29
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:33
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:35
+
+msgid "Issued Date: 02-March-2022"
+msgstr "Data di emissione: 02-marzo-2022"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:32
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:36
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:38
+
+msgid "Expiry Date: 04-March-2022"
+msgstr "Data di scadenza: 04-marzo-2022"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:41
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:49
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:46
+
+msgid "Will Miller"
+msgstr "Will Miller"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:44
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:52
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:49
+
+msgid "Kelly.elliot@gmail.com"
+msgstr "Kelly.elliot@gmail.com"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:47
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:55
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:52
+
+msgid "(190)081-0336"
+msgstr "(190)081-0336"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:61
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:69
+#: src/Templates/order_items.php:6
+msgid "Products"
+msgstr "Prodotti"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:63
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:71
+#: src/Templates/order_items.php:15
+msgid "Qty."
+msgstr "Qtà."
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:77
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:97
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:85
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:105
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:82
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:102
+msgid "Product Name"
+msgstr "Nome Prodotto"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:78
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:98
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:86
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:106
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:83
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:103
+msgid "SKU:s123432"
+msgstr "Codice:s123432"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:121
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:129
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:126
+#: src/Templates/order_items.php:130
+msgid "Fees"
+msgstr "Tasse"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:137
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:145
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:142
+#: src/TemplateSetting/Models/TemplateModel.php:309
+msgid "Accept & Pay"
+msgstr "Accetta e paga"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:143
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:152
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:148
+#: src/Templates/order_items.php:172
+msgid "Terms & Conditions"
+msgstr "Termini e Condizioni"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:146
+
+msgid ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"                        ut labore et dolore magna aliquyam erat, sed diam "
+"voluptua. At vero eos."
+msgstr ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"                        ut labore et dolore magna aliquyam erat, sed diam "
+"voluptua. A vero eos."
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:155
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:165
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:160
+
+msgid "Powered by ELEX Request a Quote"
+msgstr "Powered by ELEX Richiedi un preventivo"
+
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:45
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:42
+msgid "Customer Details"
+msgstr "Dettagli Cliente"
+
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:156
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:151
+
+msgid ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"\t\t\t\t\t\tut labore et dolore magna aliquyam erat, sed diam voluptua. At "
+"vero eos."
+msgstr ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"\t\t\t\t\t\tut labore et dolore magna aliquyam erat, sed diam voluptua. A "
+"vero eos."
+
+#: src/TemplateSetting/Models/TemplateModel.php:241
+
+msgid "Product Name: Price * Quantity = Subtotal"
+msgstr "Nome del prodotto: Prezzo * Quantità = Subtotale"
+
+#: src/TemplateSetting/Models/TemplateModel.php:251
+msgid "Total :"
+msgstr "Totale:"
+
+#: src/Templates/order_items.php:139
+msgid "Discount"
+msgstr "Sconto"
+
+#: src/Templates/order_items.php:148
+msgid "Tax"
+msgstr "Tasse"
+
+#: src/create_order_status.php:15
+
+msgid "Quote Requested"
+msgstr "Preventivo richiesto"
+
+#: src/create_order_status.php:20
+, php-format
+msgid "Quote Requested (%s)"
+msgid_plural "Quote Requested (%s)"
+msgstr[0] "Preventivo richiesto (%s)"
+msgstr[1] "Preventivo richiesto (%s)"
+
+#: src/create_order_status.php:26 view/settings/template.php:582
+
+msgid "Quote Approved"
+msgstr "Preventivo approvato"
+
+#: src/create_order_status.php:31
+, php-format
+msgid "Quote Approved (%s)"
+msgid_plural "Quote Approved (%s)"
+msgstr[0] "Preventivo approvato (%s)"
+msgstr[1] "Preventivo approvato (%s)"
+
+#: src/create_order_status.php:37 view/notification_settings/general.php:76
+#: view/settings/template.php:695
+
+msgid "Quote Rejected"
+msgstr "Preventivo rifiutato"
+
+#: src/create_order_status.php:42
+, php-format
+msgid "Quote Rejected (%s)"
+msgid_plural "Quote Rejected (%s)"
+msgstr[0] "Preventivo rifiutato (%s)"
+msgstr[1] "Preventivo rifiutato (%s)"
+
+#: view/header.php:15
+, php-format
+msgid ""
+"To customize your website's quote request form and quote items listing page, "
+"visit  %1$s section."
+msgstr ""
+"Per personalizzare il modulo di richiesta di preventivo del tuo sito web e "
+"la pagina di elenco degli articoli di preventivo, visita %1$s sezione."
+
+#: view/header.php:20
+, php-format
+msgid "To set up request a quote on your site, visit  %1$s section."
+msgstr ""
+"Per impostare la richiesta di preventivo sul tuo sito, visita %1$s sezione."
+
+#: view/header.php:39
+
+msgid "go_premium"
+msgstr "go_premium"
+
+#: view/header.php:43
+
+msgid "elex_raq_basic"
+msgstr "elex_raq_basic"
+
+#: view/help_support/faqs.php:5
+
+msgid "Q1."
+msgstr "Domanda 1."
+
+#: view/help_support/faqs.php:6
+
+msgid "Can I hide the “Add to Cart” button on the product page?"
+msgstr ""
+"Posso nascondere il pulsante \"Aggiungi al carrello\" nella pagina del "
+"prodotto?"
+
+#: view/help_support/faqs.php:11
+
+msgid ""
+"Yes, You can easily hide the ‘Add to Cart’ button on the product page as "
+"well as the shop page."
+msgstr ""
+"Sì, puoi facilmente nascondere il pulsante \"Aggiungi al carrello\" nella "
+"pagina del prodotto e nella pagina del negozio."
+
+#: view/help_support/faqs.php:17
+
+msgid "Q2."
+msgstr "Domanda 2."
+
+#: view/help_support/faqs.php:18
+
+msgid "Can I hide the price of the products?"
+msgstr "Posso nascondere il prezzo dei prodotti?"
+
+#: view/help_support/faqs.php:26
+
+msgid "Yes, You can hide the price of a particular product.\n"
+msgstr "Sì, puoi nascondere il prezzo di un particolare prodotto.\n"
+
+#: view/help_support/faqs.php:37
+
+msgid "Q3."
+msgstr "Domanda 3."
+
+#: view/help_support/faqs.php:41
+
+msgid "Can I customize my quote list page?\n"
+msgstr "Posso personalizzare la pagina dell'elenco dei preventivi?\n"
+
+#: view/help_support/faqs.php:53
+
+msgid ""
+"Yes, ELEX Request a Quote plugin allows you to customize & enhance your "
+"frontend quote list page.\n"
+msgstr ""
+"Sì, il plug-in ELEX Request a Quote ti consente di personalizzare e "
+"migliorare la pagina dell'elenco dei preventivi frontend.\n"
+
+#: view/help_support/faqs.php:65
+
+msgid "Q4."
+msgstr "Domanda 4."
+
+#: view/help_support/faqs.php:69
+
+msgid "Does this plugin have the option to customize the Emails template?\n"
+msgstr "Questo plugin ha la possibilità di personalizzare il modello Email?\n"
+
+#: view/help_support/faqs.php:81
+
+msgid ""
+"Yes, this plugin gives you the option to select from the predefined template "
+"or customize & create your own email template.\n"
+msgstr ""
+"Sì, questo plugin ti dà la possibilità di selezionare dal modello "
+"predefinito o personalizzare e creare il tuo modello di email.\n"
+
+#: view/help_support/faqs.php:93
+
+msgid "Q5."
+msgstr "Domanda 5."
+
+#: view/help_support/faqs.php:94
+
+msgid ""
+"Can I restrict guest/ unregistered users from adding products into the Quote "
+"List and redirect them to the login or sign up page?"
+msgstr ""
+"Posso impedire agli utenti ospiti/non registrati di aggiungere prodotti "
+"all'elenco dei preventivi e reindirizzarli alla pagina di accesso o di "
+"registrazione?"
+
+#: view/help_support/faqs.php:102
+
+msgid ""
+"Yes, this option is available in the plugin settings. We have a separate "
+"option for this where you can enable and redirect the guest/unregistered "
+"users to create an account or sign in to request a quote\n"
+msgstr ""
+"Sì, questa opzione è disponibile nelle impostazioni del plugin. Abbiamo "
+"un'opzione separata per questo in cui puoi abilitare e reindirizzare gli "
+"utenti ospiti/non registrati per creare un account o accedere per richiedere "
+"un preventivo\n"
+
+#: view/help_support/tickets.php:6
+
+msgid "Before raising the ticket, we recommend you to go through our detailed"
+msgstr "Prima di alzare il biglietto, ti consigliamo di consultare il nostro"
+
+#: view/help_support/tickets.php:6
+
+msgid "documentation."
+msgstr "documentazione."
+
+#: view/help_support/tickets.php:7
+msgid "Or"
+msgstr "Oppure"
+
+#: view/help_support/tickets.php:8
+
+msgid ""
+"To get in touch with one of our helpdesk representatives, please raise a "
+"support ticket on our website."
+msgstr ""
+"Per metterti in contatto con uno dei nostri rappresentanti dell'helpdesk, "
+"apri un ticket di supporto sul nostro sito web."
+
+#: view/help_support/tickets.php:9
+
+msgid ""
+"* Please don`t forget to attach your System Info File with the request for "
+"better support."
+msgstr ""
+"* Non dimenticare di allegare il file delle informazioni di sistema alla "
+"richiesta per un migliore supporto."
+
+#: view/help_support/tickets.php:13
+msgid "Raise a ticket"
+msgstr "Richiedi un ticket"
+
+#: view/help_support/tickets.php:21
+
+msgid ""
+"To copy the System Info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)."
+msgstr ""
+"Per copiare le informazioni di sistema, fai clic in basso, quindi premi Ctrl "
+"+ C (PC) o Cmd + C (Mac)."
+
+#: view/help_support/tickets.php:31
+msgid "Download System Info"
+msgstr "Scarica le informazioni di sistema"
+
+#: view/listpage_form_setting/additional_options.php:13
+
+msgid "Show \"Update List\" Button"
+msgstr "Mostra il pulsante \"Aggiorna elenco\""
+
+#: view/listpage_form_setting/additional_options.php:15
+
+msgid ""
+"Turn On/Off if you want to show/hide update list button on the quote list "
+"page."
+msgstr ""
+"Attivare/disattivare se si desidera mostrare/nascondere il pulsante "
+"dell'elenco di aggiornamento nella pagina dell'elenco dei preventivi."
+
+#: view/listpage_form_setting/additional_options.php:43
+
+msgid "Show \"Clear List\" Button"
+msgstr "Mostra il pulsante \"Cancella elenco\"."
+
+#: view/listpage_form_setting/additional_options.php:45
+
+msgid ""
+"Turn On/Off if you want to show/hide the clear list button on the quote list "
+"page."
+msgstr ""
+"Attivare/disattivare se si desidera mostrare/nascondere il pulsante Cancella "
+"elenco nella pagina dell'elenco dei preventivi."
+
+#: view/listpage_form_setting/additional_options.php:76
+
+msgid "\"Add more Items\" Button"
+msgstr "Pulsante \"Aggiungi altri elementi\""
+
+#: view/listpage_form_setting/additional_options.php:79
+
+msgid ""
+"Turn On/Off if you want to show/hide add more items button on the quote list "
+"page."
+msgstr ""
+"Attiva/disattiva se desideri mostrare/nascondere il pulsante Aggiungi altri "
+"elementi nella pagina dell'elenco dei preventivi."
+
+#: view/listpage_form_setting/additional_options.php:98
+#: view/listpage_form_setting/quote_list.php:80
+#: view/listpage_form_setting/quote_list.php:99
+#: view/listpage_form_setting/quote_list.php:244
+#: view/notification_settings/general.php:115
+#: view/notification_settings/google_chat.php:36
+#: view/notification_settings/sms.php:20 view/settings/template.php:79
+#: view/settings/widget.php:18 view/settings/widget.php:114
+#: view/settings/widget.php:185
+msgid "checked"
+msgstr "verificato"
+
+#: view/listpage_form_setting/additional_options.php:110
+
+msgid "\"Add more Items\" Button Label"
+msgstr "Etichetta del pulsante \"Aggiungi altri elementi\""
+
+#: view/listpage_form_setting/additional_options.php:112
+
+msgid ""
+"Enter the label text for 'Add more items' button on the quote list page."
+msgstr ""
+"Inserisci il testo dell'etichetta per il pulsante \"Aggiungi altri articoli"
+"\" nella pagina dell'elenco dei preventivi."
+
+#: view/listpage_form_setting/additional_options.php:131
+
+msgid "Add More items"
+msgstr "Aggiungi altri elementi"
+
+#: view/listpage_form_setting/additional_options.php:141
+
+msgid "\"Add More Items\" Button Redirect Page"
+msgstr "Pagina di reindirizzamento del pulsante \"Aggiungi altri elementi\""
+
+#: view/listpage_form_setting/additional_options.php:143
+
+msgid ""
+"Select the page where you want the customer to be redirected to upon "
+"clicking the add more items button"
+msgstr ""
+"Seleziona la pagina a cui desideri che il cliente venga reindirizzato "
+"facendo clic sul pulsante Aggiungi altri elementi"
+
+#: view/listpage_form_setting/form_settings.php:15
+msgid "Updated Successfully."
+msgstr "Aggiornato con successo."
+
+#: view/listpage_form_setting/form_settings.php:38
+msgid "Deleted Successfully."
+msgstr "La stampante è stata cancellata con successo."
+
+#: view/listpage_form_setting/form_settings.php:59
+msgid "Saved Successfully"
+msgstr "Salvato con Successo"
+
+#: view/listpage_form_setting/form_settings.php:80
+
+msgid "Field with same name Already Exist"
+msgstr "Campo con lo stesso nome Già esistente"
+
+#: view/listpage_form_setting/form_settings.php:100
+
+msgid "Enter 2 or more values for the selected input type."
+msgstr "Immettere 2 o più valori per il tipo di input selezionato."
+
+#: view/listpage_form_setting/quote_list.php:10
+
+msgid "Select \"Quote List\" Page"
+msgstr "Seleziona la pagina \"Elenco preventivi\""
+
+#: view/listpage_form_setting/quote_list.php:12
+
+msgid "Select the WooCommerce page where you want to display the quote list."
+msgstr ""
+"Seleziona la pagina di WooCommerce in cui desideri visualizzare l'elenco dei "
+"preventivi."
+
+#: view/listpage_form_setting/quote_list.php:45
+
+msgid "Quote List Page Title"
+msgstr "Titolo della pagina dell'elenco delle citazioni"
+
+#: view/listpage_form_setting/quote_list.php:47
+
+msgid "Enter the title on the quote list page."
+msgstr "Immettere il titolo nella pagina dell'elenco dei preventivi."
+
+#: view/listpage_form_setting/quote_list.php:75
+
+msgid "\"Quote List\" Page Layout"
+msgstr "Layout di pagina \"Elenco preventivi\""
+
+#: view/listpage_form_setting/quote_list.php:95
+
+msgid "Product list on the left & form on the right"
+msgstr "Elenco prodotti a sinistra e modulo a destra"
+
+#: view/listpage_form_setting/quote_list.php:114
+
+msgid "Product list on the top & form on the bottom"
+msgstr "Elenco dei prodotti in alto e modulo in basso"
+
+#: view/listpage_form_setting/quote_list.php:125
+
+msgid "Choose What to Show If List is Empty"
+msgstr "Scegli cosa mostrare se l'elenco è vuoto"
+
+#: view/listpage_form_setting/quote_list.php:128
+#: view/listpage_form_setting/quote_list.php:178 view/settings/general.php:474
+#: view/settings/general.php:654 view/settings/general.php:792
+#: view/settings/general.php:833 view/settings/hide_addtocart_price.php:120
+#: view/settings/hide_addtocart_price.php:157
+#: view/settings/hide_addtocart_price.php:331 view/settings/template.php:51
+#: view/settings/template.php:231
+
+msgid "[Premium]"
+msgstr "[Premio]"
+
+#: view/listpage_form_setting/quote_list.php:139
+msgid "Illustration"
+msgstr "Illustrazione"
+
+#: view/listpage_form_setting/quote_list.php:146
+msgid "Empty Text"
+msgstr "Testo vuoto"
+
+#: view/listpage_form_setting/quote_list.php:154
+msgid "\"Go to Shop Page\" button\""
+msgstr "Pulsante \"Vai alla pagina del negozio\"\""
+
+#: view/listpage_form_setting/quote_list.php:162
+msgid "Quote a Request Form"
+msgstr "Modulo di richiesta preventivo"
+
+#: view/listpage_form_setting/quote_list.php:175
+msgid "Contents to Show in Product Table"
+msgstr "Contenuto da mostrare nella tabella dei prodotti"
+
+#: view/listpage_form_setting/quote_list.php:189
+msgid "Product Image"
+msgstr "Immagine del prodotto"
+
+#: view/listpage_form_setting/quote_list.php:194
+msgid "Product Price"
+msgstr "Prezzo Prodotto"
+
+#: view/listpage_form_setting/quote_list.php:205
+
+msgid "Each Product Subtotal"
+msgstr "Subtotale di ogni prodotto"
+
+#: view/listpage_form_setting/quote_list.php:210
+msgid "Product SKU"
+msgstr "SKU Prodotto"
+
+#: view/listpage_form_setting/quote_list.php:215
+msgid "Taxes"
+msgstr "Tasse"
+
+#: view/listpage_form_setting/quote_list.php:225
+msgid "Show \"Powered by ELEX Request a Quote\""
+msgstr "Mostra \"Powered by ELEX Richiedi un preventivo\""
+
+#: view/listpage_form_setting/quote_list.php:226
+
+msgid ""
+"Turn On or Off if you want to show or hide the ELEXtensions watermark on the "
+"quote list page."
+msgstr ""
+"Attivare o disattivare se si desidera mostrare o nascondere la filigrana "
+"ELEXtensions nella pagina dell'elenco dei preventivi."
+
+#: view/market.php:99
+
+msgid "Note: Basic version supports only few features."
+msgstr "Nota: la versione base supporta solo alcune funzionalità."
+
+#: view/market.php:100
+
+msgid "Your business is precious! Go Premium to get below features."
+msgstr ""
+"Il tuo business è prezioso! Passa a Premium per ottenere le funzionalità "
+"seguenti."
+
+#: view/market.php:101
+
+msgid " -  Product-based exclusion for Request a Quote."
+msgstr " - Esclusione basata sul prodotto per Richiedi un preventivo."
+
+#: view/market.php:103
+
+msgid " - User role-based exclusion for Request a Quote."
+msgstr " - Esclusione basata sui ruoli dell'utente per Richiedi un preventivo."
+
+#: view/market.php:104
+
+msgid "- Disable Request a Quote option for unregistered users."
+msgstr ""
+"- Disabilita l'opzione Richiedi un preventivo per gli utenti non registrati."
+
+#: view/market.php:105
+
+msgid "- Exclude Request a Quote based on the product stocks."
+msgstr "- Escludi Richiedi un preventivo in base alle scorte di prodotti."
+
+#: view/market.php:106
+
+msgid "- Product-based exclusion from the 'Hide Add to Cart and Price' option."
+msgstr ""
+"- Esclusione basata sul prodotto dall'opzione \"Nascondi aggiunta al "
+"carrello e prezzo\"."
+
+#: view/market.php:107
+
+msgid ""
+"- User role-based exclusion from the 'Hide Add to Cart and Price' option."
+msgstr ""
+"- Esclusione basata sul ruolo dell'utente dall'opzione \"Nascondi aggiunta "
+"al carrello e prezzo\"."
+
+#: view/market.php:109
+
+msgid "- Quote list customization option for an empty quote list page."
+msgstr ""
+"- Opzione di personalizzazione dell'elenco dei preventivi per una pagina "
+"vuota dell'elenco dei preventivi."
+
+#: view/market.php:111
+
+msgid "- Product table customization option for the quote list page."
+msgstr ""
+"- Opzione di personalizzazione della tabella prodotti per la pagina "
+"dell'elenco dei preventivi."
+
+#: view/market.php:123
+
+msgid "You May Also like"
+msgstr "Potrebbe piacerti anche"
+
+#: view/notification_settings/general.php:16
+
+msgid "Notifications Email Address"
+msgstr "Indirizzo e-mail per le notifiche"
+
+#: view/notification_settings/general.php:19
+
+msgid ""
+"Enter the email addresses to receive a notification when the customer places "
+"a quote request. By default, the administrator email id is taken to get a "
+"notification. Multiple email ids should be separated by commas."
+msgstr ""
+"Inserisci gli indirizzi e-mail per ricevere una notifica quando il cliente "
+"effettua una richiesta di preventivo. Per impostazione predefinita, l'ID e-"
+"mail dell'amministratore viene utilizzato per ricevere una notifica. Gli ID "
+"e-mail multipli devono essere separati da virgole."
+
+#: view/notification_settings/general.php:44
+
+msgid "Select Order Statuses To Notify Customers"
+msgstr "Seleziona gli stati dell'ordine per avvisare i clienti"
+
+#: view/notification_settings/general.php:46
+
+msgid ""
+"Select the order statuses for which customers should receive an email "
+"notification."
+msgstr ""
+"Seleziona gli stati dell'ordine per i quali i clienti devono ricevere una "
+"notifica via e-mail."
+
+#: view/notification_settings/general.php:70
+
+msgid ""
+"Quote Requested\n"
+"                                        "
+msgstr ""
+"Preventivo richiesto\n"
+"                                        "
+
+#: view/notification_settings/general.php:80
+
+msgid ""
+"Quote Approved\n"
+"                                        "
+msgstr ""
+"Preventivo approvato\n"
+"                                        "
+
+#: view/notification_settings/general.php:95
+msgid "Debug Log"
+msgstr "Log di Debug"
+
+#: view/notification_settings/general.php:97
+
+msgid ""
+"Find email, sms and google chat logs here (wp-content\\uploads\\wc-logs)."
+msgstr ""
+"Trova i registri di e-mail, sms e chat di Google qui (wp-content\\uploads"
+"\\wc-logs)."
+
+#: view/notification_settings/google_chat.php:17
+
+msgid ""
+"Enable to receive Google Chat notification when the customer makes a quote "
+"request."
+msgstr ""
+"Abilita la ricezione di una notifica di Google Chat quando il cliente "
+"effettua una richiesta di preventivo."
+
+#: view/notification_settings/google_chat.php:51
+msgid "Webhook URL"
+msgstr "URL Webhook"
+
+#: view/notification_settings/google_chat.php:53
+
+msgid ""
+"Enter the Google Chat Webhook URL. You can find this URL on your google chat "
+"window."
+msgstr ""
+"Inserisci l'URL del webhook di Google Chat. Puoi trovare questo URL nella "
+"finestra della chat di Google."
+
+#: view/notification_settings/sms.php:32
+, php-format
+msgid ""
+"Enable to receive SMS notification when the customer makes a quote request. "
+"Sign up for a new Twilio account %1$s."
+msgstr ""
+"Abilita la ricezione di notifiche via SMS quando il cliente effettua una "
+"richiesta di preventivo. Iscriversi per creare un nuovo account Twilio %1$s."
+
+#: view/notification_settings/sms.php:45
+
+msgid "Twilio SID"
+msgstr "Twilio SID"
+
+#: view/notification_settings/sms.php:47
+
+msgid "Enter Your Twilio SID"
+msgstr "Immettere il SID Twilio"
+
+#: view/notification_settings/sms.php:77
+
+msgid "Twilio Token"
+msgstr "Twilio Token"
+
+#: view/notification_settings/sms.php:79
+
+msgid "Enter Your Twilio Token"
+msgstr "Immettere il token Twilio"
+
+#: view/notification_settings/sms.php:111
+
+msgid "Twilio Mobile Number"
+msgstr "Numero di cellulare Twilio"
+
+#: view/notification_settings/sms.php:113
+
+msgid ""
+"Enter the mobile number where you want to get a notification when the "
+"customer places a quote request"
+msgstr ""
+"Inserisci il numero di cellulare a cui vuoi ricevere una notifica quando il "
+"cliente effettua una richiesta di preventivo"
+
+#: view/notification_settings/sms.php:145
+
+msgid "Notification Mobile Number"
+msgstr "Numero di cellulare di notifica"
+
+#: view/notification_settings/sms.php:147
+
+msgid "Enter Your Twilio mobile Number"
+msgstr "Immettere il numero di cellulare Twilio"
+
+#: view/output.php:15
+msgid ""
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+
+#: view/output.php:40 view/output.php:41 view/output.php:42 view/output.php:43
+#: view/output.php:44 view/output.php:45 view/output.php:46 view/output.php:59
+#: view/output.php:62 view/output.php:83 view/output.php:84 view/output.php:86
+#: view/output.php:143
+msgid "\n"
+msgstr "\n"
+
+#: view/output.php:47
+msgid "Yes"
+msgstr "Sì"
+
+#: view/output.php:53
+msgid "Length: "
+msgstr "Lunghezza: "
+
+#: view/output.php:54
+
+msgid " Status:"
+msgstr " Stato:"
+
+#: view/output.php:56
+
+msgid " ERROR: Too Long"
+msgstr " ERRORE: Troppo lungo"
+
+#: view/output.php:58
+
+msgid " Acceptable"
+msgstr " Accettabile"
+
+#: view/output.php:66 view/output.php:71
+
+msgid " (#"
+msgstr " ( #"
+
+#: view/output.php:76
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: view/output.php:83
+
+msgid "On ("
+msgstr "Acceso ("
+
+#: view/output.php:84
+msgid "Your server supports fsockopen."
+msgstr "Il vostro server supporta fsockopen."
+
+#: view/output.php:85
+msgid "Your server supports cURL."
+msgstr "Il server supporta cURL."
+
+#: view/output.php:86
+
+msgid "Your server has the SOAP Client enabled."
+msgstr "Il client SOAP è abilitato sul server."
+
+#: view/output.php:116
+
+msgid "Site Health Info:"
+msgstr "Informazioni sullo stato di salute del sito:"
+
+#: view/quote/add_to_quote.php:4 view/quote/view_quote_list.php:2
+
+msgid "text-center"
+msgstr "text-center"
+
+#: view/quote/quote_list_main.php:5
+
+msgid "Powered by ELEX Request a Quote "
+msgstr "Powered by ELEX Richiedi un preventivo "
+
+#: view/saved_toast.php:12
+
+msgid "Changes Saved Successfully!"
+msgstr "Modifiche salvate con successo!"
+
+#: view/settings/general.php:14
+
+msgid "Quote Button on Shop Page"
+msgstr "Pulsante Preventivo nella pagina del negozio"
+
+#: view/settings/general.php:16
+
+msgid "Toggle On or Off to display the Add to Quote button on the shop page"
+msgstr ""
+"Attiva o disattiva per visualizzare il pulsante Aggiungi al preventivo nella "
+"pagina del negozio"
+
+#: view/settings/general.php:47
+
+msgid "Quote Button on Product Page"
+msgstr "Pulsante Preventivo nella pagina del prodotto"
+
+#: view/settings/general.php:50
+
+msgid ""
+"Toggle On or Off the display of the Add to Quote button on the product page"
+msgstr ""
+"Attiva o disattiva la visualizzazione del pulsante Aggiungi al preventivo "
+"nella pagina del prodotto"
+
+#: view/settings/general.php:77
+
+msgid "Quote Button Configurations"
+msgstr "Configurazioni del pulsante Preventivo"
+
+#: view/settings/general.php:83
+
+msgid "Open Quote Form"
+msgstr "Apri il modulo di preventivo"
+
+#: view/settings/general.php:86
+
+msgid "Select how you want to show the quote list to your user."
+msgstr ""
+"Selezionare il modo in cui si desidera mostrare l'elenco dei preventivi "
+"all'utente."
+
+#: view/settings/general.php:109
+
+msgid "In a New Page"
+msgstr "In una nuova pagina"
+
+#: view/settings/general.php:112
+
+msgid "In a Light Box"
+msgstr "In una scatola luminosa"
+
+#: view/settings/general.php:124
+
+msgid "Add to Quote Success Alert Message"
+msgstr "Aggiungi al preventivo Messaggio di avviso di successo"
+
+#: view/settings/general.php:128
+
+msgid ""
+"Enter the alert message to display on successful addition of the product to "
+"the quote list."
+msgstr ""
+"Immettere il messaggio di avviso da visualizzare in caso di aggiunta del "
+"prodotto all'elenco dei preventivi."
+
+#: view/settings/general.php:162
+
+msgid "Quote Button Customization"
+msgstr "Personalizzazione del pulsante Preventivo"
+
+#: view/settings/general.php:166
+
+msgid "Quote Button Label"
+msgstr "Etichetta pulsante Citazione"
+
+#: view/settings/general.php:168
+
+msgid "Enter a custom label text for the request a quote button"
+msgstr ""
+"Immettere un testo di etichetta personalizzato per il pulsante Richiedi un "
+"preventivo"
+
+#: view/settings/general.php:198
+msgid "Default Button Color"
+msgstr "Colore del Pulsante"
+
+#: view/settings/general.php:200
+
+msgid "Choose the default color for the buttons."
+msgstr "Scegli il colore predefinito per i pulsanti."
+
+#: view/settings/general.php:237
+msgid "Filter Products"
+msgstr "Filtri prodotti"
+
+#: view/settings/general.php:244
+
+msgid ""
+"The quote button will be added to all the products by\n"
+"                default. If you want to include\n"
+"                or exclude certain products, use the filter options given "
+"below."
+msgstr ""
+"Il pulsante di preventivo verrà aggiunto a tutti i prodotti da\n"
+"                default. Se si desidera includere\n"
+"                o escludere determinati prodotti, utilizzare le opzioni di "
+"filtro indicate di seguito."
+
+#: view/settings/general.php:261 view/settings/hide_addtocart_price.php:117
+msgid "Include Products"
+msgstr "Includi Prodotti"
+
+#: view/settings/general.php:280
+
+msgid ""
+"Select the products for which request a quote settings should\n"
+"                                        be applied. Rest of the products "
+"will be excluded\n"
+"                                        automatically."
+msgstr ""
+"Seleziona i prodotti per i quali richiedere un preventivo\n"
+"                                        essere applicata. Il resto dei "
+"prodotti sarà escluso\n"
+"                                        automaticamente."
+
+#: view/settings/general.php:301
+
+msgid "Include Products By Category"
+msgstr "Includi prodotti per categoria"
+
+#: view/settings/general.php:303
+
+msgid ""
+"Select the products categories for which you want to display the request a "
+"quote button"
+msgstr ""
+"Selezionare le categorie di prodotti per le quali si desidera visualizzare "
+"il pulsante di richiesta di preventivo"
+
+#: view/settings/general.php:357
+
+msgid "Include Products By Name"
+msgstr "Includi prodotti per nome"
+
+#: view/settings/general.php:360
+
+msgid ""
+"Select the products names for which you want to display the request a quote "
+"button"
+msgstr ""
+"Selezionare i nomi dei prodotti per i quali si desidera visualizzare il "
+"pulsante Richiedi un preventivo"
+
+#: view/settings/general.php:412
+
+msgid "Include Products By Tags"
+msgstr "Includi prodotti per tag"
+
+#: view/settings/general.php:415
+
+msgid ""
+"Select the products tags for which you want to display the request a quote "
+"button"
+msgstr ""
+"Seleziona i tag dei prodotti per i quali desideri visualizzare il pulsante "
+"Richiedi un preventivo"
+
+#: view/settings/general.php:471
+
+msgid "Exclude Product"
+msgstr "Escludi prodotto"
+
+#: view/settings/general.php:494
+
+msgid ""
+"Select the products for which request a quote settings should\n"
+"                                        not be applied."
+msgstr ""
+"Seleziona i prodotti per i quali richiedere un preventivo\n"
+"                                        non può essere applicata."
+
+#: view/settings/general.php:514 view/settings/hide_addtocart_price.php:182
+
+msgid "Exclude Products By Category"
+msgstr "Escludi prodotti per categoria"
+
+#: view/settings/general.php:516
+
+msgid ""
+"Select the products categories for which you don't want to display the "
+"request a quote button"
+msgstr ""
+"Seleziona le categorie di prodotti per le quali non vuoi visualizzare il "
+"pulsante Richiedi un preventivo"
+
+#: view/settings/general.php:558 view/settings/hide_addtocart_price.php:228
+
+msgid "Exclude Products By Name"
+msgstr "Escludi prodotti per nome"
+
+#: view/settings/general.php:561
+
+msgid ""
+"Select the individual product names for which you don't want to display the "
+"request a quote button"
+msgstr ""
+"Seleziona i nomi dei singoli prodotti per i quali non vuoi visualizzare il "
+"pulsante Richiedi un preventivo"
+
+#: view/settings/general.php:600 view/settings/hide_addtocart_price.php:275
+
+msgid "Exclude Products By Tags"
+msgstr "Escludi prodotti per tag"
+
+#: view/settings/general.php:603
+
+msgid ""
+"Select the products tags for which you don't want to display the request a "
+"quote button"
+msgstr ""
+"Seleziona i tag dei prodotti per i quali non vuoi visualizzare il pulsante "
+"Richiedi un preventivo"
+
+#: view/settings/general.php:651 view/settings/hide_addtocart_price.php:328
+
+msgid "Role Based Filter"
+msgstr "Filtro basato sui ruoli"
+
+#: view/settings/general.php:674
+
+msgid ""
+"Select the roles for which request a quote settings should be\n"
+"                                        applied/not."
+msgstr ""
+"Selezionare i ruoli per i quali devono essere impostate le impostazioni di "
+"richiesta di preventivo\n"
+"                                        applicato/meno."
+
+#: view/settings/general.php:694
+msgid "Include Roles"
+msgstr "Includi ruoli"
+
+#: view/settings/general.php:696
+
+msgid ""
+"Select the user roles for which you want to display the request a quote "
+"button"
+msgstr ""
+"Selezionare i ruoli utente per i quali si desidera visualizzare il pulsante "
+"Richiedi un preventivo"
+
+#: view/settings/general.php:739
+msgid "Exclude Roles"
+msgstr "Escludi ruoli"
+
+#: view/settings/general.php:741
+
+msgid ""
+"Select the user roles for which you don't want to display the request a "
+"quote button"
+msgstr ""
+"Selezionare i ruoli utente per i quali non si desidera visualizzare il "
+"pulsante Richiedi un preventivo"
+
+#: view/settings/general.php:789
+
+msgid "Disable Quote Request for Unregistered Users"
+msgstr "Disabilita la richiesta di preventivo per gli utenti non registrati"
+
+#: view/settings/general.php:809
+
+msgid ""
+"By enabling this option guest users can be redirected to the\n"
+"                                        My Account page for registration."
+msgstr ""
+"Abilitando questa opzione, gli utenti guest possono essere reindirizzati "
+"alla cartella\n"
+"                                        Pagina Il mio account per la "
+"registrazione."
+
+#: view/settings/general.php:830
+
+msgid "Include/Exclude products based on stock"
+msgstr "Includi/Escludi prodotti in base alle scorte"
+
+#: view/settings/general.php:838
+
+msgid ""
+"Select an option to determine how you want to display the add to quote "
+"button based on the product availablity"
+msgstr ""
+"Selezionare un'opzione per determinare la modalità di visualizzazione del "
+"pulsante Aggiungi al preventivo in base alla disponibilità del prodotto"
+
+#: view/settings/general.php:863
+
+msgid "Show Add to Quote Button for all the products"
+msgstr "Mostra il pulsante Aggiungi al preventivo per tutti i prodotti"
+
+#: view/settings/general.php:868
+
+msgid "Hide Add to Quote button for Out of Stock products"
+msgstr "Nascondi il pulsante Aggiungi al preventivo per i prodotti esauriti"
+
+#: view/settings/general.php:875
+
+msgid ""
+"Show Add to Quote button only for Out of Stock\n"
+"                                        products"
+msgstr ""
+"Mostra il pulsante Aggiungi al preventivo solo per Esaurito\n"
+"                                        prodotti"
+
+#: view/settings/general.php:892
+
+msgid "Third Party API key"
+msgstr "Chiave API di terze parti"
+
+#: view/settings/general.php:900
+
+msgid ""
+"In case you want to get quote requests/orders via third party plugins, Turn "
+"On the below\n"
+"\t\t\t\t\tfunctionality & get the API key."
+msgstr ""
+"Nel caso in cui desideri ricevere richieste/ordini di preventivo tramite "
+"plug-in di terze parti, attiva quanto segue\n"
+"\t\t\t\t\tfunzionalità e ottenere la chiave API."
+
+#: view/settings/general.php:916
+
+msgid "Third Party Usage"
+msgstr "Utilizzo da parte di terzi"
+
+#: view/settings/general.php:929
+
+msgid "Turn this ON, to get the API Key."
+msgstr "Attivalo per ottenere la chiave API."
+
+#: view/settings/general.php:936
+
+msgid "Rest API Key"
+msgstr "Chiave API REST"
+
+#: view/settings/general.php:945
+
+msgid "Copy API Key"
+msgstr "Copia chiave API"
+
+#: view/settings/general.php:988
+msgid "Copied Successfully!"
+msgstr "Copiato con successo!"
+
+#: view/settings/general.php:1005
+
+msgid "Error copying text"
+msgstr "Errore durante la copia del testo"
+
+#: view/settings/hide_addtocart_price.php:19
+msgid "Hide Price"
+msgstr "Nascondi prezzo"
+
+#: view/settings/hide_addtocart_price.php:21
+
+msgid ""
+"Enabling the Hide Price will automatically enable the Hide Add to Cart "
+"button on the Shop page and the Product Page."
+msgstr ""
+"Abilitando l'opzione Nascondi prezzo, il pulsante Nascondi aggiungi al "
+"carrello verrà automaticamente abilitato nella pagina del negozio e nella "
+"pagina del prodotto."
+
+#: view/settings/hide_addtocart_price.php:46
+
+msgid ""
+"Turn on to hide price in the Product page, Shop Page and Quote List Page."
+msgstr ""
+"Attiva questa opzione per nascondere il prezzo nella pagina del prodotto, "
+"nella pagina del negozio e nella pagina dell'elenco dei preventivi."
+
+#: view/settings/hide_addtocart_price.php:61
+
+msgid "Hide Add to Cart Button on Shop Page"
+msgstr "Nascondi il pulsante Aggiungi al carrello nella pagina del negozio"
+
+#: view/settings/hide_addtocart_price.php:74
+
+msgid "Turn on to hide the add to cart button on the shop page."
+msgstr ""
+"Attiva questa opzione per nascondere il pulsante Aggiungi al carrello nella "
+"pagina del negozio."
+
+#: view/settings/hide_addtocart_price.php:89
+
+msgid "Hide Add to Cart Button on Product Page"
+msgstr "Nascondi il pulsante Aggiungi al carrello nella pagina del prodotto"
+
+#: view/settings/hide_addtocart_price.php:99
+
+msgid "Turn on to hide the add to cart button on the product page."
+msgstr ""
+"Attiva questa opzione per nascondere il pulsante Aggiungi al carrello nella "
+"pagina del prodotto."
+
+#: view/settings/hide_addtocart_price.php:133
+#: view/settings/hide_addtocart_price.php:170
+
+msgid ""
+"Turn on & Select the Products for which the above settings should not be "
+"applied"
+msgstr ""
+"Attiva e seleziona i Prodotti per i quali le impostazioni di cui sopra non "
+"devono essere applicate"
+
+#: view/settings/hide_addtocart_price.php:154
+msgid "Exclude Products"
+msgstr "Escludere prodotti"
+
+#: view/settings/hide_addtocart_price.php:184
+
+msgid ""
+"Select the product categories that you want to exclude from the above "
+"applied settings"
+msgstr ""
+"Seleziona le categorie di prodotti che desideri escludere dalle impostazioni "
+"applicate sopra"
+
+#: view/settings/hide_addtocart_price.php:230
+
+msgid ""
+"Select the product names that you want to exclude from the above applied "
+"settings"
+msgstr ""
+"Selezionare i nomi dei prodotti che si desidera escludere dalle impostazioni "
+"applicate in precedenza"
+
+#: view/settings/hide_addtocart_price.php:277
+
+msgid ""
+"Select the product tags that you want to exclude from the above applied "
+"settings"
+msgstr ""
+"Seleziona i tag dei prodotti che desideri escludere dalle impostazioni "
+"applicate sopra"
+
+#: view/settings/hide_addtocart_price.php:348
+
+msgid ""
+"Select the roles for which the above settings should be\n"
+"                                        applied/not."
+msgstr ""
+"Selezionare i ruoli per i quali devono essere utilizzate le impostazioni di "
+"cui sopra\n"
+"                                        applicato/meno."
+
+#: view/settings/template.php:10
+
+msgid ""
+"You can configure your email and sms/chat template here,\n"
+"                Make use of placeholders to\n"
+"                fill the fields dynamically."
+msgstr ""
+"Puoi configurare il tuo modello di e-mail e sms/chat qui,\n"
+"                Utilizza i segnaposto per\n"
+"                Compila i campi in modo dinamico."
+
+#: view/settings/template.php:19
+
+msgid ""
+"Please note that placeholders can be applied only to\n"
+"                the\n"
+"                email and chat/sms body."
+msgstr ""
+"Si prega di notare che i segnaposto possono essere applicati solo a\n"
+"                Le\n"
+"                corpo dell'e-mail e della chat/sms."
+
+#: view/settings/template.php:28
+
+msgid ""
+"Also note, the @payment_link placeholder can only be\n"
+"                applied to\n"
+"                the email body sent after the quote is approved. You can "
+"also include HTML tags and\n"
+"                inline styles in the email body but the same wont be "
+"applicable to the chat/sms\n"
+"                body."
+msgstr ""
+"Si noti inoltre che il segnaposto @payment_link può essere solo\n"
+"                applicato a\n"
+"                Il corpo dell'e-mail inviato dopo l'approvazione del "
+"preventivo. È inoltre possibile includere tag HTML e\n"
+"                stili in linea nel corpo dell'e-mail, ma lo stesso non sarà "
+"applicabile alla chat/sms\n"
+"                corpo."
+
+#: view/settings/template.php:48
+
+msgid "Use Predefined Email Templates"
+msgstr "Utilizzo di modelli di e-mail predefiniti"
+
+#: view/settings/template.php:56
+
+msgid ""
+"Enable this option to use predefined email templates within the plugin. You "
+"can configure the email content below."
+msgstr ""
+"Abilita questa opzione per utilizzare modelli di e-mail predefiniti "
+"all'interno del plug-in. È possibile configurare il contenuto dell'e-mail di "
+"seguito."
+
+#: view/settings/template.php:90
+msgid "Email Template"
+msgstr "Modello di e-mail"
+
+#: view/settings/template.php:107 view/settings/template.php:153
+#: view/settings/template.php:195
+msgid "Preview Template"
+msgstr "Anteprima Template"
+
+#: view/settings/template.php:144
+
+msgid ""
+"Rectangle Logo\n"
+"\t\t\t\t\t\t\t\t\t\t\tTemplate"
+msgstr ""
+"Logo rettangolare\n"
+"\t\t\t\t\t\t\t\t\t\t\tSagoma"
+
+#: view/settings/template.php:191
+
+msgid "Non Logo Template"
+msgstr "Modello senza logo"
+
+#: view/settings/template.php:228
+msgid "Company Logo"
+msgstr "Logo Azienda"
+
+#: view/settings/template.php:241 view/settings/template.php:249
+
+msgid "d-none"
+msgstr "d-nessuno"
+
+#: view/settings/template.php:241
+msgid "Upload Image"
+msgstr "Carica immagine"
+
+#: view/settings/template.php:260
+
+msgid "upload png or jpeg file"
+msgstr "Carica file PNG o JPEG"
+
+#: view/settings/template.php:270
+
+msgid "Terms and Condition"
+msgstr "Termini e condizioni"
+
+#: view/settings/template.php:272
+
+msgid ""
+"Enable this option if you wish to include the terms and conditions in the "
+"email template."
+msgstr ""
+"Abilita questa opzione se desideri includere i termini e le condizioni nel "
+"modello di email."
+
+#: view/settings/template.php:304
+
+msgid "Terms and Condition Content"
+msgstr "Termini e condizioni Contenuto"
+
+#: view/settings/template.php:319
+
+msgid "Quote Request Email Template: Sent to the Site Administrator"
+msgstr ""
+"Modello di e-mail di richiesta di preventivo: inviato all'amministratore del "
+"sito"
+
+#: view/settings/template.php:326 view/settings/template.php:444
+#: view/settings/template.php:556 view/settings/template.php:669
+msgid "Email Subject"
+msgstr "Oggetto email"
+
+#: view/settings/template.php:328
+
+msgid ""
+"Enter the subject for the email sent to the administrator when a quote is "
+"received."
+msgstr ""
+"Immettere l'oggetto dell'e-mail inviata all'amministratore quando si riceve "
+"un preventivo."
+
+#: view/settings/template.php:353
+msgid "Quote Request"
+msgstr "Richiesta Preventivo"
+
+#: view/settings/template.php:362 view/settings/template.php:479
+#: view/settings/template.php:591 view/settings/template.php:704
+msgid "Email Heading"
+msgstr "Intestazione email"
+
+#: view/settings/template.php:364
+
+msgid ""
+"Enter the heading for the email sent to the administrator when a quote is "
+"received."
+msgstr ""
+"Immettere l'intestazione dell'e-mail inviata all'amministratore quando si "
+"riceve un preventivo."
+
+#: view/settings/template.php:388 view/settings/template.php:505
+
+msgid "Your Quote Request has been received."
+msgstr "La tua richiesta di preventivo è stata ricevuta."
+
+#: view/settings/template.php:398 view/settings/template.php:515
+#: view/settings/template.php:627 view/settings/template.php:740
+msgid "Email Body"
+msgstr "Corpo della e-mail"
+
+#: view/settings/template.php:400
+
+msgid ""
+"Enter the body for the email sent to the administrator when a quote is "
+"received."
+msgstr ""
+"Immettere il corpo dell'e-mail inviata all'amministratore quando viene "
+"ricevuto un preventivo."
+
+#: view/settings/template.php:437
+
+msgid "Quote Requested Email Template: Sent to the Customer"
+msgstr "Modello di e-mail richiesta preventivo: inviato al cliente"
+
+#: view/settings/template.php:446
+
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"requested."
+msgstr ""
+"Inserisci l'oggetto dell'e-mail inviata al cliente quando viene richiesto un "
+"preventivo."
+
+#: view/settings/template.php:481
+
+msgid ""
+"Enter the heading for the email sent to the customer when a quote is "
+"requested."
+msgstr ""
+"Inserisci l'intestazione dell'e-mail inviata al cliente quando viene "
+"richiesto un preventivo."
+
+#: view/settings/template.php:517
+
+msgid ""
+"Enter the body for the email sent to the customer when a quote is requested."
+msgstr ""
+"Immettere il corpo dell'e-mail inviata al cliente quando viene richiesto un "
+"preventivo."
+
+#: view/settings/template.php:549
+
+msgid "Quote Approved Email Template: Sent to the Customer"
+msgstr "Modello di e-mail di preventivo approvato: inviato al cliente"
+
+#: view/settings/template.php:558
+
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"accepted by the administrator."
+msgstr ""
+"Immettere l'oggetto dell'e-mail inviata al cliente quando un preventivo "
+"viene accettato dall'amministratore."
+
+#: view/settings/template.php:593
+
+msgid ""
+"Enter the heading for the email sent to the customer after the quote request "
+"is accepted by the administrator."
+msgstr ""
+"Immettere l'intestazione dell'e-mail inviata al cliente dopo l'accettazione "
+"della richiesta di preventivo da parte dell'amministratore."
+
+#: view/settings/template.php:617
+
+msgid "Your Quote Request has been approved."
+msgstr "La tua richiesta di preventivo è stata approvata."
+
+#: view/settings/template.php:629
+
+msgid ""
+"Enter the body for the email sent to the customer after the quote request is "
+"accepted by the administrator."
+msgstr ""
+"Immettere il corpo dell'e-mail inviata al cliente dopo l'accettazione della "
+"richiesta di preventivo da parte dell'amministratore."
+
+#: view/settings/template.php:662
+
+msgid "Quote Rejected Email Template: Sent to the Customer"
+msgstr "Modello di e-mail di preventivo rifiutato: inviato al cliente"
+
+#: view/settings/template.php:671
+
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"rejected by the administrator."
+msgstr ""
+"Immettere l'oggetto dell'e-mail inviata al cliente quando un preventivo "
+"viene rifiutato dall'amministratore."
+
+#: view/settings/template.php:706
+
+msgid ""
+"Enter the heading for the email sent to the customer after the quote request "
+"is rejected by the administrator."
+msgstr ""
+"Immettere l'intestazione dell'e-mail inviata al cliente dopo che la "
+"richiesta di preventivo è stata rifiutata dall'amministratore."
+
+#: view/settings/template.php:730
+
+msgid "Your Quote Request has been rejected."
+msgstr "La tua richiesta di preventivo è stata rifiutata."
+
+#: view/settings/template.php:742
+
+msgid ""
+"Enter the body for the email sent to the customer after the quote request is "
+"rejected by the administrator."
+msgstr ""
+"Immettere il corpo dell'e-mail inviata al cliente dopo che la richiesta di "
+"preventivo è stata rifiutata dall'amministratore."
+
+#: view/settings/template.php:775
+
+msgid ""
+"Quote Requested SMS / Google Chat Template: Sent to the Site Administrator"
+msgstr ""
+"Modello SMS / Google Chat richiesto: inviato all'amministratore del sito"
+
+#: view/settings/template.php:782
+
+msgid "SMS And Google Chat Body"
+msgstr "SMS e corpo di Google Chat"
+
+#: view/settings/template.php:785
+
+msgid ""
+"Enter the content for the SMS/google chat notification sent to the "
+"administrator on receiving a quote request. you can enter text or fill the "
+"fields dynamically using placeholders from the above table. HTML tags are "
+"not accepted in this field."
+msgstr ""
+"Inserisci il contenuto della notifica SMS/Google Chat inviata "
+"all'amministratore alla ricezione di una richiesta di preventivo. È "
+"possibile immettere testo o compilare i campi in modo dinamico utilizzando i "
+"segnaposto della tabella precedente. I tag HTML non sono accettati in questo "
+"campo."
+
+#: view/settings/template.php:825
+msgid "Title"
+msgstr "Titolo"
+
+#: view/settings/template.php:826
+msgid "Placeholder"
+msgstr "Segnaposto"
+
+#: view/settings/template.php:831
+
+msgid "Core Fields"
+msgstr "Campi principali"
+
+#: view/settings/template.php:836
+msgid "Billing First Name"
+msgstr "Nome Fatturazione"
+
+#: view/settings/template.php:837
+
+msgid "@billing_first_name"
+msgstr "@billing_first_name"
+
+#: view/settings/template.php:841
+msgid "Billing Last Name"
+msgstr "Cognome Fatturazione"
+
+#: view/settings/template.php:842
+
+msgid "@billing_last_name"
+msgstr "@billing_last_name"
+
+#: view/settings/template.php:846
+msgid "Billing Company"
+msgstr "Società di fatturazione"
+
+#: view/settings/template.php:847
+
+msgid "@billing_company"
+msgstr "@billing_company"
+
+#: view/settings/template.php:851
+msgid "Billing Country"
+msgstr "Paese di fatturazione"
+
+#: view/settings/template.php:852
+
+msgid "@billing_country"
+msgstr "@billing_country"
+
+#: view/settings/template.php:855
+msgid "Billing Address 1"
+msgstr "Indirizzo di fatturazione 1"
+
+#: view/settings/template.php:856
+
+msgid "@billing_address_1"
+msgstr "@billing_address_1"
+
+#: view/settings/template.php:860
+msgid "Billing Address 2"
+msgstr "Indirizzo di fatturazione 2"
+
+#: view/settings/template.php:861
+
+msgid "@billing_address_2"
+msgstr "@billing_address_2"
+
+#: view/settings/template.php:864
+msgid "Billing City"
+msgstr "Città di fatturazione"
+
+#: view/settings/template.php:865
+
+msgid "@billing_city"
+msgstr "@billing_city"
+
+#: view/settings/template.php:868
+msgid "Billing State"
+msgstr "Stato di fatturazione"
+
+#: view/settings/template.php:869
+
+msgid "@billing_state"
+msgstr "@billing_state"
+
+#: view/settings/template.php:872
+msgid "Billing Postcode"
+msgstr "CAP Fatturazione"
+
+#: view/settings/template.php:873
+
+msgid "@billing_postcode"
+msgstr "@billing_postcode"
+
+#: view/settings/template.php:876
+msgid "Billing Phone"
+msgstr "Telefono di Fatturazione"
+
+#: view/settings/template.php:877
+
+msgid "@billing_phone"
+msgstr "@billing_phone"
+
+#: view/settings/template.php:880
+msgid "Billing Email"
+msgstr "Email di fatturazione"
+
+#: view/settings/template.php:881
+
+msgid "@billing_email"
+msgstr "@billing_email"
+
+#: view/settings/template.php:884
+msgid "Order Items"
+msgstr "Ordine articolo"
+
+#: view/settings/template.php:885
+
+msgid "@order_items"
+msgstr "@order_items"
+
+#: view/settings/template.php:888
+msgid "Payment Link"
+msgstr "Link di pagamento"
+
+#: view/settings/template.php:889
+
+msgid "@payment_link"
+msgstr "@payment_link"
+
+#: view/settings/template.php:892
+msgid "Customer Note"
+msgstr "Note del cliente"
+
+#: view/settings/template.php:893
+
+msgid "@customer_note"
+msgstr "@customer_note"
+
+#: view/settings/template.php:896
+msgid "Custom Fields"
+msgstr "Campi personalizzati"
+
+#: view/settings/widget.php:11
+
+msgid "Show Quote List Icon"
+msgstr "Mostra l'icona dell'elenco dei preventivi"
+
+#: view/settings/widget.php:31
+
+msgid "Quote List Color On Hover"
+msgstr "Cita il colore dell'elenco al passaggio del mouse"
+
+#: view/settings/widget.php:33
+
+msgid "Select the color of the widget when a customer hovers over it."
+msgstr ""
+"Seleziona il colore del widget quando un cliente passa il mouse su di esso."
+
+#: view/settings/widget.php:61
+
+msgid "Quote List Icon Type"
+msgstr "Tipo di icona dell'elenco delle citazioni"
+
+#: view/settings/widget.php:63
+
+msgid ""
+"You may face compatibility issues with specific themes when Fixed icon type "
+"is chosen."
+msgstr ""
+"Potresti riscontrare problemi di compatibilità con temi specifici quando si "
+"sceglie il tipo di icona Fisso."
+
+#: view/settings/widget.php:81
+msgid "Float"
+msgstr "Mobile"
+
+#: view/settings/widget.php:82
+msgid "Fixed"
+msgstr "Fisso"
+
+#: view/settings/widget.php:93
+
+msgid "Show Button Label Next to Icon"
+msgstr "Mostra l'etichetta del pulsante accanto all'icona"
+
+#: view/settings/widget.php:126
+msgid "Button Label"
+msgstr "Etichetta Pulsante"
+
+#: view/settings/widget.php:128
+
+msgid "Please enter the text that you would like to display as a button label."
+msgstr ""
+"Immettere il testo che si desidera visualizzare come etichetta del pulsante."
+
+#: view/settings/widget.php:163
+
+msgid "Show List Pop Up on Hover"
+msgstr "Mostra elenco pop-up al passaggio del mouse"
+
+#: view/settings/widget.php:165
+
+msgid ""
+"Turn it on or off if you want to display or hide the list of products in the "
+"quote list by hovering over the quote list widget."
+msgstr ""
+"Attivalo o disattivalo se desideri visualizzare o nascondere l'elenco dei "
+"prodotti nell'elenco dei preventivi passando il mouse sopra il widget "
+"dell'elenco dei preventivi."
+
+#. Plugin Name of the plugin/theme
+
+msgid "ELEX WooCommerce Request a Quote - Basic"
+msgstr "ELEX WooCommerce Richiedi un Preventivo - Basic"
+
+#. Plugin URI of the plugin/theme
+
+msgid "https://elextensions.com/plugin/"
+msgstr "https://elextensions.com/plugin/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Create Request a Quote option for your WooCommerce products. You can also "
+"create and customize request a quote forms to be displayed on the frontend. "
+"The plugin will also send automated email notifications for quote "
+"submissions, approvals, and rejections."
+msgstr ""
+"Crea l'opzione Richiedi un preventivo per i tuoi prodotti WooCommerce. Puoi "
+"anche creare e personalizzare moduli di richiesta di preventivo da "
+"visualizzare sul frontend. Il plug-in invierà anche notifiche e-mail "
+"automatiche per l'invio, l'approvazione e il rifiuto dei preventivi."
+
+#. Author of the plugin/theme
+
+msgid "ELEXtensions"
+msgstr "ELEXtensions"
+
+#. Author URI of the plugin/theme
+
+msgid "https://elextensions.com/"
+msgstr "https://elextensions.com/"

@@ -1,0 +1,40 @@
+.rnsizechart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.rnsizechart td,.rnsizechart th{
+    border:1px solid #dfdfdf;
+    text-align: center;
+}
+.rnsizechart td{
+    padding: 5px;
+}
+
+.rnsizechart th{
+    padding: 3px;
+}
+.rnsizechart table{
+    margin-top: 3px;
+}
+.rnsizechart tr{
+    transition: background-color ease-in-out 200ms;
+}
+
+.rnsizechart tr.rnSelected td{
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+.rnsizechart tr.rnSelected{
+    background-color: #f3f3f3;
+}
+
+.rnsizechart .rnSelectable tbody tr:hover{
+    background-color: #f3f3f3;
+}
+
+.rnsizechart .rnSelectable td{
+    cursor: pointer;
+}

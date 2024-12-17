@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'creato-display';
+					src: url('/wp-content/uploads/useanyfont/6942Creato-Display.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/6942Creato-Display.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.creato-display{font-family: 'creato-display' !important;}
+
+		

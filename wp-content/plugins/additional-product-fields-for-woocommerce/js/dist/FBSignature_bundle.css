@@ -1,0 +1,23 @@
+.RNSignatureCanvas{
+    width:100%;
+    height: 200px;
+    border:1px solid #dfdfdf;
+    display: block;
+}
+
+.RNSignatureRemove{
+    opacity:0;
+    transition: opacity 200ms ease-in-out;
+    pointer-events: none;
+}
+
+.RNSignatureRemove.RNActive{
+    opacity:1;
+    display:block;
+    pointer-events: all;
+}
+
+
+.RNSignatureRemove:hover{
+    color:red;
+}

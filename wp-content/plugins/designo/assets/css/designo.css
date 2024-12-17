@@ -1,0 +1,27 @@
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media only screen and (max-width: 320px) {
+  button#personalize_btn {
+    margin-top: 5px;
+  }
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media only screen and (max-width: 480px) {
+  button#personalize_btn {
+    margin-top: 5px;
+  }
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media only screen and (max-width: 600px) {
+  button#personalize_btn {
+    margin-top: 5px;
+  }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media only screen and (min-width: 801px) and (max-width: 915px) {
+  button#personalize_btn {
+    margin-top: 5px;
+  }
+}

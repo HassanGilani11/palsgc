@@ -1,0 +1,2350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ELEX WooCommerce Request a Quote - Basic\n"
+"POT-Creation-Date: 2024-02-19 14:23+0530\n"
+"PO-Revision-Date: 2024-02-19 14:26+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && (n%100<11 || n%100>19) ? 0 : n"
+"%10>=2 && n%10<=9 && (n%100<11 || n%100>19) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-elex-request-a-quote.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: assets/js/components/form/fields/form.js:402
+msgid "Send Request"
+msgstr "Quote Request"
+
+#: assets/js/components/form_settings.js:209
+#: assets/js/components/settings/form_setting_header.js:14
+msgid "Form Settings"
+msgstr "Formos Nustatymai"
+
+#: assets/js/components/form_settings.js:218
+msgid "Show Request a Quote Form"
+msgstr "Rodyti pasiūlymo užklausos formą"
+
+#: assets/js/components/form_settings.js:229
+#: assets/js/components/settings/form_setting_header.js:35
+msgid ""
+"Turn this Off, if you want to use any third party form to get the quote "
+"requests."
+msgstr ""
+"Išjunkite šią parinktį, jei norite naudoti bet kurią trečiosios šalies formą "
+"pasiūlymo užklausoms gauti."
+
+#: assets/js/components/form_settings.js:238
+#: assets/js/components/settings/form_setting_header.js:44
+msgid "Form Header Title"
+msgstr "Formos antraštės pavadinimas"
+
+#: assets/js/components/form_settings.js:239
+msgid ""
+"Enter the text you want to display as the header/title of the quote form."
+msgstr ""
+"Įveskite tekstą, kurį norite rodyti kaip citatos formos antraštę / "
+"pavadinimą."
+
+#: assets/js/components/form_settings.js:259
+msgid "Fill Your Details"
+msgstr "Užpildykite savo duomenis"
+
+#: assets/js/components/form_settings.js:263
+#: assets/js/components/settings/form_setting_header.js:67
+msgid "Form Submit Actions"
+msgstr "Formos pateikimo veiksmai"
+
+#: assets/js/components/form_settings.js:268
+#: assets/js/components/settings/form_setting_header.js:72
+msgid "\"Send Request\" Button Redirectional URl"
+msgstr "Mygtukas \"Siųsti užklausą\" Peradresavimo URl"
+
+#: assets/js/components/form_settings.js:270
+msgid ""
+"Please provide the page URL that you wish to redirect to, After clicking the "
+"'Send Request' button"
+msgstr ""
+"Nurodykite puslapio URL, į kurį norite peradresuoti, spustelėję mygtuką "
+"\"Siųsti užklausą\""
+
+#: assets/js/components/form_settings.js:299
+#: assets/js/components/settings/form_setting_header.js:98
+msgid "\"Send Request\" Success Message"
+msgstr "\"Siųsti užklausą\" sėkmės pranešimas"
+
+#: assets/js/components/form_settings.js:301
+msgid ""
+"Enter the text that you want to display as a message after the successful "
+"submission of the quote request."
+msgstr ""
+"Įveskite tekstą, kurį norite rodyti kaip pranešimą po sėkmingo pasiūlymo "
+"užklausos pateikimo."
+
+#: assets/js/components/form_settings.js:322
+msgid "Your request has been sent successfully."
+msgstr "Jūsų užklausa sėkmingai išsiųsta"
+
+#: assets/js/components/form_settings.js:328
+msgid "Form Field Settings"
+msgstr "Formos lauko parametrai"
+
+#: assets/js/components/form_settings.js:334
+msgid ""
+"When you create custom fields, the placeholder for the email template will "
+"be created based on the label text (For eg: Upload Image will be "
+"@Upload_Image). If you make changes to the label text in the future, please "
+"make sure to use the updated placeholder in the email body. Also, the label "
+"text cannot be modified for orders placed before the change."
+msgstr ""
+"Kai kuriate pasirinktinius laukus, el. laiško šablono vietos rezervavimo "
+"ženklas bus sukurtas pagal etiketės tekstą (pvz.: Įkelti vaizdą bus "
+"@Upload_Image). Jei ateityje keisite etiketės tekstą, el. laiško tekste "
+"būtinai naudokite atnaujintą vietos rezervavimo ženklą. Be to, etiketės "
+"teksto negalima keisti užsakymams, pateiktiems prieš pakeitimą."
+
+#: assets/js/components/form_settings.js:342
+msgid "Label Name"
+msgstr "Etiketės pavadinimas"
+
+#: assets/js/components/form_settings.js:343
+msgid "Field Type "
+msgstr "Lauko tipas "
+
+#: assets/js/components/form_settings.js:344
+msgid "Placeholder "
+msgstr "Laukelio paaiškinimo tekstas"
+
+#: assets/js/components/form_settings.js:345
+msgid "Connected To "
+msgstr "Prisijungęs prie "
+
+#: assets/js/components/form_settings.js:346
+msgid "Required "
+msgstr "Būtina "
+
+#: assets/js/components/form_settings.js:347
+msgid "Actions "
+msgstr "Veiksmai "
+
+#: assets/js/components/form_settings.js:372
+msgid "Add New Field "
+msgstr "Įtraukti naują lauką "
+
+#: assets/js/components/form_settings.js:376
+#: view/listpage_form_setting/additional_options.php:172
+#: view/listpage_form_setting/quote_list.php:249
+#: view/notification_settings/general.php:121
+#: view/notification_settings/google_chat.php:84
+#: view/notification_settings/sms.php:179 view/settings/general.php:974
+#: view/settings/hide_addtocart_price.php:368 view/settings/template.php:815
+#: view/settings/widget.php:195
+msgid "Save Changes"
+msgstr "Išsaugoti pakeitimus"
+
+#: assets/js/components/mini_quote_list/render_mini_quote_list.js:31
+msgid "items in Quote List"
+msgstr "elementai citatų sąraše"
+
+#: assets/js/components/mini_quote_list/render_mini_quote_list.js:56
+#: view/quote/view_quote_list.php:3
+msgid "View Quote List"
+msgstr "Peržiūrėti pasiūlymų sąrašą"
+
+#: assets/js/components/quote_list/quote_list_content.js:87
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:62
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:70
+#: src/Templates/order_items.php:10
+msgid "Price"
+msgstr "Kaina"
+
+#: assets/js/components/quote_list/quote_list_content.js:99
+#: view/listpage_form_setting/quote_list.php:200
+msgid "Quantity"
+msgstr "Kiekis"
+
+#: assets/js/components/quote_list/quote_list_content.js:110
+#: assets/js/components/quote_list/quote_list_content.js:121
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:64
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:117
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:72
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:125
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:122
+#: src/Templates/order_items.php:20 src/Templates/order_items.php:122
+msgid "Subtotal"
+msgstr "Tarpinė suma"
+
+#: assets/js/components/quote_list/quote_list_content.js:136
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:125
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:133
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:130
+#: src/Templates/order_items.php:157
+msgid "Total"
+msgstr "Iš viso"
+
+#: assets/js/components/quote_list/quote_list_content.js:214
+msgid "Update List"
+msgstr "Atnaujinti sąrašą"
+
+#: assets/js/components/quote_list/quote_list_content.js:457
+msgid "Product Detail"
+msgstr "Produkto informacija"
+
+#: assets/js/components/quote_list/quote_list_empty.js:21
+msgid "Go to Shop Page"
+msgstr "Eiti į parduotuvės puslapį"
+
+#: assets/js/components/quote_list/show_clear_list.js:14
+msgid "Clear List"
+msgstr "Išvalyti sąrašą"
+
+#: assets/js/components/quote_list/success_alert_toast.js:14
+#: src/FormSetting/FormSettingController.php:298
+msgid "Saved Successfully."
+msgstr "Sėkmingai įrašyta."
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Select a type"
+msgstr "Pasirinkite tipą"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Text"
+msgstr "Tekstas"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Textarea"
+msgstr "Teksto zona"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Email"
+msgstr "El. paštas"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Url"
+msgstr "Nuoroda"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Image"
+msgstr "Paveikslėlis"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Checkbox"
+msgstr "Žymimas laukelis"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Date"
+msgstr "Data"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Number"
+msgstr "Numeris"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Radio"
+msgstr "Radijas"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Tel"
+msgstr "Tel"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "Select Connected To"
+msgstr "Pasirinkite Prisijungta prie"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_first_name"
+msgstr "Pirkėjo vardas"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_last_name"
+msgstr "Pirkėjo pavardė"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_email"
+msgstr "El. adresas sąskaitai"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_company"
+msgstr "Atsiskaitymo įmonė"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_country"
+msgstr "Atsiskaitymo šalis"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_address_1"
+msgstr "billing_address_1"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_address_2"
+msgstr "billing_address_2"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_city"
+msgstr "Atsiskaitymo miestas"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_state"
+msgstr "Atsiskaitymo rajonas"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_postcode"
+msgstr "Atsiskaitymo pašto kodas"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "billing_phone"
+msgstr "Atsiskaitymo telefono Nr"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "order_comments"
+msgstr "order_comments"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "Custom Field"
+msgstr "Pasirinktinis laukelis"
+
+#: assets/js/components/settings/form_fields.js:395
+msgid "Enter values and click enter to add more"
+msgstr "Įveskite reikšmes ir spustelėkite \"Enter\", kad pridėtumėte daugiau"
+
+#: assets/js/components/settings/form_fields.js:396
+msgid "Click Enter to add more"
+msgstr "Spustelėkite Enter, kad pridėtumėte daugiau"
+
+#: assets/js/components/settings/form_setting_header.js:23
+msgid "Show Request a Quote"
+msgstr "Rodyti užklausą dėl kainos pasiūlymo"
+
+#: assets/js/components/toast_message/update_message.js:17
+msgid "Updated Successfully"
+msgstr "Žemėlapis buvo sėkmingai atnaujintas."
+
+#: class-elex-request-a-quote.php:50
+msgid ""
+"WooCommerce plugin must be active for ELEX Request a Quote Plugin to work."
+msgstr ""
+"WooCommerce įskiepis turi būti aktyvus, kad ELEX Prašyti Pasiūlymo Įskiepio "
+"veiktų."
+
+#: class-elex-request-a-quote.php:63 src/RequestAQuote.php:418
+#: src/RequestAQuote.php:419 view/header.php:4
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: class-elex-request-a-quote.php:64 view/market.php:115
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: class-elex-request-a-quote.php:65
+msgid "Support"
+msgstr "Palaikymas"
+
+#: class-elex-request-a-quote.php:74
+msgid ""
+"The Premium version of ELEX Request a Quote is already installed and "
+"activated. Please deactivate it in order to activate the basic version. If "
+"you encounter any issues, kindly contact our "
+msgstr ""
+"„Premium“ „ELEX Request a Quote“ versija jau įdiegta ir suaktyvinta. "
+"Išjunkite jį, kad suaktyvintumėte pagrindinę versiją. Iškilus problemoms, "
+"maloniai prašome susisiekti su mūsų"
+
+#: class-elex-request-a-quote.php:75
+msgid ""
+"The WooCommerce version of ELEX Request a Quote is already installed and "
+"activated. Please deactivate it in order to activate the basic version. If "
+"you encounter any issues, kindly contact our "
+msgstr ""
+"Elex Request a Quote WooCommerce versija jau įdiegta ir suaktyvinta. "
+"Išjunkite jį, kad suaktyvintumėte pagrindinę versiją. Iškilus problemoms, "
+"maloniai prašome susisiekti su mūsų"
+
+#: class-elex-request-a-quote.php:77
+msgid "for assistance."
+msgstr "pagalbos."
+
+#: class-elex-request-a-quote.php:86 class-elex-request-a-quote.php:90
+msgid "Support "
+msgstr "Suport"
+
+#: src/ElementorWidget/Eraq_add_to_quote_widget.php:9
+#: src/Settings/Models/GeneralSettings.php:93
+#: src/Settings/SettingsController.php:390
+msgid "Add to Quote"
+msgstr "Įtraukti į pasiūlymą"
+
+#: src/FormSetting/FormSettingController.php:83
+#: src/FormSetting/FormSettingController.php:114
+#: src/FormSetting/FormSettingController.php:350
+#: src/FormSetting/FormSettingController.php:447
+msgid "Name and type Can not be empty"
+msgstr "Pavadinimo ir tipo laukas negali būti tuščias"
+
+#: src/FormSetting/FormSettingController.php:98
+msgid "Field has been rearranged successfully"
+msgstr "Laukas sėkmingai pertvarkytas"
+
+#: src/FormSetting/FormSettingController.php:138
+#: src/FormSetting/FormSettingController.php:335
+#: src/FormSetting/FormSettingController.php:469
+msgid "Enter options for the selcted types"
+msgstr "Įveskite pasirinktų tipų parinktis"
+
+#: src/FormSetting/FormSettingController.php:152
+#: src/FormSetting/FormSettingController.php:382
+#: src/FormSetting/FormSettingController.php:415
+#: src/FormSetting/FormSettingController.php:486
+msgid "Atleast one option is required"
+msgstr "Būtina bent viena parinktis"
+
+#: src/FormSetting/FormSettingController.php:165
+#: src/FormSetting/FormSettingController.php:395
+msgid "Already exist"
+msgstr "Miestas jau egzistuoja."
+
+#: src/FormSetting/FormSettingController.php:178
+msgid "Field has been added successfully"
+msgstr "Laukas sėkmingai pridėtas"
+
+#: src/FormSetting/FormSettingController.php:428
+#: src/FormSetting/FormSettingController.php:499
+#: src/FormSetting/FormSettingController.php:538
+msgid "No Field Exist"
+msgstr "Lauko nėra"
+
+#: src/FormSetting/FormSettingController.php:510
+msgid "Field has been edited successfully"
+msgstr "Laukas sėkmingai redaguotas"
+
+#: src/FormSetting/FormSettingController.php:554
+msgid "Field has been "
+msgstr "Laukas buvo"
+
+#: src/FormSetting/FormSettingController.php:578
+msgid "Invalid field"
+msgstr "Netinkamas laukas"
+
+#: src/FormSetting/FormSettingController.php:589
+msgid "Field has been deleted"
+msgstr "Laukas ištrintas"
+
+#: src/FormSetting/FormSettingController.php:666
+#: src/FormSetting/FormSettingController.php:674
+msgid "The "
+msgstr "Nutarė "
+
+#: src/FormSetting/Models/FormSettings.php:42
+msgid "Your request has been submitted."
+msgstr "Jūsų ataskaitos užklausa buvo pateikta."
+
+#: src/FormSetting/Models/FormSettings.php:49
+msgid "Add your first name."
+msgstr "Nurodykite savo vardą"
+
+#: src/FormSetting/Models/FormSettings.php:64
+msgid "Add your last name."
+msgstr "Nurodykite savo pavardę"
+
+#: src/FormSetting/Models/FormSettings.php:79
+msgid "Add your email."
+msgstr "Pridėkite savo el. pašto adresą."
+
+#: src/FormSetting/Models/FormSettings.php:95
+msgid "Enter your Phone number"
+msgstr "Įveskite savo telefono numerį."
+
+#: src/HelpAndSupport/HelpAndSupportController.php:44
+msgid "FAQs"
+msgstr "DUK"
+
+#: src/HelpAndSupport/HelpAndSupportController.php:49
+msgid "Raise a Ticket"
+msgstr "Padidinti bilietą"
+
+#: src/Notification/NotificationController.php:359
+msgid "General notification"
+msgstr "Bendras pranešimas"
+
+#: src/Notification/NotificationController.php:364
+#: view/notification_settings/sms.php:13
+msgid "SMS Notification"
+msgstr "SMS pranešimas"
+
+#: src/Notification/NotificationController.php:369
+#: view/notification_settings/google_chat.php:14
+msgid "Google Chat Notification"
+msgstr "„Google“ Pokalbių Pranešimas"
+
+#: src/Quotelist/ListPageController.php:121
+msgid "Quote List Page"
+msgstr "Citatų sąrašo puslapis"
+
+#: src/Quotelist/ListPageController.php:126
+msgid "Additional Options"
+msgstr "Papildomi Nustatymai"
+
+#: src/Quotelist/ListPageController.php:131
+msgid "Quote Form"
+msgstr "Kainos pasiūlymo forma"
+
+#: src/Quotelist/ListPageController.php:162
+#: src/Quotelist/Models/ListPageSettings.php:28
+#: src/Widget/Models/WidgetModel.php:29 src/Widget/WidgetController.php:37
+#: src/Widget/WidgetController.php:62
+#: view/listpage_form_setting/quote_list.php:66
+msgid "Quote List"
+msgstr "Pasiūlymų sąrašas"
+
+#: src/Quotelist/ListPageController.php:167
+#: src/Quotelist/Models/ListPageSettings.php:37
+msgid "Your Quote List is Empty"
+msgstr "Jūsų pasiūlymų sąrašas tuščias"
+
+#: src/Quotelist/ListPageController.php:193
+#: src/Quotelist/Models/ListPageSettings.php:57
+msgid "Add More Items"
+msgstr "Pridėti daugiau "
+
+#: src/Quotelist/Models/QuoteListModel.php:997
+#: src/Quotelist/Models/QuoteListModel.php:1046
+msgid "First name"
+msgstr "Vardas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1001
+#: src/Quotelist/Models/QuoteListModel.php:1050
+msgid "Last name"
+msgstr "Pavardė"
+
+#: src/Quotelist/Models/QuoteListModel.php:1005
+#: src/Quotelist/Models/QuoteListModel.php:1054
+msgid "Company"
+msgstr "Įmonė"
+
+#: src/Quotelist/Models/QuoteListModel.php:1009
+#: src/Quotelist/Models/QuoteListModel.php:1058
+msgid "Address line 1"
+msgstr "Adresas (pirma eilutė)"
+
+#: src/Quotelist/Models/QuoteListModel.php:1013
+#: src/Quotelist/Models/QuoteListModel.php:1062
+msgid "Address line 2"
+msgstr "Adreso 2 eilutė"
+
+#: src/Quotelist/Models/QuoteListModel.php:1017
+#: src/Quotelist/Models/QuoteListModel.php:1066
+msgid "City"
+msgstr "Miestas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1021
+#: src/Quotelist/Models/QuoteListModel.php:1070
+msgid "Postcode / ZIP"
+msgstr "Pašto kodas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1025
+#: src/Quotelist/Models/QuoteListModel.php:1074
+msgid "Country / Region"
+msgstr "Šalis / Regionas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1029
+#: src/Quotelist/Models/QuoteListModel.php:1078
+msgid "Select a country / region&hellip;"
+msgstr "Pasirinkite šalį / regioną&hellip;"
+
+#: src/Quotelist/Models/QuoteListModel.php:1032
+#: src/Quotelist/Models/QuoteListModel.php:1081
+msgid "State / County"
+msgstr "Apskritis"
+
+#: src/Quotelist/Models/QuoteListModel.php:1037
+msgid "Email address"
+msgstr "El. pašto adresas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1040
+msgid "Phone"
+msgstr "Telefonas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1096
+msgid "Billing"
+msgstr "Atsiskaitymas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1141
+msgid "Shipping"
+msgstr "Pristatymas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1185
+msgid "General"
+msgstr "Pagrindinis"
+
+#: src/Quotelist/Models/QuoteListModel.php:1341
+msgid "First name should be a string."
+msgstr "Vardas turėtų būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1347
+msgid "Last name should be a string."
+msgstr "Pavardė turi būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1352
+msgid "Company name should be a string."
+msgstr "Įmonės pavadinimas turi būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1357
+msgid "Email should be in valid format."
+msgstr "El. pašto adresas turi būti galiojančio formato."
+
+#: src/Quotelist/Models/QuoteListModel.php:1362
+msgid "Email should be a int of length 10."
+msgstr "El. pašto ilgis turi būti 10."
+
+#: src/Quotelist/Models/QuoteListModel.php:1367
+msgid "Address 1  should be a string."
+msgstr "1 adresas turi būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1372
+msgid "Address 2  should be a string."
+msgstr "2 adresas turi būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1377
+msgid "City name  should be a string."
+msgstr "Miesto pavadinimas  turi būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1382
+msgid "state name  should be a string."
+msgstr "valstijos pavadinimas  turi būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1387
+msgid "Postcode  should be a string."
+msgstr "Pašto kodas  turi būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1393
+msgid "Country name should be a string."
+msgstr "Šalies pavadinimas turi būti eilutė."
+
+#: src/Quotelist/Models/QuoteListModel.php:1398
+msgid "Address array is empty"
+msgstr "Adreso masyvas tuščias"
+
+#: src/Quotelist/Models/QuoteListModel.php:1406
+msgid "Custom Fields array is empty"
+msgstr "Pasirinktinių laukų masyvas tuščias"
+
+#: src/Quotelist/Models/QuoteListModel.php:1420
+msgid "User not found"
+msgstr "Vartotojas nerastas"
+
+#: src/Quotelist/Models/QuoteListModel.php:1435
+msgid "Unauthorize Access"
+msgstr "Neleisti prieigos"
+
+#: src/Quotelist/QuoteListController.php:176
+msgid "Your request has been sent successfully"
+msgstr "Jūsų užklausa sėkmingai išsiųsta"
+
+#: src/Quotelist/QuoteListController.php:200
+msgid "ELEX Quote Request Details"
+msgstr "ELEX pasiūlymo užklausos informacija"
+
+#: src/RequestAQuote.php:189
+msgid "Quotes List"
+msgstr "Kainoraščių sąrašas"
+
+#: src/RequestAQuote.php:200 view/settings/template.php:470
+msgid "Quote Received"
+msgstr "Gautas pasiūlymas"
+
+#: src/RequestAQuote.php:407 src/RequestAQuote.php:408
+msgid "Request a Quote"
+msgstr "Prašyti citatos"
+
+#: src/RequestAQuote.php:427 src/RequestAQuote.php:428 view/header.php:4
+msgid "Customize Quote List & Form"
+msgstr "Tinkinti citatų sąrašą ir formą"
+
+#: src/RequestAQuote.php:435 src/RequestAQuote.php:436
+#: view/help_support_header.php:1
+msgid "Help & Support"
+msgstr "Pagalba ir palaikymas"
+
+#: src/Settings/Models/GeneralSettings.php:92
+#: src/Settings/SettingsController.php:389 view/settings/general.php:150
+msgid "Product successfully added to the Quote List"
+msgstr "Produktas sėkmingai įtrauktas į pasiūlymų sąrašą"
+
+#: src/Settings/SettingsController.php:407
+
+msgid "show_for_all_products"
+msgstr "show_for_all_products"
+
+#: src/Settings/SettingsController.php:520
+msgid "General Settings"
+msgstr "Pagrindiniai nustatymai"
+
+#: src/Settings/SettingsController.php:525
+msgid "Hide Add to Cart & Price"
+msgstr "Slėpti Pridėti į krepšelį ir kainą"
+
+#: src/Settings/SettingsController.php:530
+msgid "Notification Settings"
+msgstr "Pranešimo Nustatymai"
+
+#: src/Settings/SettingsController.php:534
+msgid "Template Settings"
+msgstr "Šablono Nustatymai"
+
+#: src/Settings/SettingsController.php:538
+msgid "Quote List Menu"
+msgstr "Kainų sąrašo meniu"
+
+#: src/Settings/SettingsController.php:542
+msgid "Go Premium!"
+msgstr "Premium Palaikymas!"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:7
+msgid "Received a Quote!"
+msgstr "Gautas pasiūlymas!"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:21
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:26
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:23
+msgid "Quote #213"
+msgstr "Citata #213"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:26
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:30
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:32
+msgid "Issued By: Max Smith"
+msgstr "Išdavė: Max Smith"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:29
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:33
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:35
+msgid "Issued Date: 02-March-2022"
+msgstr "Išdavimo data: 2022 m. kovo 2 d."
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:32
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:36
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:38
+msgid "Expiry Date: 04-March-2022"
+msgstr "Galioja iki: 2022 m. kovo 4 d."
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:41
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:49
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:46
+
+msgid "Will Miller"
+msgstr "Willas Milleris"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:44
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:52
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:49
+
+msgid "Kelly.elliot@gmail.com"
+msgstr "Kelly.elliot@gmail.com"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:47
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:55
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:52
+
+msgid "(190)081-0336"
+msgstr "(190)081-0336"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:61
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:69
+#: src/Templates/order_items.php:6
+msgid "Products"
+msgstr "Produktai"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:63
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:71
+#: src/Templates/order_items.php:15
+msgid "Qty."
+msgstr "Faktinis kiekis"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:77
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:97
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:85
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:105
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:82
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:102
+msgid "Product Name"
+msgstr "Prekės pavadinimas"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:78
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:98
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:86
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:106
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:83
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:103
+msgid "SKU:s123432"
+msgstr "Produkto kodas:s123432"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:121
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:129
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:126
+#: src/Templates/order_items.php:130
+msgid "Fees"
+msgstr "Mokesčiai"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:137
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:145
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:142
+#: src/TemplateSetting/Models/TemplateModel.php:309
+msgid "Accept & Pay"
+msgstr "Priimkite ir mokėkite"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:143
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:152
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:148
+#: src/Templates/order_items.php:172
+msgid "Terms & Conditions"
+msgstr "Taisyklė ir sąlygos"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:146
+msgid ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"                        ut labore et dolore magna aliquyam erat, sed diam "
+"voluptua. At vero eos."
+msgstr ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"                        ist labore et dolore magna aliquyam erat, sed diam "
+"voluptua. Vero eos."
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:155
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:165
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:160
+msgid "Powered by ELEX Request a Quote"
+msgstr "Powered by ELEX Prašyti kainos pasiūlymo"
+
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:45
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:42
+msgid "Customer Details"
+msgstr "Kliento duomenys"
+
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:156
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:151
+msgid ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"\t\t\t\t\t\tut labore et dolore magna aliquyam erat, sed diam voluptua. At "
+"vero eos."
+msgstr ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"\t\t\t\t\t\tist labore et dolore magna aliquyam erat, sed diam voluptua. "
+"Vero eos."
+
+#: src/TemplateSetting/Models/TemplateModel.php:241
+msgid "Product Name: Price * Quantity = Subtotal"
+msgstr "Produkto pavadinimas: Kaina * Kiekis = Tarpinė suma"
+
+#: src/TemplateSetting/Models/TemplateModel.php:251
+msgid "Total :"
+msgstr "Iš viso :"
+
+#: src/Templates/order_items.php:139
+msgid "Discount"
+msgstr "Nuolaida"
+
+#: src/Templates/order_items.php:148
+msgid "Tax"
+msgstr "Mokesčiai"
+
+#: src/create_order_status.php:15
+msgid "Quote Requested"
+msgstr "Prašoma kainos pasiūlymo"
+
+#: src/create_order_status.php:20
+#, php-format
+msgid "Quote Requested (%s)"
+msgid_plural "Quote Requested (%s)"
+msgstr[0] "Prašoma citata (%s)"
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/create_order_status.php:26 view/settings/template.php:582
+msgid "Quote Approved"
+msgstr "Pasiūlymas patvirtintas"
+
+#: src/create_order_status.php:31
+#, php-format
+msgid "Quote Approved (%s)"
+msgid_plural "Quote Approved (%s)"
+msgstr[0] "Citata patvirtinta (%s)"
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/create_order_status.php:37 view/notification_settings/general.php:76
+#: view/settings/template.php:695
+msgid "Quote Rejected"
+msgstr "Pasiūlymas atmestas"
+
+#: src/create_order_status.php:42
+#, php-format
+msgid "Quote Rejected (%s)"
+msgid_plural "Quote Rejected (%s)"
+msgstr[0] "Citata atmesta (%s)"
+msgstr[1] ""
+msgstr[2] ""
+
+#: view/header.php:15
+#, php-format
+msgid ""
+"To customize your website's quote request form and quote items listing page, "
+"visit  %1$s section."
+msgstr ""
+"Norėdami tinkinti svetainės pasiūlymo užklausos formą ir pasiūlymo elementų "
+"skelbimo puslapį, apsilankykite skiltyje %1$s."
+
+#: view/header.php:20
+#, php-format
+msgid "To set up request a quote on your site, visit  %1$s section."
+msgstr ""
+"Norėdami nustatyti kainos pasiūlymą savo svetainėje, apsilankykite skiltyje "
+"%1$s."
+
+#: view/header.php:39
+msgid "go_premium"
+msgstr "Premium Palaikymas!"
+
+#: view/header.php:43
+msgid "elex_raq_basic"
+msgstr "elex_raq_basic"
+
+#: view/help_support/faqs.php:5
+msgid "Q1."
+msgstr "1K."
+
+#: view/help_support/faqs.php:6
+msgid "Can I hide the “Add to Cart” button on the product page?"
+msgstr "Ar galiu paslėpti mygtuką „Įdėti į krepšelį“ produkto puslapyje?"
+
+#: view/help_support/faqs.php:11
+msgid ""
+"Yes, You can easily hide the ‘Add to Cart’ button on the product page as "
+"well as the shop page."
+msgstr ""
+"Taip, galite lengvai paslėpti mygtuką „Įdėti į krepšelį“ produkto puslapyje "
+"ir parduotuvės puslapyje."
+
+#: view/help_support/faqs.php:17
+msgid "Q2."
+msgstr "2K."
+
+#: view/help_support/faqs.php:18
+msgid "Can I hide the price of the products?"
+msgstr "Ar galiu paslėpti produktų kainą?"
+
+#: view/help_support/faqs.php:26
+msgid "Yes, You can hide the price of a particular product.\n"
+msgstr "Taip, galite paslėpti tam tikro produkto kainą."
+
+#: view/help_support/faqs.php:37
+msgid "Q3."
+msgstr "3K."
+
+#: view/help_support/faqs.php:41
+msgid "Can I customize my quote list page?\n"
+msgstr "Ar galiu tinkinti pasiūlymų sąrašo puslapį?"
+
+#: view/help_support/faqs.php:53
+msgid ""
+"Yes, ELEX Request a Quote plugin allows you to customize & enhance your "
+"frontend quote list page.\n"
+msgstr ""
+"Taip, ELEX Prašyti citatos įskiepis leidžia jums tinkinti ir patobulinti "
+"savo sąsajos citatų sąrašo puslapį."
+
+#: view/help_support/faqs.php:65
+msgid "Q4."
+msgstr "4K."
+
+#: view/help_support/faqs.php:69
+msgid "Does this plugin have the option to customize the Emails template?\n"
+msgstr "Ar šis įskiepis turi parinktį tinkinti el. laiškų šabloną?"
+
+#: view/help_support/faqs.php:81
+msgid ""
+"Yes, this plugin gives you the option to select from the predefined template "
+"or customize & create your own email template.\n"
+msgstr ""
+"Taip, šis įskiepis suteikia galimybę pasirinkti iš anksto nustatytą šabloną "
+"arba tinkinti ir sukurti savo el. pašto šabloną."
+
+#: view/help_support/faqs.php:93
+msgid "Q5."
+msgstr "5K."
+
+#: view/help_support/faqs.php:94
+msgid ""
+"Can I restrict guest/ unregistered users from adding products into the Quote "
+"List and redirect them to the login or sign up page?"
+msgstr ""
+"Ar galiu uždrausti svečiams ir (arba) neregistruotiems naudotojams įtraukti "
+"produktus į pasiūlymų sąrašą ir nukreipti juos į prisijungimo arba "
+"registracijos puslapį?"
+
+#: view/help_support/faqs.php:102
+msgid ""
+"Yes, this option is available in the plugin settings. We have a separate "
+"option for this where you can enable and redirect the guest/unregistered "
+"users to create an account or sign in to request a quote\n"
+msgstr ""
+"Taip, ši parinktis yra įskiepio nustatymuose. Tam turime atskirą parinktį, "
+"kurioje galite įgalinti ir nukreipti svečius ir (arba) neregistruotus "
+"naudotojus sukurti paskyrą arba prisijungti ir prašyti kainos pasiūlymo"
+
+#: view/help_support/tickets.php:6
+msgid "Before raising the ticket, we recommend you to go through our detailed"
+msgstr ""
+"Prieš pakeliant bilietą, rekomenduojame peržiūrėti mūsų išsamią informaciją"
+
+#: view/help_support/tickets.php:6
+msgid "documentation."
+msgstr "dokumentai."
+
+#: view/help_support/tickets.php:7
+msgid "Or"
+msgstr "Arba"
+
+#: view/help_support/tickets.php:8
+msgid ""
+"To get in touch with one of our helpdesk representatives, please raise a "
+"support ticket on our website."
+msgstr ""
+"Norėdami susisiekti su vienu iš mūsų pagalbos tarnybos atstovų, pateikite "
+"pagalbos užklausą mūsų svetainėje."
+
+#: view/help_support/tickets.php:9
+msgid ""
+"* Please don`t forget to attach your System Info File with the request for "
+"better support."
+msgstr ""
+"* Nepamirškite pridėti sistemos informacijos failo su prašymu suteikti "
+"geresnę pagalbą."
+
+#: view/help_support/tickets.php:13
+msgid "Raise a ticket"
+msgstr "Padidinti bilietą"
+
+#: view/help_support/tickets.php:21
+msgid ""
+"To copy the System Info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)."
+msgstr ""
+"Norėdami nukopijuoti sistemos informaciją, spustelėkite žemiau, tada "
+"paspauskite Ctrl + C (PC) arba Cmd + C (Mac)."
+
+#: view/help_support/tickets.php:31
+msgid "Download System Info"
+msgstr "Atsisiųsti sistemos informaciją"
+
+#: view/listpage_form_setting/additional_options.php:13
+msgid "Show \"Update List\" Button"
+msgstr "Rodyti mygtuką „Atnaujinti sąrašą“"
+
+#: view/listpage_form_setting/additional_options.php:15
+msgid ""
+"Turn On/Off if you want to show/hide update list button on the quote list "
+"page."
+msgstr ""
+"Įjunkite/išjunkite, jei norite rodyti/slėpti atnaujinimo sąrašo mygtuką "
+"pasiūlymų sąrašo puslapyje."
+
+#: view/listpage_form_setting/additional_options.php:43
+msgid "Show \"Clear List\" Button"
+msgstr "Rodyti mygtuką „Išvalyti sąrašą“"
+
+#: view/listpage_form_setting/additional_options.php:45
+msgid ""
+"Turn On/Off if you want to show/hide the clear list button on the quote list "
+"page."
+msgstr ""
+"Įjunkite/išjunkite, jei norite rodyti/slėpti išvalymo sąrašo mygtuką "
+"pasiūlymų sąrašo puslapyje."
+
+#: view/listpage_form_setting/additional_options.php:76
+msgid "\"Add more Items\" Button"
+msgstr "Mygtukas „Pridėti daugiau elementų“"
+
+#: view/listpage_form_setting/additional_options.php:79
+msgid ""
+"Turn On/Off if you want to show/hide add more items button on the quote list "
+"page."
+msgstr ""
+"Įjunkite/Išjunkite, jei norite rodyti/slėpti mygtuką pridėti daugiau "
+"elementų pasiūlymų sąrašo puslapyje."
+
+#: view/listpage_form_setting/additional_options.php:98
+#: view/listpage_form_setting/quote_list.php:80
+#: view/listpage_form_setting/quote_list.php:99
+#: view/listpage_form_setting/quote_list.php:244
+#: view/notification_settings/general.php:115
+#: view/notification_settings/google_chat.php:36
+#: view/notification_settings/sms.php:20 view/settings/template.php:79
+#: view/settings/widget.php:18 view/settings/widget.php:114
+#: view/settings/widget.php:185
+msgid "checked"
+msgstr "pažymėta"
+
+#: view/listpage_form_setting/additional_options.php:110
+msgid "\"Add more Items\" Button Label"
+msgstr "Mygtuko „Pridėti daugiau elementų“ etiketė"
+
+#: view/listpage_form_setting/additional_options.php:112
+msgid ""
+"Enter the label text for 'Add more items' button on the quote list page."
+msgstr ""
+"Pasiūlymų sąrašo puslapyje įveskite mygtuko „Pridėti daugiau elementų“ "
+"etiketės tekstą."
+
+#: view/listpage_form_setting/additional_options.php:131
+msgid "Add More items"
+msgstr "Pridėti daugiau "
+
+#: view/listpage_form_setting/additional_options.php:141
+msgid "\"Add More Items\" Button Redirect Page"
+msgstr "Mygtuko „Pridėti daugiau elementų“ peradresavimo puslapis"
+
+#: view/listpage_form_setting/additional_options.php:143
+msgid ""
+"Select the page where you want the customer to be redirected to upon "
+"clicking the add more items button"
+msgstr ""
+"Spustelėję mygtuką „Pridėti daugiau prekių“, pasirinkite puslapį, į kurį "
+"norite nukreipti klientą"
+
+#: view/listpage_form_setting/form_settings.php:15
+msgid "Updated Successfully."
+msgstr "Žemėlapis buvo sėkmingai atnaujintas."
+
+#: view/listpage_form_setting/form_settings.php:38
+msgid "Deleted Successfully."
+msgstr "Sėkmingai Ištrinta"
+
+#: view/listpage_form_setting/form_settings.php:59
+msgid "Saved Successfully"
+msgstr "Įrašyta sėkmingai"
+
+#: view/listpage_form_setting/form_settings.php:80
+msgid "Field with same name Already Exist"
+msgstr "Laukas tokiu pačiu pavadinimu jau yra"
+
+#: view/listpage_form_setting/form_settings.php:100
+msgid "Enter 2 or more values for the selected input type."
+msgstr "Įveskite 2 ar daugiau pasirinkto įvesties tipo reikšmių."
+
+#: view/listpage_form_setting/quote_list.php:10
+msgid "Select \"Quote List\" Page"
+msgstr "Pasirinkite „Pasiūlymų sąrašo“ puslapį"
+
+#: view/listpage_form_setting/quote_list.php:12
+msgid "Select the WooCommerce page where you want to display the quote list."
+msgstr "Pasirinkite WooCommerce puslapį, kuriame norite rodyti citatų sąrašą."
+
+#: view/listpage_form_setting/quote_list.php:45
+msgid "Quote List Page Title"
+msgstr "Citatų Sąrašo Puslapio Pavadinimas"
+
+#: view/listpage_form_setting/quote_list.php:47
+msgid "Enter the title on the quote list page."
+msgstr "Įveskite pavadinimą pasiūlymų sąrašo puslapyje."
+
+#: view/listpage_form_setting/quote_list.php:75
+msgid "\"Quote List\" Page Layout"
+msgstr "„Pasiūlymų sąrašo“ puslapio išdėstymas"
+
+#: view/listpage_form_setting/quote_list.php:95
+msgid "Product list on the left & form on the right"
+msgstr "Produktų sąrašas kairėje ir forma dešinėje"
+
+#: view/listpage_form_setting/quote_list.php:114
+msgid "Product list on the top & form on the bottom"
+msgstr "Produktų sąrašas viršuje ir forma apačioje"
+
+#: view/listpage_form_setting/quote_list.php:125
+msgid "Choose What to Show If List is Empty"
+msgstr "Pasirinkite, ką rodyti, jei sąrašas tuščias"
+
+#: view/listpage_form_setting/quote_list.php:128
+#: view/listpage_form_setting/quote_list.php:178 view/settings/general.php:474
+#: view/settings/general.php:654 view/settings/general.php:792
+#: view/settings/general.php:833 view/settings/hide_addtocart_price.php:120
+#: view/settings/hide_addtocart_price.php:157
+#: view/settings/hide_addtocart_price.php:331 view/settings/template.php:51
+#: view/settings/template.php:231
+msgid "[Premium]"
+msgstr "[Priemoka]"
+
+#: view/listpage_form_setting/quote_list.php:139
+msgid "Illustration"
+msgstr "Paveikslas"
+
+#: view/listpage_form_setting/quote_list.php:146
+msgid "Empty Text"
+msgstr "Neįvestas tekstas!"
+
+#: view/listpage_form_setting/quote_list.php:154
+msgid "\"Go to Shop Page\" button\""
+msgstr "\"Eiti į parduotuvės puslapį\" mygtukas\""
+
+#: view/listpage_form_setting/quote_list.php:162
+msgid "Quote a Request Form"
+msgstr "Prašymo formos citavimas"
+
+#: view/listpage_form_setting/quote_list.php:175
+msgid "Contents to Show in Product Table"
+msgstr "Produktų lentelėje rodytinas turinys"
+
+#: view/listpage_form_setting/quote_list.php:189
+msgid "Product Image"
+msgstr "Prekės paveikslėlis"
+
+#: view/listpage_form_setting/quote_list.php:194
+msgid "Product Price"
+msgstr "Produkto kaina"
+
+#: view/listpage_form_setting/quote_list.php:205
+msgid "Each Product Subtotal"
+msgstr "Kiekvieno produkto tarpinė suma"
+
+#: view/listpage_form_setting/quote_list.php:210
+msgid "Product SKU"
+msgstr "Prekės kodas"
+
+#: view/listpage_form_setting/quote_list.php:215
+msgid "Taxes"
+msgstr "Mokesčiai"
+
+#: view/listpage_form_setting/quote_list.php:225
+msgid "Show \"Powered by ELEX Request a Quote\""
+msgstr "Rodyti „Powered by ELEX Request a Quote“"
+
+#: view/listpage_form_setting/quote_list.php:226
+msgid ""
+"Turn On or Off if you want to show or hide the ELEXtensions watermark on the "
+"quote list page."
+msgstr ""
+"Įjunkite arba Išjunkite, jei norite rodyti arba slėpti ELEXtensions "
+"vandenženklį citatų sąrašo puslapyje."
+
+#: view/market.php:99
+msgid "Note: Basic version supports only few features."
+msgstr "Pastaba: pagrindinė versija palaiko tik kelias funkcijas."
+
+#: view/market.php:100
+msgid "Your business is precious! Go Premium to get below features."
+msgstr ""
+"Jūsų verslas yra vertingas! Eikite į „Premium“, kad gautumėte toliau "
+"nurodytas funkcijas."
+
+#: view/market.php:101
+msgid " -  Product-based exclusion for Request a Quote."
+msgstr "-  Produktų išskyrimas prašant kainos pasiūlymo."
+
+#: view/market.php:103
+msgid " - User role-based exclusion for Request a Quote."
+msgstr ""
+"- Naudotojo vaidmenimis pagrįstas pašalinimas prašant kainos pasiūlymo."
+
+#: view/market.php:104
+msgid "- Disable Request a Quote option for unregistered users."
+msgstr "- Išjungti pasiūlymo užklausos parinktį neregistruotiems naudotojams."
+
+#: view/market.php:105
+msgid "- Exclude Request a Quote based on the product stocks."
+msgstr "- Išskirti užklausą dėl kainos, atsižvelgiant į produktų atsargas."
+
+#: view/market.php:106
+msgid "- Product-based exclusion from the 'Hide Add to Cart and Price' option."
+msgstr "- Produkto pašalinimas iš parinkties „Slėpti į krepšelį ir kainą“."
+
+#: view/market.php:107
+msgid ""
+"- User role-based exclusion from the 'Hide Add to Cart and Price' option."
+msgstr ""
+"- Naudotojo vaidmenimis pagrįstas pašalinimas iš parinkties „Slėpti "
+"įtraukimą į krepšelį ir kainą“."
+
+#: view/market.php:109
+msgid "- Quote list customization option for an empty quote list page."
+msgstr ""
+"- Pasiūlymų sąrašo tinkinimo parinktis tuščiam pasiūlymų sąrašo puslapiui."
+
+#: view/market.php:111
+msgid "- Product table customization option for the quote list page."
+msgstr "- Pasiūlymų sąrašo puslapio produktų lentelės tinkinimo parinktis."
+
+#: view/market.php:123
+msgid "You May Also like"
+msgstr "Jums galbūt patiks"
+
+#: view/notification_settings/general.php:16
+msgid "Notifications Email Address"
+msgstr "Pranešimų el. pašto adresas"
+
+#: view/notification_settings/general.php:19
+msgid ""
+"Enter the email addresses to receive a notification when the customer places "
+"a quote request. By default, the administrator email id is taken to get a "
+"notification. Multiple email ids should be separated by commas."
+msgstr ""
+"Įveskite el. pašto adresus, kad gautumėte pranešimą, kai klientas pateikia "
+"pasiūlymo užklausą. Pagal numatytuosius nustatymus administratoriaus el. "
+"pašto ID naudojamas pranešimui gauti. Keli el. pašto ID turėtų būti atskirti "
+"kableliais."
+
+#: view/notification_settings/general.php:44
+msgid "Select Order Statuses To Notify Customers"
+msgstr "Pasirinkite užsakymo būsenas, kad praneštumėte klientams"
+
+#: view/notification_settings/general.php:46
+msgid ""
+"Select the order statuses for which customers should receive an email "
+"notification."
+msgstr ""
+"Pasirinkite užsakymo būsenas, dėl kurių klientai turėtų gauti pranešimą el. "
+"paštu."
+
+#: view/notification_settings/general.php:70
+msgid ""
+"Quote Requested\n"
+"                                        "
+msgstr "Prašoma kainos pasiūlymo"
+
+#: view/notification_settings/general.php:80
+msgid ""
+"Quote Approved\n"
+"                                        "
+msgstr "Pasiūlymas patvirtintas"
+
+#: view/notification_settings/general.php:95
+msgid "Debug Log"
+msgstr "Derinimo žurnalas"
+
+#: view/notification_settings/general.php:97
+msgid ""
+"Find email, sms and google chat logs here (wp-content\\uploads\\wc-logs)."
+msgstr ""
+"Raskite el. laiškus, sms žinutes ir „Google“ pokalbių žurnalus čia (wp-"
+"content\\uploads\\wc-logs)."
+
+#: view/notification_settings/google_chat.php:17
+msgid ""
+"Enable to receive Google Chat notification when the customer makes a quote "
+"request."
+msgstr ""
+"Įgalinti gauti „Google“ pokalbių pranešimą, kai klientas pateikia pasiūlymo "
+"užklausą."
+
+#: view/notification_settings/google_chat.php:51
+msgid "Webhook URL"
+msgstr "„Webhook“ URL"
+
+#: view/notification_settings/google_chat.php:53
+msgid ""
+"Enter the Google Chat Webhook URL. You can find this URL on your google chat "
+"window."
+msgstr ""
+"Įveskite „Google“ pokalbių „Webhook“ URL. Šį URL galite rasti „Google“ "
+"pokalbių lange."
+
+#: view/notification_settings/sms.php:32
+#, php-format
+msgid ""
+"Enable to receive SMS notification when the customer makes a quote request. "
+"Sign up for a new Twilio account %1$s."
+msgstr ""
+"Įgalinti gauti SMS pranešimą, kai klientas pateikia pasiūlymo užklausą. "
+"Užsiregistruokite naujai „Twilio“ paskyrai %1$s."
+
+#: view/notification_settings/sms.php:45
+msgid "Twilio SID"
+msgstr "Twilio SID"
+
+#: view/notification_settings/sms.php:47
+msgid "Enter Your Twilio SID"
+msgstr "Įveskite savo „Twilio“ SID"
+
+#: view/notification_settings/sms.php:77
+msgid "Twilio Token"
+msgstr "„Twilio“ žetonas"
+
+#: view/notification_settings/sms.php:79
+msgid "Enter Your Twilio Token"
+msgstr "Įveskite savo „Twilio“ atpažinimo ženklą"
+
+#: view/notification_settings/sms.php:111
+msgid "Twilio Mobile Number"
+msgstr "„Twilio“ mobiliojo telefono numeris"
+
+#: view/notification_settings/sms.php:113
+msgid ""
+"Enter the mobile number where you want to get a notification when the "
+"customer places a quote request"
+msgstr ""
+"Įveskite mobiliojo telefono numerį, kuriuo norite gauti pranešimą, kai "
+"klientas pateikia kainos užklausą"
+
+#: view/notification_settings/sms.php:145
+msgid "Notification Mobile Number"
+msgstr "Pranešimo mobiliojo telefono numeris"
+
+#: view/notification_settings/sms.php:147
+msgid "Enter Your Twilio mobile Number"
+msgstr "Įveskite savo „Twilio“ mobiliojo telefono numerį"
+
+#: view/output.php:15
+msgid ""
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+
+#: view/output.php:40 view/output.php:41 view/output.php:42 view/output.php:43
+#: view/output.php:44 view/output.php:45 view/output.php:46 view/output.php:59
+#: view/output.php:62 view/output.php:83 view/output.php:84 view/output.php:86
+#: view/output.php:143
+msgid "\n"
+msgstr "\n"
+
+#: view/output.php:47
+msgid "Yes"
+msgstr "Taip"
+
+#: view/output.php:53
+msgid "Length: "
+msgstr "Ilgis:"
+
+#: view/output.php:54
+msgid " Status:"
+msgstr " Būsena:"
+
+#: view/output.php:56
+msgid " ERROR: Too Long"
+msgstr " KLAIDA: per ilgas"
+
+#: view/output.php:58
+msgid " Acceptable"
+msgstr " Priimtinas"
+
+#: view/output.php:66 view/output.php:71
+msgid " (#"
+msgstr " ( #"
+
+#: view/output.php:76
+msgid "Enabled"
+msgstr "Įjungta"
+
+#: view/output.php:83
+msgid "On ("
+msgstr "Įjungta ("
+
+#: view/output.php:84
+msgid "Your server supports fsockopen."
+msgstr "Jūsų serveris palaiko fsockopen."
+
+#: view/output.php:85
+msgid "Your server supports cURL."
+msgstr "Jūsų serveris palaiko cURL."
+
+#: view/output.php:86
+msgid "Your server has the SOAP Client enabled."
+msgstr "Jūsų serveryje įgalintas SOAP klientas."
+
+#: view/output.php:116
+msgid "Site Health Info:"
+msgstr "Svetainės sveikatos informacija:"
+
+#: view/quote/add_to_quote.php:4 view/quote/view_quote_list.php:2
+msgid "text-center"
+msgstr "teksto centras"
+
+#: view/quote/quote_list_main.php:5
+msgid "Powered by ELEX Request a Quote "
+msgstr "Powered by ELEX Prašyti kainos pasiūlymo"
+
+#: view/saved_toast.php:12
+msgid "Changes Saved Successfully!"
+msgstr "Pakeitimai sėkmingai išsaugoti!"
+
+#: view/settings/general.php:14
+msgid "Quote Button on Shop Page"
+msgstr "Kainos pasiūlymo mygtukas parduotuvės puslapyje"
+
+#: view/settings/general.php:16
+msgid "Toggle On or Off to display the Add to Quote button on the shop page"
+msgstr ""
+"Įjunkite arba išjunkite, kad parduotuvės puslapyje būtų rodomas mygtukas "
+"Įtraukti į pasiūlymą"
+
+#: view/settings/general.php:47
+msgid "Quote Button on Product Page"
+msgstr "Citatos mygtukas produkto puslapyje"
+
+#: view/settings/general.php:50
+msgid ""
+"Toggle On or Off the display of the Add to Quote button on the product page"
+msgstr ""
+"Įjungti arba išjungti mygtuko Pridėti prie pasiūlymo rodymą produkto "
+"puslapyje"
+
+#: view/settings/general.php:77
+msgid "Quote Button Configurations"
+msgstr "Kainos pasiūlymo mygtuko konfigūracijos"
+
+#: view/settings/general.php:83
+msgid "Open Quote Form"
+msgstr "Atidaryti pasiūlymo formą"
+
+#: view/settings/general.php:86
+msgid "Select how you want to show the quote list to your user."
+msgstr "Pasirinkite, kaip norite rodyti pasiūlymų sąrašą naudotojui."
+
+#: view/settings/general.php:109
+msgid "In a New Page"
+msgstr "Naujame puslapyje"
+
+#: view/settings/general.php:112
+msgid "In a Light Box"
+msgstr "Šviesdėžėje"
+
+#: view/settings/general.php:124
+msgid "Add to Quote Success Alert Message"
+msgstr "Įtraukti į Pasiūlymo Sėkmės Pranešimą"
+
+#: view/settings/general.php:128
+msgid ""
+"Enter the alert message to display on successful addition of the product to "
+"the quote list."
+msgstr ""
+"Įveskite įspėjamąjį pranešimą, kuris bus rodomas sėkmingai įtraukus produktą "
+"į pasiūlymų sąrašą."
+
+#: view/settings/general.php:162
+msgid "Quote Button Customization"
+msgstr "Pasiūlymo mygtuko pritaikymas"
+
+#: view/settings/general.php:166
+msgid "Quote Button Label"
+msgstr "Citatos Mygtuko Etiketė"
+
+#: view/settings/general.php:168
+msgid "Enter a custom label text for the request a quote button"
+msgstr ""
+"Įveskite užklausos kainos pasiūlymo mygtuko pasirinktinės etiketės tekstą"
+
+#: view/settings/general.php:198
+msgid "Default Button Color"
+msgstr "Numatytoji mygtuko spalva"
+
+#: view/settings/general.php:200
+msgid "Choose the default color for the buttons."
+msgstr "Pasirinkite numatytąją mygtukų spalvą."
+
+#: view/settings/general.php:237
+msgid "Filter Products"
+msgstr "Filtruoti produktus"
+
+#: view/settings/general.php:244
+msgid ""
+"The quote button will be added to all the products by\n"
+"                default. If you want to include\n"
+"                or exclude certain products, use the filter options given "
+"below."
+msgstr ""
+"Pasiūlymo mygtukas bus pridėtas prie visų produktų\n"
+"                numatytąjį. Jei norite įtraukti\n"
+"                arba neįtraukti tam tikrų produktų, naudokite toliau "
+"pateiktas filtro parinktis."
+
+#: view/settings/general.php:261 view/settings/hide_addtocart_price.php:117
+msgid "Include Products"
+msgstr "Įtraukti produktus"
+
+#: view/settings/general.php:280
+msgid ""
+"Select the products for which request a quote settings should\n"
+"                                        be applied. Rest of the products "
+"will be excluded\n"
+"                                        automatically."
+msgstr ""
+"Pasirinkite produktus, kurių kainos pasiūlymo nustatymai turėtų būti "
+"pateikti\n"
+"                                        bus pritaikyti. Likę produktai bus "
+"automatiškai pašalinti."
+
+#: view/settings/general.php:301
+msgid "Include Products By Category"
+msgstr "Įtraukti Produktus Pagal Kategoriją"
+
+#: view/settings/general.php:303
+msgid ""
+"Select the products categories for which you want to display the request a "
+"quote button"
+msgstr ""
+"Pasirinkite produktų kategorijas, kurioms norite rodyti užklausos kainos "
+"pasiūlymo mygtuką"
+
+#: view/settings/general.php:357
+msgid "Include Products By Name"
+msgstr "Įtraukti Produktus Pagal Pavadinimą"
+
+#: view/settings/general.php:360
+msgid ""
+"Select the products names for which you want to display the request a quote "
+"button"
+msgstr ""
+"Pasirinkite produktų pavadinimus, kuriems norite rodyti užklausos kainos "
+"pasiūlymo mygtuką"
+
+#: view/settings/general.php:412
+msgid "Include Products By Tags"
+msgstr "Įtraukti Produktus Pagal Žymes"
+
+#: view/settings/general.php:415
+msgid ""
+"Select the products tags for which you want to display the request a quote "
+"button"
+msgstr ""
+"Pasirinkite produktų žymas, kurioms norite rodyti užklausos kainos pasiūlymo "
+"mygtuką"
+
+#: view/settings/general.php:471
+msgid "Exclude Product"
+msgstr "Neįtraukti produkto"
+
+#: view/settings/general.php:494
+msgid ""
+"Select the products for which request a quote settings should\n"
+"                                        not be applied."
+msgstr ""
+"Pasirinkite produktus, kurių kainos pasiūlymo nustatymai turėtų būti\n"
+"                                        pateikti negali būti taikomas."
+
+#: view/settings/general.php:514 view/settings/hide_addtocart_price.php:182
+msgid "Exclude Products By Category"
+msgstr "Neįtraukti produktų pagal kategoriją"
+
+#: view/settings/general.php:516
+msgid ""
+"Select the products categories for which you don't want to display the "
+"request a quote button"
+msgstr ""
+"Pasirinkite produktų kategorijas, kurioms nenorite rodyti prašymo kainos "
+"pasiūlymo mygtuko"
+
+#: view/settings/general.php:558 view/settings/hide_addtocart_price.php:228
+msgid "Exclude Products By Name"
+msgstr "Neįtraukti produktų pagal pavadinimą"
+
+#: view/settings/general.php:561
+msgid ""
+"Select the individual product names for which you don't want to display the "
+"request a quote button"
+msgstr ""
+"Pasirinkite atskirus produktų pavadinimus, kuriems nenorite rodyti užklausos "
+"kainos pasiūlymo mygtuko"
+
+#: view/settings/general.php:600 view/settings/hide_addtocart_price.php:275
+msgid "Exclude Products By Tags"
+msgstr "Išskirti Produktus Pagal Žymes"
+
+#: view/settings/general.php:603
+msgid ""
+"Select the products tags for which you don't want to display the request a "
+"quote button"
+msgstr ""
+"Pasirinkite produktų žymas, kurių kainos užklausos mygtuko rodyti nenorite"
+
+#: view/settings/general.php:651 view/settings/hide_addtocart_price.php:328
+msgid "Role Based Filter"
+msgstr "Vaidmenimis pagrįstas filtras"
+
+#: view/settings/general.php:674
+msgid ""
+"Select the roles for which request a quote settings should be\n"
+"                                        applied/not."
+msgstr ""
+"Pasirinkite vaidmenis, kurių užklausos pasiūlymo nustatymai turėtų būti\n"
+"                                        taikoma/netaikoma."
+
+#: view/settings/general.php:694
+msgid "Include Roles"
+msgstr "Įtraukti vaidmenis"
+
+#: view/settings/general.php:696
+msgid ""
+"Select the user roles for which you want to display the request a quote "
+"button"
+msgstr ""
+"Pasirinkite naudotojų vaidmenis, kurių užklausos kainos pasiūlymo mygtuką "
+"norite rodyti"
+
+#: view/settings/general.php:739
+msgid "Exclude Roles"
+msgstr "Neįtraukti vaidmenų"
+
+#: view/settings/general.php:741
+msgid ""
+"Select the user roles for which you don't want to display the request a "
+"quote button"
+msgstr ""
+"Pasirinkite naudotojų vaidmenis, kurių kainos užklausos mygtuko rodyti "
+"nenorite"
+
+#: view/settings/general.php:789
+msgid "Disable Quote Request for Unregistered Users"
+msgstr "Išjungti pasiūlymo užklausą neregistruotiems vartotojams"
+
+#: view/settings/general.php:809
+msgid ""
+"By enabling this option guest users can be redirected to the\n"
+"                                        My Account page for registration."
+msgstr ""
+"Įjungus šią parinktį svečių naudotojai gali būti nukreipti į\n"
+"                                        Mano paskyros puslapis registracijai."
+
+#: view/settings/general.php:830
+msgid "Include/Exclude products based on stock"
+msgstr "Įtraukti/neįtraukti produktų pagal atsargas"
+
+#: view/settings/general.php:838
+msgid ""
+"Select an option to determine how you want to display the add to quote "
+"button based on the product availablity"
+msgstr ""
+"Pasirinkite parinktį, kad nustatytumėte, kaip norite rodyti mygtuką pridėti "
+"prie citatos, atsižvelgiant į produkto prieinamumą"
+
+#: view/settings/general.php:863
+msgid "Show Add to Quote Button for all the products"
+msgstr "Rodyti mygtuką Įtraukti į pasiūlymą visiems produktams"
+
+#: view/settings/general.php:868
+msgid "Hide Add to Quote button for Out of Stock products"
+msgstr "Slėpti mygtuką „Pridėti prie pasiūlymo“ prekėms, kurių nėra sandėlyje"
+
+#: view/settings/general.php:875
+msgid ""
+"Show Add to Quote button only for Out of Stock\n"
+"                                        products"
+msgstr ""
+"Rodyti mygtuką Pridėti prie pasiūlymo tik prekėms, kurių nėra sandėlyje"
+
+#: view/settings/general.php:892
+msgid "Third Party API key"
+msgstr "Trečiosios šalies API raktas"
+
+#: view/settings/general.php:900
+msgid ""
+"In case you want to get quote requests/orders via third party plugins, Turn "
+"On the below\n"
+"\t\t\t\t\tfunctionality & get the API key."
+msgstr ""
+"Jei norite gauti kotiruočių užklausas/užsakymus per trečiųjų šalių "
+"įskiepius, įjunkite žemiau pateiktą\n"
+"\t\t\t\t\tir gaukite API raktą."
+
+#: view/settings/general.php:916
+msgid "Third Party Usage"
+msgstr "Trečiosios šalies naudojimas"
+
+#: view/settings/general.php:929
+msgid "Turn this ON, to get the API Key."
+msgstr "Įjunkite tai, kad gautumėte API raktą."
+
+#: view/settings/general.php:936
+msgid "Rest API Key"
+msgstr "REST API raktas"
+
+#: view/settings/general.php:945
+msgid "Copy API Key"
+msgstr "Kopijuoti API raktą"
+
+#: view/settings/general.php:988
+msgid "Copied Successfully!"
+msgstr "Sėkmingai nukopijuota!"
+
+#: view/settings/general.php:1005
+msgid "Error copying text"
+msgstr "Kopijuojant tekstą įvyko klaida"
+
+#: view/settings/hide_addtocart_price.php:19
+msgid "Hide Price"
+msgstr "Slėpti Kainą"
+
+#: view/settings/hide_addtocart_price.php:21
+msgid ""
+"Enabling the Hide Price will automatically enable the Hide Add to Cart "
+"button on the Shop page and the Product Page."
+msgstr ""
+"Įjungus Slėpti kainą, bus automatiškai įjungtas mygtukas Slėpti Į krepšelį "
+"Parduotuvės puslapyje ir Produkto puslapyje."
+
+#: view/settings/hide_addtocart_price.php:46
+msgid ""
+"Turn on to hide price in the Product page, Shop Page and Quote List Page."
+msgstr ""
+"Įjunkite, kad paslėptumėte kainą puslapyje „Produktas“, „Parduotuvės "
+"puslapis“ ir „Pasiūlymų sąrašas“."
+
+#: view/settings/hide_addtocart_price.php:61
+msgid "Hide Add to Cart Button on Shop Page"
+msgstr "Slėpti Į krepšelį Mygtuką Parduotuvės Puslapyje"
+
+#: view/settings/hide_addtocart_price.php:74
+msgid "Turn on to hide the add to cart button on the shop page."
+msgstr ""
+"Įjunkite, kad paslėptumėte mygtuką Įtraukti į krepšelį parduotuvės puslapyje."
+
+#: view/settings/hide_addtocart_price.php:89
+msgid "Hide Add to Cart Button on Product Page"
+msgstr "Slėpti Į krepšelį mygtuką produkto puslapyje"
+
+#: view/settings/hide_addtocart_price.php:99
+msgid "Turn on to hide the add to cart button on the product page."
+msgstr ""
+"Įjunkite, kad paslėptumėte mygtuką Įtraukti į krepšelį produkto puslapyje."
+
+#: view/settings/hide_addtocart_price.php:133
+#: view/settings/hide_addtocart_price.php:170
+msgid ""
+"Turn on & Select the Products for which the above settings should not be "
+"applied"
+msgstr ""
+"Įjunkite ir pasirinkite Produktus, kuriems neturėtų būti taikomi aukščiau "
+"nurodyti nustatymai"
+
+#: view/settings/hide_addtocart_price.php:154
+msgid "Exclude Products"
+msgstr "Netaikyti šioms prekėms"
+
+#: view/settings/hide_addtocart_price.php:184
+msgid ""
+"Select the product categories that you want to exclude from the above "
+"applied settings"
+msgstr ""
+"Pasirinkite produktų kategorijas, kurias norite pašalinti iš anksčiau "
+"taikomų nustatymų"
+
+#: view/settings/hide_addtocart_price.php:230
+msgid ""
+"Select the product names that you want to exclude from the above applied "
+"settings"
+msgstr ""
+"Pasirinkite produktų pavadinimus, kuriuos norite pašalinti iš anksčiau "
+"taikomų nustatymų"
+
+#: view/settings/hide_addtocart_price.php:277
+msgid ""
+"Select the product tags that you want to exclude from the above applied "
+"settings"
+msgstr ""
+"Pasirinkite produkto žymas, kurias norite pašalinti iš anksčiau taikomų "
+"nustatymų"
+
+#: view/settings/hide_addtocart_price.php:348
+msgid ""
+"Select the roles for which the above settings should be\n"
+"                                        applied/not."
+msgstr ""
+"Pasirinkite vaidmenis, kuriems turėtų būti taikomi pirmiau nurodyti "
+"nustatymai\n"
+"                                        taikoma/netaikoma."
+
+#: view/settings/template.php:10
+msgid ""
+"You can configure your email and sms/chat template here,\n"
+"                Make use of placeholders to\n"
+"                fill the fields dynamically."
+msgstr ""
+"Čia galite konfigūruoti savo el. paštą ir sms/pokalbio šabloną,\n"
+"                Pasinaudokite vietos rezervavimo ženklais, kad\n"
+"                užpildykite laukus dinamiškai."
+
+#: view/settings/template.php:19
+msgid ""
+"Please note that placeholders can be applied only to\n"
+"                the\n"
+"                email and chat/sms body."
+msgstr ""
+"Atkreipkite dėmesį, kad vietos rezervavimo ženklai gali būti taikomi tik\n"
+"                \n"
+"                el. paštą ir pokalbio/SMS žinutės tekstą."
+
+#: view/settings/template.php:28
+msgid ""
+"Also note, the @payment_link placeholder can only be\n"
+"                applied to\n"
+"                the email body sent after the quote is approved. You can "
+"also include HTML tags and\n"
+"                inline styles in the email body but the same wont be "
+"applicable to the chat/sms\n"
+"                body."
+msgstr ""
+"Taip pat atkreipkite dėmesį, kad @payment_link vietos rezervavimo ženklas "
+"gali būti tik\n"
+"                taikoma\n"
+"                el. laiško turinys, išsiųstas po pasiūlymo patvirtinimo. "
+"Taip pat galite įtraukti HTML žymes ir\n"
+"                įdėtieji stiliai el. laiško tekste, bet tas pats nebus "
+"taikomas pokalbiams / sms\n"
+"                kūnas."
+
+#: view/settings/template.php:48
+msgid "Use Predefined Email Templates"
+msgstr "Naudoti iš anksto nustatytus el. pašto šablonus"
+
+#: view/settings/template.php:56
+msgid ""
+"Enable this option to use predefined email templates within the plugin. You "
+"can configure the email content below."
+msgstr ""
+"Įjunkite šią parinktį, jei norite naudoti iš anksto nustatytus el. pašto "
+"šablonus įskiepyje. Žemiau galite sukonfigūruoti el. pašto turinį."
+
+#: view/settings/template.php:90
+msgid "Email Template"
+msgstr "el. laiško šablonas"
+
+#: view/settings/template.php:107 view/settings/template.php:153
+#: view/settings/template.php:195
+msgid "Preview Template"
+msgstr "Peržiūra"
+
+#: view/settings/template.php:144
+msgid ""
+"Rectangle Logo\n"
+"\t\t\t\t\t\t\t\t\t\t\tTemplate"
+msgstr ""
+"Stačiakampio logotipo\n"
+"\t\t\t\t\t\t\t\t\t\t\tšablonas"
+
+#: view/settings/template.php:191
+msgid "Non Logo Template"
+msgstr "Šablonas be logotipo"
+
+#: view/settings/template.php:228
+msgid "Company Logo"
+msgstr "Įmonės logotipas"
+
+#: view/settings/template.php:241 view/settings/template.php:249
+
+msgid "d-none"
+msgstr "d-nėra"
+
+#: view/settings/template.php:241
+msgid "Upload Image"
+msgstr "Įkelti paveikslėlį"
+
+#: view/settings/template.php:260
+msgid "upload png or jpeg file"
+msgstr "įkelti png arba jpeg failą"
+
+#: view/settings/template.php:270
+msgid "Terms and Condition"
+msgstr "Sąlygos"
+
+#: view/settings/template.php:272
+msgid ""
+"Enable this option if you wish to include the terms and conditions in the "
+"email template."
+msgstr ""
+"Įjunkite šią parinktį, jei norite įtraukti sąlygas į el. laiško šabloną."
+
+#: view/settings/template.php:304
+msgid "Terms and Condition Content"
+msgstr "Sąlygų turinys"
+
+#: view/settings/template.php:319
+msgid "Quote Request Email Template: Sent to the Site Administrator"
+msgstr ""
+"Pasiūlymo užklausos el. laiško šablonas: išsiųstas svetainės administratoriui"
+
+#: view/settings/template.php:326 view/settings/template.php:444
+#: view/settings/template.php:556 view/settings/template.php:669
+msgid "Email Subject"
+msgstr "El. laiško Tema"
+
+#: view/settings/template.php:328
+msgid ""
+"Enter the subject for the email sent to the administrator when a quote is "
+"received."
+msgstr "Gavus pasiūlymą, įveskite administratoriui siunčiamo el. laiško temą."
+
+#: view/settings/template.php:353
+msgid "Quote Request"
+msgstr "Quote Request"
+
+#: view/settings/template.php:362 view/settings/template.php:479
+#: view/settings/template.php:591 view/settings/template.php:704
+msgid "Email Heading"
+msgstr "El. pašto antraštė"
+
+#: view/settings/template.php:364
+msgid ""
+"Enter the heading for the email sent to the administrator when a quote is "
+"received."
+msgstr ""
+"Įveskite administratoriui išsiųsto el. laiško antraštę, kai gaunamas "
+"pasiūlymas."
+
+#: view/settings/template.php:388 view/settings/template.php:505
+msgid "Your Quote Request has been received."
+msgstr "Jūsų pasiūlymo užklausa gauta."
+
+#: view/settings/template.php:398 view/settings/template.php:515
+#: view/settings/template.php:627 view/settings/template.php:740
+msgid "Email Body"
+msgstr "El. laiško turinys"
+
+#: view/settings/template.php:400
+msgid ""
+"Enter the body for the email sent to the administrator when a quote is "
+"received."
+msgstr ""
+"Įveskite administratoriui išsiųsto el. laiško turinį, kai gaunamas kainos "
+"pasiūlymas."
+
+#: view/settings/template.php:437
+msgid "Quote Requested Email Template: Sent to the Customer"
+msgstr "Prašomo pasiūlymo el. laiško šablonas: išsiųstas klientui"
+
+#: view/settings/template.php:446
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"requested."
+msgstr ""
+"Įveskite klientui išsiųsto el. laiško temą, kai prašoma kainos pasiūlymo."
+
+#: view/settings/template.php:481
+msgid ""
+"Enter the heading for the email sent to the customer when a quote is "
+"requested."
+msgstr ""
+"Įveskite el. laiško, išsiųsto klientui, antraštę, kai prašoma pasiūlymo."
+
+#: view/settings/template.php:517
+msgid ""
+"Enter the body for the email sent to the customer when a quote is requested."
+msgstr ""
+"Įveskite klientui išsiųsto el. laiško turinį, kai prašoma kainos pasiūlymo."
+
+#: view/settings/template.php:549
+msgid "Quote Approved Email Template: Sent to the Customer"
+msgstr "Patvirtinto pasiūlymo el. laiško šablonas: išsiųstas klientui"
+
+#: view/settings/template.php:558
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"accepted by the administrator."
+msgstr ""
+"Įveskite klientui išsiųsto el. laiško temą, kai administratorius priima "
+"pasiūlymą."
+
+#: view/settings/template.php:593
+msgid ""
+"Enter the heading for the email sent to the customer after the quote request "
+"is accepted by the administrator."
+msgstr ""
+"Įveskite el. laiško, išsiųsto klientui po to, kai administratorius priima "
+"kainos užklausą, antraštę."
+
+#: view/settings/template.php:617
+msgid "Your Quote Request has been approved."
+msgstr "Jūsų pasiūlymo užklausa patvirtinta."
+
+#: view/settings/template.php:629
+msgid ""
+"Enter the body for the email sent to the customer after the quote request is "
+"accepted by the administrator."
+msgstr ""
+"Įveskite klientui išsiųsto el. laiško turinį, kai administratorius priims "
+"pasiūlymo užklausą."
+
+#: view/settings/template.php:662
+msgid "Quote Rejected Email Template: Sent to the Customer"
+msgstr "Pasiūlymo atmetimo el. laiško šablonas: išsiųstas klientui"
+
+#: view/settings/template.php:671
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"rejected by the administrator."
+msgstr ""
+"Įveskite klientui išsiųsto el. laiško temą, kai administratorius atmeta "
+"pasiūlymą."
+
+#: view/settings/template.php:706
+msgid ""
+"Enter the heading for the email sent to the customer after the quote request "
+"is rejected by the administrator."
+msgstr ""
+"Įveskite el. laiško, išsiųsto klientui po to, kai administratorius atmetė "
+"pasiūlymo užklausą, antraštę."
+
+#: view/settings/template.php:730
+msgid "Your Quote Request has been rejected."
+msgstr "Jūsų pasiūlymo užklausa atmesta."
+
+#: view/settings/template.php:742
+msgid ""
+"Enter the body for the email sent to the customer after the quote request is "
+"rejected by the administrator."
+msgstr ""
+"Įveskite klientui išsiųsto el. laiško turinį, kai administratorius atmetė "
+"pasiūlymo užklausą."
+
+#: view/settings/template.php:775
+msgid ""
+"Quote Requested SMS / Google Chat Template: Sent to the Site Administrator"
+msgstr ""
+"Prašomos kainos SMS / „Google“ pokalbio šablonas: išsiųstas svetainės "
+"administratoriui"
+
+#: view/settings/template.php:782
+msgid "SMS And Google Chat Body"
+msgstr "SMS ir „Google“ pokalbio tekstas"
+
+#: view/settings/template.php:785
+msgid ""
+"Enter the content for the SMS/google chat notification sent to the "
+"administrator on receiving a quote request. you can enter text or fill the "
+"fields dynamically using placeholders from the above table. HTML tags are "
+"not accepted in this field."
+msgstr ""
+"Įveskite SMS/„Google“ pokalbio pranešimo, išsiųsto administratoriui gavus "
+"kainos užklausą, turinį. Galite įvesti tekstą arba dinamiškai užpildyti "
+"laukus naudodami vietos rezervavimo ženklus iš aukščiau pateiktos lentelės. "
+"HTML žymos šiame lauke nepriimamos."
+
+#: view/settings/template.php:825
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: view/settings/template.php:826
+msgid "Placeholder"
+msgstr "Laukelio paaiškinimo tekstas"
+
+#: view/settings/template.php:831
+msgid "Core Fields"
+msgstr "Pagrindiniai laukai"
+
+#: view/settings/template.php:836
+msgid "Billing First Name"
+msgstr "Pirkėjo vardas"
+
+#: view/settings/template.php:837
+
+msgid "@billing_first_name"
+msgstr "Pirkėjo vardas"
+
+#: view/settings/template.php:841
+msgid "Billing Last Name"
+msgstr "Pirkėjo pavardė"
+
+#: view/settings/template.php:842
+
+msgid "@billing_last_name"
+msgstr "Pirkėjo pavardė"
+
+#: view/settings/template.php:846
+msgid "Billing Company"
+msgstr "Atsiskaitymo įmonė"
+
+#: view/settings/template.php:847
+
+msgid "@billing_company"
+msgstr "Atsiskaitymo įmonė"
+
+#: view/settings/template.php:851
+msgid "Billing Country"
+msgstr "Atsiskaitymo šalis"
+
+#: view/settings/template.php:852
+
+msgid "@billing_country"
+msgstr "Atsiskaitymo šalis"
+
+#: view/settings/template.php:855
+msgid "Billing Address 1"
+msgstr "Atsiskaitymo adresas 1"
+
+#: view/settings/template.php:856
+
+msgid "@billing_address_1"
+msgstr "Atsiskaitymas"
+
+#: view/settings/template.php:860
+msgid "Billing Address 2"
+msgstr "Atsiskaitymo adresas 2"
+
+#: view/settings/template.php:861
+
+msgid "@billing_address_2"
+msgstr "Atsiskaitymas"
+
+#: view/settings/template.php:864
+msgid "Billing City"
+msgstr "Atsiskaitymo miestas"
+
+#: view/settings/template.php:865
+msgid "@billing_city"
+msgstr "Pirkėjo miestas"
+
+#: view/settings/template.php:868
+msgid "Billing State"
+msgstr "Atsiskaitymo rajonas"
+
+#: view/settings/template.php:869
+msgid "@billing_state"
+msgstr "Pirkėjo valstija"
+
+#: view/settings/template.php:872
+msgid "Billing Postcode"
+msgstr "Atsiskaitymo pašto kodas"
+
+#: view/settings/template.php:873
+
+msgid "@billing_postcode"
+msgstr "Atsiskaitymo pašto kodas"
+
+#: view/settings/template.php:876
+msgid "Billing Phone"
+msgstr "Atsiskaitymo telefono Nr"
+
+#: view/settings/template.php:877
+msgid "@billing_phone"
+msgstr "Atsiskaitymo telefono Nr"
+
+#: view/settings/template.php:880
+msgid "Billing Email"
+msgstr "El. adresas sąskaitai"
+
+#: view/settings/template.php:881
+msgid "@billing_email"
+msgstr "Pirkėjo el. paštas"
+
+#: view/settings/template.php:884
+msgid "Order Items"
+msgstr "Užsakytos prekės"
+
+#: view/settings/template.php:885
+msgid "@order_items"
+msgstr "Užsakyti prekes"
+
+#: view/settings/template.php:888
+msgid "Payment Link"
+msgstr "Mokėjimo Nuoroda"
+
+#: view/settings/template.php:889
+msgid "@payment_link"
+msgstr "Mokėjimo Nuoroda"
+
+#: view/settings/template.php:892
+msgid "Customer Note"
+msgstr "Pirkėjo pastaba"
+
+#: view/settings/template.php:893
+msgid "@customer_note"
+msgstr "Pirkėjo pastaba"
+
+#: view/settings/template.php:896
+msgid "Custom Fields"
+msgstr "Tinkinti Laukeliai"
+
+#: view/settings/widget.php:11
+msgid "Show Quote List Icon"
+msgstr "Rodyti citatų sąrašo piktogramą"
+
+#: view/settings/widget.php:31
+msgid "Quote List Color On Hover"
+msgstr "Kainoraščio spalva užvedus pelės žymeklį"
+
+#: view/settings/widget.php:33
+msgid "Select the color of the widget when a customer hovers over it."
+msgstr "Pasirinkite valdiklio spalvą, kai klientas užveda ant jo žymeklį."
+
+#: view/settings/widget.php:61
+msgid "Quote List Icon Type"
+msgstr "Pasiūlymų sąrašo piktogramos tipas"
+
+#: view/settings/widget.php:63
+msgid ""
+"You may face compatibility issues with specific themes when Fixed icon type "
+"is chosen."
+msgstr ""
+"Pasirinkus fiksuotos piktogramos tipą, gali kilti suderinamumo su "
+"konkrečiomis temomis problemų."
+
+#: view/settings/widget.php:81
+msgid "Float"
+msgstr "Iškelti"
+
+#: view/settings/widget.php:82
+msgid "Fixed"
+msgstr "Fiksuota"
+
+#: view/settings/widget.php:93
+msgid "Show Button Label Next to Icon"
+msgstr "Rodyti mygtuko etiketę šalia piktogramos"
+
+#: view/settings/widget.php:126
+msgid "Button Label"
+msgstr "Mygtuko aprašymas"
+
+#: view/settings/widget.php:128
+msgid "Please enter the text that you would like to display as a button label."
+msgstr "Įveskite tekstą, kurį norėtumėte rodyti kaip mygtuko etiketę."
+
+#: view/settings/widget.php:163
+msgid "Show List Pop Up on Hover"
+msgstr "Rodyti sąrašo iškylantįjį langą užvedus pelės žymeklį"
+
+#: view/settings/widget.php:165
+msgid ""
+"Turn it on or off if you want to display or hide the list of products in the "
+"quote list by hovering over the quote list widget."
+msgstr ""
+"Įjunkite arba išjunkite, jei norite rodyti arba slėpti produktų sąrašą "
+"citatų sąraše, užvesdami pelės žymeklį ant citatų sąrašo valdiklio."
+
+#. Plugin Name of the plugin/theme
+msgid "ELEX WooCommerce Request a Quote - Basic"
+msgstr "Elex WooCommerce Prašyti kainos pasiūlymo - bazinis"
+
+#. Plugin URI of the plugin/theme
+msgid "https://elextensions.com/plugin/"
+msgstr "https://elextensions.com/plugin/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create Request a Quote option for your WooCommerce products. You can also "
+"create and customize request a quote forms to be displayed on the frontend. "
+"The plugin will also send automated email notifications for quote "
+"submissions, approvals, and rejections."
+msgstr ""
+"Sukurkite „Request a Quote“ parinktį savo „WooCommerce“ produktams. Taip pat "
+"galite sukurti ir tinkinti užklausos formas, kurios bus rodomos sąsajoje. "
+"Įskiepis taip pat siųs automatinius el. pašto pranešimus apie kainų "
+"pasiūlymus, patvirtinimus ir atmetimus."
+
+#. Author of the plugin/theme
+msgid "ELEXtensions"
+msgstr "ELEXtensions"
+
+#. Author URI of the plugin/theme
+msgid "https://elextensions.com/"
+msgstr "https://elextensions.com/"

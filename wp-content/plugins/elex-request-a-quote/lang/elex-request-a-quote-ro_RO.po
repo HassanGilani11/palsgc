@@ -1,0 +1,2581 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ELEX WooCommerce Request a Quote - Basic\n"
+"POT-Creation-Date: 2023-11-28 12:26+0530\n"
+"PO-Revision-Date: 2023-11-28 12:36+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n"
+"%100<=19) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-elex-request-a-quote.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: assets/js/components/form/fields/form.js:402
+msgid "Send Request"
+msgstr "Cerere trimisă"
+
+#: assets/js/components/form_settings.js:209
+#: assets/js/components/settings/form_setting_header.js:14
+msgid "Form Settings"
+msgstr "Setări formular"
+
+#: assets/js/components/form_settings.js:218
+msgid "Show Request a Quote Form"
+msgstr "Afișați formularul de solicitare a unei oferte"
+
+#: assets/js/components/form_settings.js:229
+#: assets/js/components/settings/form_setting_header.js:35
+msgid ""
+"Turn this Off, if you want to use any third party form to get the quote "
+"requests."
+msgstr ""
+"Dezactivați această opțiune, dacă doriți să utilizați orice formular terț "
+"pentru a obține solicitările de ofertă."
+
+#: assets/js/components/form_settings.js:238
+#: assets/js/components/settings/form_setting_header.js:44
+msgid "Form Header Title"
+msgstr "Titlu antet formular"
+
+#: assets/js/components/form_settings.js:239
+msgid ""
+"Enter the text you want to display as the header/title of the quote form."
+msgstr ""
+"Introduceți textul pe care doriți să îl afișați ca antet/titlu al "
+"formularului de ofertă."
+
+#: assets/js/components/form_settings.js:259
+msgid "Fill Your Details"
+msgstr "Completați-vă detaliile"
+
+#: assets/js/components/form_settings.js:263
+#: assets/js/components/settings/form_setting_header.js:67
+msgid "Form Submit Actions"
+msgstr "Formular Trimiteți acțiuni"
+
+#: assets/js/components/form_settings.js:268
+#: assets/js/components/settings/form_setting_header.js:72
+msgid "\"Send Request\" Button Redirectional URl"
+msgstr "Butonul \"Trimite cerere\" Redirecționare URl"
+
+#: assets/js/components/form_settings.js:270
+msgid ""
+"Please provide the page URL that you wish to redirect to, After clicking the "
+"'Send Request' button"
+msgstr ""
+"Vă rugăm să furnizați adresa URL a paginii către care doriți să "
+"redirecționați, După ce faceți clic pe butonul \"Trimiteți solicitarea\""
+
+#: assets/js/components/form_settings.js:299
+#: assets/js/components/settings/form_setting_header.js:98
+msgid "\"Send Request\" Success Message"
+msgstr "Mesaj de succes \"Trimite cerere\""
+
+#: assets/js/components/form_settings.js:301
+msgid ""
+"Enter the text that you want to display as a message after the successful "
+"submission of the quote request."
+msgstr ""
+"Introduceți textul pe care doriți să îl afișați ca mesaj după trimiterea cu "
+"succes a solicitării de ofertă."
+
+#: assets/js/components/form_settings.js:322
+msgid "Your request has been sent successfully."
+msgstr "Cererea ta a fost trimisa cu succes."
+
+#: assets/js/components/form_settings.js:328
+msgid "Form Field Settings"
+msgstr "Setări câmp formular"
+
+#: assets/js/components/form_settings.js:334
+msgid ""
+"When you create custom fields, the placeholder for the email template will "
+"be created based on the label text (For eg: Upload Image will be "
+"@Upload_Image). If you make changes to the label text in the future, please "
+"make sure to use the updated placeholder in the email body. Also, the label "
+"text cannot be modified for orders placed before the change."
+msgstr ""
+"Când creați câmpuri personalizate, substituentul pentru șablonul de e-mail "
+"va fi creat pe baza textului etichetei (de exemplu: Încărcați imaginea va fi "
+"@Upload_Image). Dacă modificați textul etichetei în viitor, asigurați-vă că "
+"utilizați substituentul actualizat în corpul e-mailului. De asemenea, textul "
+"etichetei nu poate fi modificat pentru comenzile plasate înainte de "
+"modificare."
+
+#: assets/js/components/form_settings.js:342
+msgid "Label Name"
+msgstr "Nume eticheta"
+
+#: assets/js/components/form_settings.js:343
+msgid "Field Type "
+msgstr "Tip câmp "
+
+#: assets/js/components/form_settings.js:344
+msgid "Placeholder "
+msgstr "Substituent "
+
+#: assets/js/components/form_settings.js:345
+msgid "Connected To "
+msgstr "Conectat la "
+
+#: assets/js/components/form_settings.js:346
+msgid "Required "
+msgstr "Necesar "
+
+#: assets/js/components/form_settings.js:347
+msgid "Actions "
+msgstr "Acțiuni "
+
+#: assets/js/components/form_settings.js:372
+msgid "Add New Field "
+msgstr "Adăugare câmp nou "
+
+#: assets/js/components/form_settings.js:376
+#: view/listpage_form_setting/additional_options.php:172
+#: view/listpage_form_setting/quote_list.php:249
+#: view/notification_settings/general.php:121
+#: view/notification_settings/google_chat.php:84
+#: view/notification_settings/sms.php:179 view/settings/general.php:974
+#: view/settings/hide_addtocart_price.php:368 view/settings/template.php:815
+#: view/settings/widget.php:195
+msgid "Save Changes"
+msgstr "Salvare Modificari"
+
+#: assets/js/components/mini_quote_list/render_mini_quote_list.js:31
+msgid "items in Quote List"
+msgstr "elemente din Lista de oferte"
+
+#: assets/js/components/mini_quote_list/render_mini_quote_list.js:56
+#: view/quote/view_quote_list.php:4
+msgid "View Quote List"
+msgstr "Vezi Cererea de ofertă"
+
+#: assets/js/components/quote_list/quote_list_content.js:87
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:62
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:70
+#: src/Templates/order_items.php:10
+msgid "Price"
+msgstr "Preț"
+
+#: assets/js/components/quote_list/quote_list_content.js:99
+#: view/listpage_form_setting/quote_list.php:200
+msgid "Quantity"
+msgstr "Cantitate"
+
+#: assets/js/components/quote_list/quote_list_content.js:110
+#: assets/js/components/quote_list/quote_list_content.js:121
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:64
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:117
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:72
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:125
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:122
+#: src/Templates/order_items.php:20 src/Templates/order_items.php:122
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: assets/js/components/quote_list/quote_list_content.js:136
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:125
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:133
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:130
+#: src/Templates/order_items.php:157
+msgid "Total"
+msgstr "Total"
+
+#: assets/js/components/quote_list/quote_list_content.js:214
+msgid "Update List"
+msgstr "Acualizează produsele"
+
+#: assets/js/components/quote_list/quote_list_content.js:457
+msgid "Product Detail"
+msgstr "Detalii produs"
+
+#: assets/js/components/quote_list/quote_list_empty.js:21
+msgid "Go to Shop Page"
+msgstr "Mergi la pagina magazinului"
+
+#: assets/js/components/quote_list/show_clear_list.js:14
+msgid "Clear List"
+msgstr "Ștergeți lista"
+
+#: assets/js/components/quote_list/success_alert_toast.js:14
+#: src/FormSetting/FormSettingController.php:290
+msgid "Saved Successfully."
+msgstr "Salvat cu succes."
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Select a type"
+msgstr "Selectați Tipul Tichetului"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Text"
+msgstr "Text"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Textarea"
+msgstr "Zonă de text"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Email"
+msgstr "E-mail"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Url"
+msgstr "Url"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Image"
+msgstr "Imagine"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Checkbox"
+msgstr "Căsuță de bifat"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Date"
+msgstr "Data"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Number"
+msgstr "Număr"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Radio"
+msgstr "Radio"
+
+#: assets/js/components/settings/form_fields.js:273
+msgid "Tel"
+msgstr "Telefon"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "Select Connected To"
+msgstr "Selectați Conectat la"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_first_name"
+msgstr "billing_first_name"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_last_name"
+msgstr "billing_last_name"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_email"
+msgstr "billing_email"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_company"
+msgstr "billing_company"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_country"
+msgstr "billing_country"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_address_1"
+msgstr "billing_address_1"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_address_2"
+msgstr "billing_address_2"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_city"
+msgstr "billing_city"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_state"
+msgstr "billing_state"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_postcode"
+msgstr "billing_postcode"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "billing_phone"
+msgstr "billing_phone"
+
+#: assets/js/components/settings/form_fields.js:304
+
+msgid "order_comments"
+msgstr "order_comments"
+
+#: assets/js/components/settings/form_fields.js:304
+msgid "Custom Field"
+msgstr "Camp personalizat"
+
+#: assets/js/components/settings/form_fields.js:395
+
+msgid "Enter values and click enter to add more"
+msgstr "Introduceți valorile și faceți clic pe Enter pentru a adăuga mai multe"
+
+#: assets/js/components/settings/form_fields.js:396
+
+msgid "Click Enter to add more"
+msgstr "Faceți clic pe Enter pentru a adăuga mai multe"
+
+#: assets/js/components/settings/form_setting_header.js:23
+
+msgid "Show Request a Quote"
+msgstr "Arată Solicitați o ofertă"
+
+#: assets/js/components/toast_message/update_message.js:17
+msgid "Updated Successfully"
+msgstr "Actualizat cu succes"
+
+#: class-elex-request-a-quote.php:50
+
+msgid ""
+"WooCommerce plugin must be active for ELEX Request a Quote Plugin to work."
+msgstr ""
+"Pluginul WooCommerce trebuie să fie activ pentru ca pluginul ELEX Request a "
+"Quote să funcționeze."
+
+#: class-elex-request-a-quote.php:63 src/RequestAQuote.php:418
+#: src/RequestAQuote.php:419 view/header.php:4
+msgid "Settings"
+msgstr "Setări"
+
+#: class-elex-request-a-quote.php:64 view/market.php:115
+msgid "Documentation"
+msgstr "Documentație"
+
+#: class-elex-request-a-quote.php:65
+msgid "Support"
+msgstr "Suport"
+
+#: class-elex-request-a-quote.php:74
+msgid ""
+"The Premium version of ELEX Request a Quote is already installed and "
+"activated. Please deactivate it in order to activate the basic version. If "
+"you encounter any issues, kindly contact our "
+msgstr ""
+"Versiunea Premium a ELEX Request a Quote este deja instalată și activată. Vă "
+"rugăm să îl dezactivați pentru a activa versiunea de bază. Dacă întâmpinați "
+"probleme, vă rugăm să contactați "
+
+#: class-elex-request-a-quote.php:75
+msgid ""
+"The WooCommerce version of ELEX Request a Quote is already installed and "
+"activated. Please deactivate it in order to activate the basic version. If "
+"you encounter any issues, kindly contact our "
+msgstr ""
+"Versiunea WooCommerce a ELEX Request a Quote este deja instalată și "
+"activată. Vă rugăm să îl dezactivați pentru a activa versiunea de bază. Dacă "
+"întâmpinați probleme, vă rugăm să contactați "
+
+#: class-elex-request-a-quote.php:77
+
+msgid "for assistance."
+msgstr "pentru asistență."
+
+#: class-elex-request-a-quote.php:86 class-elex-request-a-quote.php:90
+msgid "Support "
+msgstr "Suport"
+
+#: src/ElementorWidget/Eraq_add_to_quote_widget.php:9
+#: src/Settings/Models/GeneralSettings.php:93
+#: src/Settings/SettingsController.php:390
+msgid "Add to Quote"
+msgstr "Adaugă la cererea de ofertă"
+
+#: src/FormSetting/FormSettingController.php:83
+#: src/FormSetting/FormSettingController.php:114
+#: src/FormSetting/FormSettingController.php:342
+#: src/FormSetting/FormSettingController.php:439
+msgid "Name and type Can not be empty"
+msgstr "Numele și tipul Nu pot fi goale"
+
+#: src/FormSetting/FormSettingController.php:98
+
+msgid "Field has been rearranged successfully"
+msgstr "Terenul a fost rearanjat cu succes"
+
+#: src/FormSetting/FormSettingController.php:138
+#: src/FormSetting/FormSettingController.php:327
+#: src/FormSetting/FormSettingController.php:461
+
+msgid "Enter options for the selcted types"
+msgstr "Introducerea opțiunilor pentru tipurile selectate"
+
+#: src/FormSetting/FormSettingController.php:152
+#: src/FormSetting/FormSettingController.php:374
+#: src/FormSetting/FormSettingController.php:407
+#: src/FormSetting/FormSettingController.php:478
+
+msgid "Atleast one option is required"
+msgstr "Este necesară cel puțin o opțiune"
+
+#: src/FormSetting/FormSettingController.php:165
+#: src/FormSetting/FormSettingController.php:387
+msgid "Already exist"
+msgstr "E-mailul există deja."
+
+#: src/FormSetting/FormSettingController.php:178
+
+msgid "Field has been added successfully"
+msgstr "Câmpul a fost adăugat cu succes"
+
+#: src/FormSetting/FormSettingController.php:420
+#: src/FormSetting/FormSettingController.php:491
+#: src/FormSetting/FormSettingController.php:530
+
+msgid "No Field Exist"
+msgstr "Nu există niciun câmp"
+
+#: src/FormSetting/FormSettingController.php:502
+
+msgid "Field has been edited successfully"
+msgstr "Câmpul a fost editat cu succes"
+
+#: src/FormSetting/FormSettingController.php:546
+
+msgid "Field has been "
+msgstr "Câmpul a fost "
+
+#: src/FormSetting/FormSettingController.php:570
+msgid "Invalid field"
+msgstr "Câmp invalid"
+
+#: src/FormSetting/FormSettingController.php:581
+
+msgid "Field has been deleted"
+msgstr "Câmpul a fost șters"
+
+#: src/FormSetting/FormSettingController.php:658
+#: src/FormSetting/FormSettingController.php:666
+
+msgid "The "
+msgstr "Cel "
+
+#: src/FormSetting/Models/FormSettings.php:42
+
+msgid "Your request has been submitted."
+msgstr "Cererea dumneavoastră a fost trimisă."
+
+#: src/FormSetting/Models/FormSettings.php:49
+
+msgid "Add your first name."
+msgstr "Adăugați prenumele."
+
+#: src/FormSetting/Models/FormSettings.php:64
+
+msgid "Add your last name."
+msgstr "Adăugați numele de familie."
+
+#: src/FormSetting/Models/FormSettings.php:79
+
+msgid "Add your email."
+msgstr "Adăugați adresa de e-mail."
+
+#: src/FormSetting/Models/FormSettings.php:95
+
+msgid "Enter your Phone number"
+msgstr "Introdu numărul tău de telefon"
+
+#: src/HelpAndSupport/HelpAndSupportController.php:44
+msgid "FAQs"
+msgstr "Întrebări frecvente"
+
+#: src/HelpAndSupport/HelpAndSupportController.php:49
+msgid "Raise a Ticket"
+msgstr "Ridicați un bilet"
+
+#: src/Notification/NotificationController.php:330
+msgid "General notification"
+msgstr "Notificare generală"
+
+#: src/Notification/NotificationController.php:335
+#: view/notification_settings/sms.php:13
+msgid "SMS Notification"
+msgstr "Notificare prin SMS"
+
+#: src/Notification/NotificationController.php:340
+#: view/notification_settings/google_chat.php:14
+msgid "Google Chat Notification"
+msgstr "Notificare Google Chat"
+
+#: src/Quotelist/ListPageController.php:121
+msgid "Quote List Page"
+msgstr "Pagina listei de citate"
+
+#: src/Quotelist/ListPageController.php:126
+msgid "Additional Options"
+msgstr "Opțiuni suplimentare"
+
+#: src/Quotelist/ListPageController.php:131
+msgid "Quote Form"
+msgstr "Formular de ofertă"
+
+#: src/Quotelist/ListPageController.php:162
+#: src/Quotelist/Models/ListPageSettings.php:28
+#: src/Widget/Models/WidgetModel.php:29 src/Widget/WidgetController.php:37
+#: src/Widget/WidgetController.php:62
+#: view/listpage_form_setting/quote_list.php:66
+msgid "Quote List"
+msgstr "Listă Ofertă"
+
+#: src/Quotelist/ListPageController.php:167
+#: src/Quotelist/Models/ListPageSettings.php:37
+msgid "Your Quote List is Empty"
+msgstr "Lista dvs. de oferte este goală"
+
+#: src/Quotelist/ListPageController.php:193
+#: src/Quotelist/Models/ListPageSettings.php:57
+msgid "Add More Items"
+msgstr "Adăugați mai multe elemente"
+
+#: src/Quotelist/Models/QuoteListModel.php:997
+#: src/Quotelist/Models/QuoteListModel.php:1046
+msgid "First name"
+msgstr "Prenume"
+
+#: src/Quotelist/Models/QuoteListModel.php:1001
+#: src/Quotelist/Models/QuoteListModel.php:1050
+msgid "Last name"
+msgstr "Nume"
+
+#: src/Quotelist/Models/QuoteListModel.php:1005
+#: src/Quotelist/Models/QuoteListModel.php:1054
+msgid "Company"
+msgstr "Companie"
+
+#: src/Quotelist/Models/QuoteListModel.php:1009
+#: src/Quotelist/Models/QuoteListModel.php:1058
+msgid "Address line 1"
+msgstr "Adresa 1"
+
+#: src/Quotelist/Models/QuoteListModel.php:1013
+#: src/Quotelist/Models/QuoteListModel.php:1062
+msgid "Address line 2"
+msgstr "Adresa 2"
+
+#: src/Quotelist/Models/QuoteListModel.php:1017
+#: src/Quotelist/Models/QuoteListModel.php:1066
+msgid "City"
+msgstr "Oraș"
+
+#: src/Quotelist/Models/QuoteListModel.php:1021
+#: src/Quotelist/Models/QuoteListModel.php:1070
+msgid "Postcode / ZIP"
+msgstr "Cod Poștal"
+
+#: src/Quotelist/Models/QuoteListModel.php:1025
+#: src/Quotelist/Models/QuoteListModel.php:1074
+msgid "Country / Region"
+msgstr "Țară"
+
+#: src/Quotelist/Models/QuoteListModel.php:1029
+#: src/Quotelist/Models/QuoteListModel.php:1078
+msgid "Select a country / region&hellip;"
+msgstr "Selectați o țară / regiune&hellip;"
+
+#: src/Quotelist/Models/QuoteListModel.php:1032
+#: src/Quotelist/Models/QuoteListModel.php:1081
+msgid "State / County"
+msgstr "Județ"
+
+#: src/Quotelist/Models/QuoteListModel.php:1037
+msgid "Email address"
+msgstr "Adresă email"
+
+#: src/Quotelist/Models/QuoteListModel.php:1040
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/Quotelist/Models/QuoteListModel.php:1096
+msgid "Billing"
+msgstr "Facturare"
+
+#: src/Quotelist/Models/QuoteListModel.php:1141
+msgid "Shipping"
+msgstr "Transport"
+
+#: src/Quotelist/Models/QuoteListModel.php:1185
+msgid "General"
+msgstr "General"
+
+#: src/Quotelist/Models/QuoteListModel.php:1341
+msgid "First name should be a string."
+msgstr "Prenumele ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1347
+msgid "Last name should be a string."
+msgstr "Numele de familie ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1352
+msgid "Company name should be a string."
+msgstr "Numele companiei ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1357
+msgid "Email should be in valid format."
+msgstr "Adresa de e-mail trebuie să fie într-un format valid."
+
+#: src/Quotelist/Models/QuoteListModel.php:1362
+msgid "Email should be a int of length 10."
+msgstr "E-mailul trebuie să aibă lungimea 10."
+
+#: src/Quotelist/Models/QuoteListModel.php:1367
+msgid "Address 1  should be a string."
+msgstr "Adresa 1 ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1372
+msgid "Address 2  should be a string."
+msgstr "Adresa 2 ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1377
+msgid "City name  should be a string."
+msgstr "Numele orașului ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1382
+msgid "state name  should be a string."
+msgstr "Numele statului ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1387
+msgid "Postcode  should be a string."
+msgstr "Codul poștal ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1393
+
+msgid "Country name should be a string."
+msgstr "Numele țării ar trebui să fie un șir."
+
+#: src/Quotelist/Models/QuoteListModel.php:1398
+
+msgid "Address array is empty"
+msgstr "Matricea de adrese este goală"
+
+#: src/Quotelist/Models/QuoteListModel.php:1406
+msgid "Custom Fields array is empty"
+msgstr "Matricea de câmpuri particularizate este goală"
+
+#: src/Quotelist/Models/QuoteListModel.php:1420
+msgid "User not found"
+msgstr "Utilizatorul nu a fost găsit"
+
+#: src/Quotelist/Models/QuoteListModel.php:1435
+
+msgid "Unauthorize Access"
+msgstr "Acces neautorizat"
+
+#: src/Quotelist/QuoteListController.php:173
+msgid "Your request has been sent successfully"
+msgstr "Cererea dvs. a fost trimisă cu succes"
+
+#: src/Quotelist/QuoteListController.php:197
+
+msgid "ELEX Quote Request Details"
+msgstr "Detalii solicitare ofertă ELEX"
+
+#: src/RequestAQuote.php:189
+
+msgid "Quotes List"
+msgstr "Lista de citate"
+
+#: src/RequestAQuote.php:200 view/settings/template.php:470
+msgid "Quote Received"
+msgstr "Citat primit"
+
+#: src/RequestAQuote.php:407 src/RequestAQuote.php:408
+msgid "Request a Quote"
+msgstr "Cere o ofertă"
+
+#: src/RequestAQuote.php:427 src/RequestAQuote.php:428 view/header.php:4
+msgid "Customize Quote List & Form"
+msgstr "Personalizați lista de oferte și formularul"
+
+#: src/RequestAQuote.php:435 src/RequestAQuote.php:436
+#: view/help_support_header.php:1
+msgid "Help & Support"
+msgstr "Suport"
+
+#: src/Settings/Models/GeneralSettings.php:92
+#: src/Settings/SettingsController.php:389 view/settings/general.php:150
+
+msgid "Product successfully added to the Quote List"
+msgstr "Produs adăugat cu succes la Lista de oferte"
+
+#: src/Settings/SettingsController.php:407
+
+msgid "show_for_all_products"
+msgstr "show_for_all_products"
+
+#: src/Settings/SettingsController.php:520
+msgid "General Settings"
+msgstr "Setări generale"
+
+#: src/Settings/SettingsController.php:525
+
+msgid "Hide Add to Cart & Price"
+msgstr "Ascunde Adaugă în coș și preț"
+
+#: src/Settings/SettingsController.php:530
+msgid "Notification Settings"
+msgstr "Setări Notificări"
+
+#: src/Settings/SettingsController.php:534
+msgid "Template Settings"
+msgstr "Setări Șabloane"
+
+#: src/Settings/SettingsController.php:538
+msgid "Quote List Menu"
+msgstr "Meniul Listă ofertă"
+
+#: src/Settings/SettingsController.php:542
+
+msgid "Go Premium!"
+msgstr "Du-te Premium!"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:7
+msgid "Received a Quote!"
+msgstr "Am primit o ofertă!"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:21
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:26
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:23
+
+msgid "Quote #213"
+msgstr "Citat #213"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:26
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:30
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:32
+
+msgid "Issued By: Max Smith"
+msgstr "Eliberat de: Max Smith"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:29
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:33
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:35
+msgid "Issued Date: 02-March-2022"
+msgstr "Data emiterii: 02-martie-2022"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:32
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:36
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:38
+
+msgid "Expiry Date: 04-March-2022"
+msgstr "Data expirării: 04-martie-2022"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:41
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:49
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:46
+
+msgid "Will Miller"
+msgstr "Will Miller"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:44
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:52
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:49
+
+msgid "Kelly.elliot@gmail.com"
+msgstr "Kelly.elliot@gmail.com"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:47
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:55
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:52
+
+msgid "(190)081-0336"
+msgstr "(190)081-0336"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:61
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:69
+#: src/Templates/order_items.php:6
+msgid "Products"
+msgstr "Produse"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:63
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:71
+#: src/Templates/order_items.php:15
+msgid "Qty."
+msgstr "Cantitate"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:77
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:97
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:85
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:105
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:82
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:102
+msgid "Product Name"
+msgstr "Nume produs"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:78
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:98
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:86
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:106
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:83
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:103
+
+msgid "SKU:s123432"
+msgstr "Comanda nr.:s123432"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:121
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:129
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:126
+#: src/Templates/order_items.php:130
+msgid "Fees"
+msgstr "Taxe"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:137
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:145
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:142
+#: src/TemplateSetting/Models/TemplateModel.php:309
+
+msgid "Accept & Pay"
+msgstr "Acceptați și plătiți"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:143
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:152
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:148
+#: src/Templates/order_items.php:172
+msgid "Terms & Conditions"
+msgstr "Termeni și Condiții"
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:146
+
+msgid ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"                        ut labore et dolore magna aliquyam erat, sed diam "
+"voluptua. At vero eos."
+msgstr ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"                        Ut labore et dolore magna aliquyam erat, sed diam "
+"voluptua. La vero eos."
+
+#: src/TemplateSetting/DefaultTemplates/non_logo_template.php:155
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:165
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:160
+
+msgid "Powered by ELEX Request a Quote"
+msgstr "Cu sprijinul ELEX Solicitați o ofertă"
+
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:45
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:42
+msgid "Customer Details"
+msgstr "Detalii Client"
+
+#: src/TemplateSetting/DefaultTemplates/rectangle_logo_template.php:156
+#: src/TemplateSetting/DefaultTemplates/squared_logo_template.php:151
+
+msgid ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"\t\t\t\t\t\tut labore et dolore magna aliquyam erat, sed diam voluptua. At "
+"vero eos."
+msgstr ""
+"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy "
+"eirmod tempor invidunt\n"
+"\t\t\t\t\t\tUt labore et dolore magna aliquyam erat, sed diam voluptua. La "
+"vero eos."
+
+#: src/TemplateSetting/Models/TemplateModel.php:241
+
+msgid "Product Name: Price * Quantity = Subtotal"
+msgstr "Nume produs: Preț * Cantitate = Subtotal"
+
+#: src/TemplateSetting/Models/TemplateModel.php:251
+msgid "Total :"
+msgstr "Total:"
+
+#: src/Templates/order_items.php:139
+msgid "Discount"
+msgstr "Reducere"
+
+#: src/Templates/order_items.php:148
+msgid "Tax"
+msgstr "Taxă"
+
+#: src/create_order_status.php:15
+
+msgid "Quote Requested"
+msgstr "Ofertă solicitată"
+
+#: src/create_order_status.php:20
+, php-format
+msgid "Quote Requested (%s)"
+msgid_plural "Quote Requested (%s)"
+msgstr[0] "Ofertă solicitată (%s)"
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/create_order_status.php:26 view/settings/template.php:582
+
+msgid "Quote Approved"
+msgstr "Ofertă aprobată"
+
+#: src/create_order_status.php:31
+, php-format
+msgid "Quote Approved (%s)"
+msgid_plural "Quote Approved (%s)"
+msgstr[0] "Ofertă aprobată (%s)"
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/create_order_status.php:37 view/notification_settings/general.php:76
+#: view/settings/template.php:695
+
+msgid "Quote Rejected"
+msgstr "Citat respins"
+
+#: src/create_order_status.php:42
+, php-format
+msgid "Quote Rejected (%s)"
+msgid_plural "Quote Rejected (%s)"
+msgstr[0] "Citat respins (%s)"
+msgstr[1] ""
+msgstr[2] ""
+
+#: view/header.php:15
+, php-format
+msgid ""
+"To customize your website's quote request form and quote items listing page, "
+"visit  %1$s section."
+msgstr ""
+"Pentru a personaliza formularul de cerere de ofertă al site-ului dvs. web și "
+"pagina de listare a articolelor de ofertă, vizitați %1$s secțiune."
+
+#: view/header.php:20
+, php-format
+msgid "To set up request a quote on your site, visit  %1$s section."
+msgstr ""
+"Pentru a configura Solicitați o ofertă pe site-ul dvs., accesați %1$s "
+"secțiune."
+
+#: view/header.php:39
+
+msgid "go_premium"
+msgstr "go_premium"
+
+#: view/header.php:43
+
+msgid "elex_raq_basic"
+msgstr "elex_raq_basic"
+
+#: view/help_support/faqs.php:5
+
+msgid "Q1."
+msgstr "Î1."
+
+#: view/help_support/faqs.php:6
+
+msgid "Can I hide the “Add to Cart” button on the product page?"
+msgstr "Pot ascunde butonul \"Adaugă în coș\" de pe pagina produsului?"
+
+#: view/help_support/faqs.php:11
+
+msgid ""
+"Yes, You can easily hide the ‘Add to Cart’ button on the product page as "
+"well as the shop page."
+msgstr ""
+"Da, puteți ascunde cu ușurință butonul \"Adăugați în coș\" de pe pagina "
+"produsului, precum și de pe pagina magazinului."
+
+#: view/help_support/faqs.php:17
+
+msgid "Q2."
+msgstr "Î2."
+
+#: view/help_support/faqs.php:18
+
+msgid "Can I hide the price of the products?"
+msgstr "Pot ascunde prețul produselor?"
+
+#: view/help_support/faqs.php:26
+
+msgid "Yes, You can hide the price of a particular product.\n"
+msgstr "Da, puteți ascunde prețul unui anumit produs.\n"
+
+#: view/help_support/faqs.php:37
+
+msgid "Q3."
+msgstr "Î3."
+
+#: view/help_support/faqs.php:41
+
+msgid "Can I customize my quote list page?\n"
+msgstr "Pot personaliza pagina listei mele de oferte?\n"
+
+#: view/help_support/faqs.php:53
+
+msgid ""
+"Yes, ELEX Request a Quote plugin allows you to customize & enhance your "
+"frontend quote list page.\n"
+msgstr ""
+"Da, pluginul ELEX Request a Quote vă permite să personalizați și să "
+"îmbunătățiți pagina listei de oferte frontend.\n"
+
+#: view/help_support/faqs.php:65
+
+msgid "Q4."
+msgstr "Î4."
+
+#: view/help_support/faqs.php:69
+
+msgid "Does this plugin have the option to customize the Emails template?\n"
+msgstr "Acest plugin are opțiunea de a personaliza șablonul E-mailuri?\n"
+
+#: view/help_support/faqs.php:81
+
+msgid ""
+"Yes, this plugin gives you the option to select from the predefined template "
+"or customize & create your own email template.\n"
+msgstr ""
+"Da, acest plugin vă oferă opțiunea de a selecta din șablonul predefinit sau "
+"de a personaliza și crea propriul șablon de e-mail.\n"
+
+#: view/help_support/faqs.php:93
+
+msgid "Q5."
+msgstr "Î5."
+
+#: view/help_support/faqs.php:94
+
+msgid ""
+"Can I restrict guest/ unregistered users from adding products into the Quote "
+"List and redirect them to the login or sign up page?"
+msgstr ""
+"Pot restricționa adăugarea de produse de către utilizatorii invitați/"
+"neînregistrați în Lista de oferte și să îi redirecționez către pagina de "
+"conectare sau înscriere?"
+
+#: view/help_support/faqs.php:102
+
+msgid ""
+"Yes, this option is available in the plugin settings. We have a separate "
+"option for this where you can enable and redirect the guest/unregistered "
+"users to create an account or sign in to request a quote\n"
+msgstr ""
+"Da, această opțiune este disponibilă în setările pluginului. Avem o opțiune "
+"separată pentru aceasta, unde puteți activa și redirecționa utilizatorii "
+"invitați / neînregistrați pentru a crea un cont sau pentru a vă conecta "
+"pentru a solicita o ofertă\n"
+
+#: view/help_support/tickets.php:6
+
+msgid "Before raising the ticket, we recommend you to go through our detailed"
+msgstr ""
+"Înainte de a ridica biletul, vă recomandăm să parcurgeți detaliile noastre"
+
+#: view/help_support/tickets.php:6
+msgid "documentation."
+msgstr "documentație."
+
+#: view/help_support/tickets.php:7
+msgid "Or"
+msgstr "Sau"
+
+#: view/help_support/tickets.php:8
+
+msgid ""
+"To get in touch with one of our helpdesk representatives, please raise a "
+"support ticket on our website."
+msgstr ""
+"Pentru a lua legătura cu unul dintre reprezentanții biroului nostru de "
+"asistență, vă rugăm să ridicați un bilet de asistență pe site-ul nostru."
+
+#: view/help_support/tickets.php:9
+
+msgid ""
+"* Please don`t forget to attach your System Info File with the request for "
+"better support."
+msgstr ""
+"* Vă rugăm să nu uitați să atașați fișierul cu informații despre sistem "
+"împreună cu solicitarea unei asistențe mai bune."
+
+#: view/help_support/tickets.php:13
+msgid "Raise a ticket"
+msgstr "Ridicați un bilet"
+
+#: view/help_support/tickets.php:21
+msgid ""
+"To copy the System Info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)."
+msgstr ""
+"Pentru a copia informațiile despre sistem, faceți clic mai jos, apoi apăsați "
+"Ctrl + C (PC) sau Cmd + C (Mac)."
+
+#: view/help_support/tickets.php:31
+msgid "Download System Info"
+msgstr "Descarca Info sistem"
+
+#: view/listpage_form_setting/additional_options.php:13
+msgid "Show \"Update List\" Button"
+msgstr "Afișați butonul \"Actualizați lista\""
+
+#: view/listpage_form_setting/additional_options.php:15
+msgid ""
+"Turn On/Off if you want to show/hide update list button on the quote list "
+"page."
+msgstr ""
+"Activați / dezactivați dacă doriți să afișați / ascundeți butonul listei de "
+"actualizări pe pagina listei de oferte."
+
+#: view/listpage_form_setting/additional_options.php:43
+msgid "Show \"Clear List\" Button"
+msgstr "Afișați butonul \"Ștergeți lista\""
+
+#: view/listpage_form_setting/additional_options.php:45
+msgid ""
+"Turn On/Off if you want to show/hide the clear list button on the quote list "
+"page."
+msgstr ""
+"Activați/dezactivați dacă doriți să afișați/ascundeți butonul de ștergere a "
+"listei pe pagina listei de oferte."
+
+#: view/listpage_form_setting/additional_options.php:76
+msgid "\"Add more Items\" Button"
+msgstr "Butonul \"Adăugați mai multe articole\""
+
+#: view/listpage_form_setting/additional_options.php:79
+msgid ""
+"Turn On/Off if you want to show/hide add more items button on the quote list "
+"page."
+msgstr ""
+"Activați / dezactivați dacă doriți să afișați / ascundeți butonul adăugați "
+"mai multe elemente pe pagina listei de oferte."
+
+#: view/listpage_form_setting/additional_options.php:98
+#: view/listpage_form_setting/quote_list.php:80
+#: view/listpage_form_setting/quote_list.php:99
+#: view/listpage_form_setting/quote_list.php:244
+#: view/notification_settings/general.php:115
+#: view/notification_settings/google_chat.php:36
+#: view/notification_settings/sms.php:20 view/settings/template.php:79
+#: view/settings/widget.php:18 view/settings/widget.php:114
+#: view/settings/widget.php:185
+msgid "checked"
+msgstr "verificat"
+
+#: view/listpage_form_setting/additional_options.php:110
+msgid "\"Add more Items\" Button Label"
+msgstr "Eticheta butonului \"Adăugați mai multe articole\""
+
+#: view/listpage_form_setting/additional_options.php:112
+msgid ""
+"Enter the label text for 'Add more items' button on the quote list page."
+msgstr ""
+"Introduceți textul etichetei pentru butonul \"Adăugați mai multe articole\" "
+"pe pagina listei de oferte."
+
+#: view/listpage_form_setting/additional_options.php:131
+msgid "Add More items"
+msgstr "Adăugați mai multe elemente"
+
+#: view/listpage_form_setting/additional_options.php:141
+msgid "\"Add More Items\" Button Redirect Page"
+msgstr "Pagina de redirecționare a butonului \"Adăugați mai multe elemente\""
+
+#: view/listpage_form_setting/additional_options.php:143
+msgid ""
+"Select the page where you want the customer to be redirected to upon "
+"clicking the add more items button"
+msgstr ""
+"Selectați pagina către care doriți să fie redirecționat clientul, făcând "
+"clic pe butonul Adăugați mai multe articole"
+
+#: view/listpage_form_setting/form_settings.php:15
+msgid "Updated Successfully."
+msgstr "Portofoliul a fost actualizat cu succes."
+
+#: view/listpage_form_setting/form_settings.php:38
+msgid "Deleted Successfully."
+msgstr "Șters cu succes."
+
+#: view/listpage_form_setting/form_settings.php:59
+msgid "Saved Successfully"
+msgstr "Salvat cu succes."
+
+#: view/listpage_form_setting/form_settings.php:80
+
+msgid "Field with same name Already Exist"
+msgstr "Câmpul cu același nume există deja"
+
+#: view/listpage_form_setting/form_settings.php:100
+
+msgid "Enter 2 or more values for the selected input type."
+msgstr "Introduceți 2 sau mai multe valori pentru tipul de intrare selectat."
+
+#: view/listpage_form_setting/quote_list.php:10
+
+msgid "Select \"Quote List\" Page"
+msgstr "Selectați pagina \"Listă oferte\""
+
+#: view/listpage_form_setting/quote_list.php:12
+
+msgid "Select the WooCommerce page where you want to display the quote list."
+msgstr "Selectați pagina WooCommerce unde doriți să afișați lista de oferte."
+
+#: view/listpage_form_setting/quote_list.php:45
+
+msgid "Quote List Page Title"
+msgstr "Titlu pagină listă ofertă"
+
+#: view/listpage_form_setting/quote_list.php:47
+
+msgid "Enter the title on the quote list page."
+msgstr "Introduceți titlul pe pagina listei de oferte."
+
+#: view/listpage_form_setting/quote_list.php:75
+
+msgid "\"Quote List\" Page Layout"
+msgstr "Aspectul paginii \"Listă ofertă\""
+
+#: view/listpage_form_setting/quote_list.php:95
+
+msgid "Product list on the left & form on the right"
+msgstr "Lista de produse din stânga și formularul din dreapta"
+
+#: view/listpage_form_setting/quote_list.php:114
+
+msgid "Product list on the top & form on the bottom"
+msgstr "Lista de produse din partea de sus și formularul din partea de jos"
+
+#: view/listpage_form_setting/quote_list.php:125
+
+msgid "Choose What to Show If List is Empty"
+msgstr "Alegeți ce să afișați dacă lista este goală"
+
+#: view/listpage_form_setting/quote_list.php:128
+#: view/listpage_form_setting/quote_list.php:178 view/settings/general.php:474
+#: view/settings/general.php:654 view/settings/general.php:792
+#: view/settings/general.php:833 view/settings/hide_addtocart_price.php:120
+#: view/settings/hide_addtocart_price.php:157
+#: view/settings/hide_addtocart_price.php:331 view/settings/template.php:51
+#: view/settings/template.php:231
+
+msgid "[Premium]"
+msgstr "[Premium]"
+
+#: view/listpage_form_setting/quote_list.php:139
+msgid "Illustration"
+msgstr "Ilustrație"
+
+#: view/listpage_form_setting/quote_list.php:146
+msgid "Empty Text"
+msgstr "Text gol"
+
+#: view/listpage_form_setting/quote_list.php:154
+msgid "\"Go to Shop Page\" button\""
+msgstr "Butonul \"Mergi la pagina magazinului\""
+
+#: view/listpage_form_setting/quote_list.php:162
+msgid "Quote a Request Form"
+msgstr "Citarea unui formular de solicitare"
+
+#: view/listpage_form_setting/quote_list.php:175
+msgid "Contents to Show in Product Table"
+msgstr "Conținutul de afișat în tabelul de produse"
+
+#: view/listpage_form_setting/quote_list.php:189
+msgid "Product Image"
+msgstr "Imagine produs"
+
+#: view/listpage_form_setting/quote_list.php:194
+msgid "Product Price"
+msgstr "Preț produs"
+
+#: view/listpage_form_setting/quote_list.php:205
+msgid "Each Product Subtotal"
+msgstr "Fiecare subtotal de produs"
+
+#: view/listpage_form_setting/quote_list.php:210
+msgid "Product SKU"
+msgstr "Cod produs"
+
+#: view/listpage_form_setting/quote_list.php:215
+msgid "Taxes"
+msgstr "Taxe"
+
+#: view/listpage_form_setting/quote_list.php:225
+msgid "Show \"Powered by ELEX Request a Quote\""
+msgstr "Arată \"Powered by ELEX Solicitați o ofertă\""
+
+#: view/listpage_form_setting/quote_list.php:226
+msgid ""
+"Turn On or Off if you want to show or hide the ELEXtensions watermark on the "
+"quote list page."
+msgstr ""
+"Activați sau dezactivați dacă doriți să afișați sau să ascundeți filigranul "
+"ELEXtensions pe pagina listei de oferte."
+
+#: view/market.php:99
+msgid "Note: Basic version supports only few features."
+msgstr "Notă: Versiunea de bază acceptă doar câteva caracteristici."
+
+#: view/market.php:100
+msgid "Your business is precious! Go Premium to get below features."
+msgstr ""
+"Afacerea ta este pretioasa! Du-te Premium pentru a obține caracteristicile "
+"de mai jos."
+
+#: view/market.php:101
+msgid " -  Product-based exclusion for Request a Quote."
+msgstr " - Excludere bazată pe produs pentru Solicitați o ofertă."
+
+#: view/market.php:103
+msgid " - User role-based exclusion for Request a Quote."
+msgstr ""
+" - Excluderea bazată pe roluri a utilizatorului pentru Solicitați o ofertă."
+
+#: view/market.php:104
+msgid "- Disable Request a Quote option for unregistered users."
+msgstr ""
+"- Dezactivați opțiunea Solicitați o ofertă pentru utilizatorii "
+"neînregistrați."
+
+#: view/market.php:105
+msgid "- Exclude Request a Quote based on the product stocks."
+msgstr "- Excludeți Solicitați o ofertă pe baza stocurilor de produse."
+
+#: view/market.php:106
+msgid "- Product-based exclusion from the 'Hide Add to Cart and Price' option."
+msgstr ""
+"- Excluderea bazată pe produs din opțiunea \"Ascunde, adaugă în coș și preț"
+"\"."
+
+#: view/market.php:107
+msgid ""
+"- User role-based exclusion from the 'Hide Add to Cart and Price' option."
+msgstr ""
+"- Excluderea bazată pe rolurile utilizatorului din opțiunea \"Ascundeți, "
+"adăugați în coș și preț\"."
+
+#: view/market.php:109
+msgid "- Quote list customization option for an empty quote list page."
+msgstr ""
+"- Opțiunea de personalizare a listei de oferte pentru o pagină goală a "
+"listei de oferte."
+
+#: view/market.php:111
+msgid "- Product table customization option for the quote list page."
+msgstr ""
+"- Opțiunea de personalizare a tabelului de produse pentru pagina listei de "
+"oferte."
+
+#: view/market.php:123
+msgid "You May Also like"
+msgstr "Ați putea dori, de asemenea"
+
+#: view/notification_settings/general.php:16
+msgid "Notifications Email Address"
+msgstr "Notificări Adresa de e-mail"
+
+#: view/notification_settings/general.php:19
+msgid ""
+"Enter the email addresses to receive a notification when the customer places "
+"a quote request. By default, the administrator email id is taken to get a "
+"notification. Multiple email ids should be separated by commas."
+msgstr ""
+"Introduceți adresele de e-mail pentru a primi o notificare atunci când "
+"clientul plasează o cerere de ofertă. În mod implicit, ID-ul de e-mail al "
+"administratorului este preluat pentru a primi o notificare. Mai multe ID-uri "
+"de e-mail trebuie separate prin virgule."
+
+#: view/notification_settings/general.php:44
+msgid "Select Order Statuses To Notify Customers"
+msgstr "Selectați stările comenzilor pentru a notifica clienții"
+
+#: view/notification_settings/general.php:46
+msgid ""
+"Select the order statuses for which customers should receive an email "
+"notification."
+msgstr ""
+"Selectați stările comenzilor pentru care clienții ar trebui să primească o "
+"notificare prin e-mail."
+
+#: view/notification_settings/general.php:70
+msgid ""
+"Quote Requested\n"
+"                                        "
+msgstr ""
+"Ofertă solicitată\n"
+"                                        "
+
+#: view/notification_settings/general.php:80
+msgid ""
+"Quote Approved\n"
+"                                        "
+msgstr ""
+"Ofertă aprobată\n"
+"                                        "
+
+#: view/notification_settings/general.php:95
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: view/notification_settings/general.php:97
+msgid ""
+"Find email, sms and google chat logs here (wp-content\\uploads\\wc-logs)."
+msgstr ""
+"Găsiți jurnalele de e-mail, SMS și chat Google aici (wp-content \\ uploads "
+"\\ wc-logs)."
+
+#: view/notification_settings/google_chat.php:17
+msgid ""
+"Enable to receive Google Chat notification when the customer makes a quote "
+"request."
+msgstr ""
+"Activează pentru a primi notificări Google Chat atunci când clientul face o "
+"solicitare de ofertă."
+
+#: view/notification_settings/google_chat.php:51
+msgid "Webhook URL"
+msgstr "URL Webhook"
+
+#: view/notification_settings/google_chat.php:53
+
+msgid ""
+"Enter the Google Chat Webhook URL. You can find this URL on your google chat "
+"window."
+msgstr ""
+"Introdu adresa URL Google Chat Webhook. Poți găsi această adresă URL în "
+"fereastra de chat Google."
+
+#: view/notification_settings/sms.php:32
+, php-format
+msgid ""
+"Enable to receive SMS notification when the customer makes a quote request. "
+"Sign up for a new Twilio account %1$s."
+msgstr ""
+"Activați pentru a primi notificări prin SMS atunci când clientul face o "
+"cerere de ofertă. Înscrieți-vă pentru un nou cont Twilio %1$s."
+
+#: view/notification_settings/sms.php:45
+msgid "Twilio SID"
+msgstr "Twilio SID"
+
+#: view/notification_settings/sms.php:47
+msgid "Enter Your Twilio SID"
+msgstr "Introduceți SID-ul Twilio"
+
+#: view/notification_settings/sms.php:77
+msgid "Twilio Token"
+msgstr "Twilio Token"
+
+#: view/notification_settings/sms.php:79
+msgid "Enter Your Twilio Token"
+msgstr "Introdu tokenul Twilio"
+
+#: view/notification_settings/sms.php:111
+msgid "Twilio Mobile Number"
+msgstr "Numărul de telefon mobil Twilio"
+
+#: view/notification_settings/sms.php:113
+msgid ""
+"Enter the mobile number where you want to get a notification when the "
+"customer places a quote request"
+msgstr ""
+"Introduceți numărul de telefon mobil la care doriți să primiți o notificare "
+"atunci când clientul plasează o solicitare de ofertă"
+
+#: view/notification_settings/sms.php:145
+msgid "Notification Mobile Number"
+msgstr "Numărul de telefon mobil de notificare"
+
+#: view/notification_settings/sms.php:147
+msgid "Enter Your Twilio mobile Number"
+msgstr "Introdu numărul tău de telefon mobil Twilio"
+
+#: view/output.php:15
+msgid ""
+"\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+
+#: view/output.php:40 view/output.php:41 view/output.php:42 view/output.php:43
+#: view/output.php:44 view/output.php:45 view/output.php:46 view/output.php:59
+#: view/output.php:62 view/output.php:83 view/output.php:84 view/output.php:86
+#: view/output.php:143
+msgid "\n"
+msgstr "\n"
+
+#: view/output.php:47
+msgid "Yes"
+msgstr "Da"
+
+#: view/output.php:53
+msgid "Length: "
+msgstr "Lungime"
+
+#: view/output.php:54
+
+msgid " Status:"
+msgstr " Stare:"
+
+#: view/output.php:56
+
+msgid " ERROR: Too Long"
+msgstr " EROARE: Prea mult timp"
+
+#: view/output.php:58
+
+msgid " Acceptable"
+msgstr " Acceptabil"
+
+#: view/output.php:66 view/output.php:71
+
+msgid " (#"
+msgstr " ( #"
+
+#: view/output.php:76
+msgid "Enabled"
+msgstr "Activat"
+
+#: view/output.php:83
+
+msgid "On ("
+msgstr "Pe ("
+
+#: view/output.php:84
+
+msgid "Your server supports fsockopen."
+msgstr "Serverul dvs. acceptă fsockopen."
+
+#: view/output.php:85
+
+msgid "Your server supports cURL."
+msgstr "Serverul dvs. acceptă cURL."
+
+#: view/output.php:86
+
+msgid "Your server has the SOAP Client enabled."
+msgstr "Serverul dvs. are clientul SOAP activat."
+
+#: view/output.php:116
+
+msgid "Site Health Info:"
+msgstr "Informații despre starea site-ului:"
+
+#: view/quote/add_to_quote.php:4 view/quote/view_quote_list.php:2
+
+msgid "text-center"
+msgstr "Centrul de text"
+
+#: view/quote/quote_list_main.php:5
+
+msgid "Powered by ELEX Request a Quote "
+msgstr "Cu sprijinul ELEX Solicitați o ofertă "
+
+#: view/saved_toast.php:12
+
+msgid "Changes Saved Successfully!"
+msgstr "Modificări salvate cu succes!"
+
+#: view/settings/general.php:14
+
+msgid "Quote Button on Shop Page"
+msgstr "Butonul Ofertă de pe pagina magazinului"
+
+#: view/settings/general.php:16
+
+msgid "Toggle On or Off to display the Add to Quote button on the shop page"
+msgstr ""
+"Activați sau dezactivați pentru a afișa butonul Adăugați la ofertă pe pagina "
+"magazinului"
+
+#: view/settings/general.php:47
+
+msgid "Quote Button on Product Page"
+msgstr "Butonul Ofertă de pe pagina produsului"
+
+#: view/settings/general.php:50
+
+msgid ""
+"Toggle On or Off the display of the Add to Quote button on the product page"
+msgstr ""
+"Activați sau dezactivați afișarea butonului Adăugați la ofertă de pe pagina "
+"produsului"
+
+#: view/settings/general.php:77
+
+msgid "Quote Button Configurations"
+msgstr "Configurații buton ofertă"
+
+#: view/settings/general.php:83
+
+msgid "Open Quote Form"
+msgstr "Deschideți formularul de ofertă"
+
+#: view/settings/general.php:86
+
+msgid "Select how you want to show the quote list to your user."
+msgstr ""
+"Selectați modul în care doriți să afișați lista de oferte pentru "
+"utilizatorul dvs."
+
+#: view/settings/general.php:109
+
+msgid "In a New Page"
+msgstr "Într-o Pagină nouă"
+
+#: view/settings/general.php:112
+
+msgid "In a Light Box"
+msgstr "Într-o casetă luminoasă"
+
+#: view/settings/general.php:124
+
+msgid "Add to Quote Success Alert Message"
+msgstr "Adăugați la citat Mesaj de alertă de succes"
+
+#: view/settings/general.php:128
+
+msgid ""
+"Enter the alert message to display on successful addition of the product to "
+"the quote list."
+msgstr ""
+"Introduceți mesajul de alertă de afișat la adăugarea cu succes a produsului "
+"la lista de oferte."
+
+#: view/settings/general.php:162
+
+msgid "Quote Button Customization"
+msgstr "Personalizarea butonului Ofertă"
+
+#: view/settings/general.php:166
+
+msgid "Quote Button Label"
+msgstr "Etichetă buton ofertă"
+
+#: view/settings/general.php:168
+
+msgid "Enter a custom label text for the request a quote button"
+msgstr ""
+"Introduceți un text de etichetă personalizat pentru butonul de solicitare a "
+"unei oferte"
+
+#: view/settings/general.php:198
+
+msgid "Default Button Color"
+msgstr "Culoare implicită buton"
+
+#: view/settings/general.php:200
+
+msgid "Choose the default color for the buttons."
+msgstr "Alegeți culoarea implicită pentru butoane."
+
+#: view/settings/general.php:237
+msgid "Filter Products"
+msgstr "Filtreaza produse"
+
+#: view/settings/general.php:244
+
+msgid ""
+"The quote button will be added to all the products by\n"
+"                default. If you want to include\n"
+"                or exclude certain products, use the filter options given "
+"below."
+msgstr ""
+"Butonul de ofertă va fi adăugat la toate produsele prin\n"
+"                Implicit. Dacă doriți să includeți\n"
+"                sau excludeți anumite produse, utilizați opțiunile de "
+"filtrare de mai jos."
+
+#: view/settings/general.php:261 view/settings/hide_addtocart_price.php:117
+msgid "Include Products"
+msgstr "Include produse"
+
+#: view/settings/general.php:280
+
+msgid ""
+"Select the products for which request a quote settings should\n"
+"                                        be applied. Rest of the products "
+"will be excluded\n"
+"                                        automatically."
+msgstr ""
+"Selectați produsele pentru care solicitați o ofertă, setările ar trebui\n"
+"                                        se aplică. Restul produselor vor fi "
+"excluse\n"
+"                                        automat."
+
+#: view/settings/general.php:301
+
+msgid "Include Products By Category"
+msgstr "Includeți produse după categorie"
+
+#: view/settings/general.php:303
+
+msgid ""
+"Select the products categories for which you want to display the request a "
+"quote button"
+msgstr ""
+"Selectați categoriile de produse pentru care doriți să afișați butonul de "
+"solicitare a unei oferte"
+
+#: view/settings/general.php:357
+
+msgid "Include Products By Name"
+msgstr "Includeți produse după nume"
+
+#: view/settings/general.php:360
+
+msgid ""
+"Select the products names for which you want to display the request a quote "
+"button"
+msgstr ""
+"Selectați numele produselor pentru care doriți să afișați butonul de "
+"solicitare a unei oferte"
+
+#: view/settings/general.php:412
+
+msgid "Include Products By Tags"
+msgstr "Includeți produse după etichete"
+
+#: view/settings/general.php:415
+
+msgid ""
+"Select the products tags for which you want to display the request a quote "
+"button"
+msgstr ""
+"Selectați etichetele produselor pentru care doriți să afișați butonul de "
+"solicitare a unei oferte"
+
+#: view/settings/general.php:471
+msgid "Exclude Product"
+msgstr "Excludere produs"
+
+#: view/settings/general.php:494
+
+msgid ""
+"Select the products for which request a quote settings should\n"
+"                                        not be applied."
+msgstr ""
+"Selectați produsele pentru care solicitați o ofertă, setările ar trebui\n"
+"                                        nu se aplică."
+
+#: view/settings/general.php:514 view/settings/hide_addtocart_price.php:182
+
+msgid "Exclude Products By Category"
+msgstr "Excludeți produsele după categorie"
+
+#: view/settings/general.php:516
+
+msgid ""
+"Select the products categories for which you don't want to display the "
+"request a quote button"
+msgstr ""
+"Selectați categoriile de produse pentru care nu doriți să afișați butonul de "
+"solicitare a unei oferte"
+
+#: view/settings/general.php:558 view/settings/hide_addtocart_price.php:228
+
+msgid "Exclude Products By Name"
+msgstr "Excludeți produsele după nume"
+
+#: view/settings/general.php:561
+
+msgid ""
+"Select the individual product names for which you don't want to display the "
+"request a quote button"
+msgstr ""
+"Selectați numele individuale de produse pentru care nu doriți să afișați "
+"butonul de solicitare a unei oferte"
+
+#: view/settings/general.php:600 view/settings/hide_addtocart_price.php:275
+
+msgid "Exclude Products By Tags"
+msgstr "Excludeți produsele după etichete"
+
+#: view/settings/general.php:603
+
+msgid ""
+"Select the products tags for which you don't want to display the request a "
+"quote button"
+msgstr ""
+"Selectați etichetele produselor pentru care nu doriți să afișați butonul de "
+"solicitare a unei oferte"
+
+#: view/settings/general.php:651 view/settings/hide_addtocart_price.php:328
+
+msgid "Role Based Filter"
+msgstr "Filtru bazat pe roluri"
+
+#: view/settings/general.php:674
+
+msgid ""
+"Select the roles for which request a quote settings should be\n"
+"                                        applied/not."
+msgstr ""
+"Selectați rolurile pentru care ar trebui să fie setările de solicitare a "
+"unei oferte\n"
+"                                        aplicat/nu."
+
+#: view/settings/general.php:694
+msgid "Include Roles"
+msgstr "Includere roluri"
+
+#: view/settings/general.php:696
+
+msgid ""
+"Select the user roles for which you want to display the request a quote "
+"button"
+msgstr ""
+"Selectați rolurile de utilizator pentru care doriți să afișați butonul "
+"solicitare ofertă"
+
+#: view/settings/general.php:739
+
+msgid "Exclude Roles"
+msgstr "Excluderea rolurilor"
+
+#: view/settings/general.php:741
+
+msgid ""
+"Select the user roles for which you don't want to display the request a "
+"quote button"
+msgstr ""
+"Selectați rolurile de utilizator pentru care nu doriți să afișați butonul de "
+"solicitare a unei oferte"
+
+#: view/settings/general.php:789
+
+msgid "Disable Quote Request for Unregistered Users"
+msgstr "Dezactivați solicitarea de ofertă pentru utilizatorii neînregistrați"
+
+#: view/settings/general.php:809
+
+msgid ""
+"By enabling this option guest users can be redirected to the\n"
+"                                        My Account page for registration."
+msgstr ""
+"Prin activarea acestei opțiuni, utilizatorii invitați pot fi redirecționați "
+"către\n"
+"                                        Pagina Contul meu pentru "
+"înregistrare."
+
+#: view/settings/general.php:830
+
+msgid "Include/Exclude products based on stock"
+msgstr "Includeți/excludeți produse în funcție de stoc"
+
+#: view/settings/general.php:838
+
+msgid ""
+"Select an option to determine how you want to display the add to quote "
+"button based on the product availablity"
+msgstr ""
+"Selectați o opțiune pentru a determina modul în care doriți să afișați "
+"butonul de adăugare la ofertă pe baza disponibilității produsului"
+
+#: view/settings/general.php:863
+
+msgid "Show Add to Quote Button for all the products"
+msgstr "Afișați butonul Adăugați la ofertă pentru toate produsele"
+
+#: view/settings/general.php:868
+
+msgid "Hide Add to Quote button for Out of Stock products"
+msgstr "Butonul Ascundere adăugare la ofertă pentru produsele Out of Stock"
+
+#: view/settings/general.php:875
+
+msgid ""
+"Show Add to Quote button only for Out of Stock\n"
+"                                        products"
+msgstr ""
+"Butonul Afișare adăugare la ofertă numai pentru Stoc epuizat\n"
+"                                        Produse"
+
+#: view/settings/general.php:892
+
+msgid "Third Party API key"
+msgstr "Cheie API terță parte"
+
+#: view/settings/general.php:900
+
+msgid ""
+"In case you want to get quote requests/orders via third party plugins, Turn "
+"On the below\n"
+"\t\t\t\t\tfunctionality & get the API key."
+msgstr ""
+"În cazul în care doriți să primiți cereri de ofertă / comenzi prin pluginuri "
+"terțe, activați mai jos\n"
+"\t\t\t\t\tfuncționalitate și obțineți cheia API."
+
+#: view/settings/general.php:916
+msgid "Third Party Usage"
+msgstr "Utilizarea de către terți"
+
+#: view/settings/general.php:929
+
+msgid "Turn this ON, to get the API Key."
+msgstr "Activați această opțiune pentru a obține cheia API."
+
+#: view/settings/general.php:936
+msgid "Rest API Key"
+msgstr "Cheia API Rest"
+
+#: view/settings/general.php:945
+
+msgid "Copy API Key"
+msgstr "Copiați cheia API"
+
+#: view/settings/general.php:988
+
+msgid "Copied Successfully!"
+msgstr "Copiat cu succes!"
+
+#: view/settings/general.php:1005
+
+msgid "Error copying text"
+msgstr "Eroare la copierea textului"
+
+#: view/settings/hide_addtocart_price.php:19
+msgid "Hide Price"
+msgstr "Ascunde Preț "
+
+#: view/settings/hide_addtocart_price.php:21
+
+msgid ""
+"Enabling the Hide Price will automatically enable the Hide Add to Cart "
+"button on the Shop page and the Product Page."
+msgstr ""
+"Activarea opțiunii Ascundere preț va activa automat butonul Ascunde Adaugă "
+"în coș de pe pagina magazinului și de pe pagina produsului."
+
+#: view/settings/hide_addtocart_price.php:46
+
+msgid ""
+"Turn on to hide price in the Product page, Shop Page and Quote List Page."
+msgstr ""
+"Activați pentru a ascunde prețul în pagina produsului, pagina magazinului și "
+"pagina listei de oferte."
+
+#: view/settings/hide_addtocart_price.php:61
+
+msgid "Hide Add to Cart Button on Shop Page"
+msgstr "Ascunde butonul Adaugă în coș de pe pagina magazinului"
+
+#: view/settings/hide_addtocart_price.php:74
+msgid "Turn on to hide the add to cart button on the shop page."
+msgstr ""
+"Activați pentru a ascunde butonul Adăugați în coș de pe pagina magazinului."
+
+#: view/settings/hide_addtocart_price.php:89
+
+msgid "Hide Add to Cart Button on Product Page"
+msgstr "Ascunde butonul Adaugă în coș de pe pagina produsului"
+
+#: view/settings/hide_addtocart_price.php:99
+
+msgid "Turn on to hide the add to cart button on the product page."
+msgstr ""
+"Activați pentru a ascunde butonul de adăugare în coș de pe pagina produsului."
+
+#: view/settings/hide_addtocart_price.php:133
+#: view/settings/hide_addtocart_price.php:170
+msgid ""
+"Turn on & Select the Products for which the above settings should not be "
+"applied"
+msgstr ""
+"Activați și selectați Produsele pentru care nu trebuie aplicate setările de "
+"mai sus"
+
+#: view/settings/hide_addtocart_price.php:154
+msgid "Exclude Products"
+msgstr "Exclude produse"
+
+#: view/settings/hide_addtocart_price.php:184
+msgid ""
+"Select the product categories that you want to exclude from the above "
+"applied settings"
+msgstr ""
+"Selectați categoriile de produse pe care doriți să le excludeți din setările "
+"aplicate mai sus"
+
+#: view/settings/hide_addtocart_price.php:230
+
+msgid ""
+"Select the product names that you want to exclude from the above applied "
+"settings"
+msgstr ""
+"Selectați numele produselor pe care doriți să le excludeți din setările "
+"aplicate mai sus"
+
+#: view/settings/hide_addtocart_price.php:277
+
+msgid ""
+"Select the product tags that you want to exclude from the above applied "
+"settings"
+msgstr ""
+"Selectați etichetele de produs pe care doriți să le excludeți din setările "
+"aplicate mai sus"
+
+#: view/settings/hide_addtocart_price.php:348
+
+msgid ""
+"Select the roles for which the above settings should be\n"
+"                                        applied/not."
+msgstr ""
+"Selectați rolurile pentru care ar trebui să fie setările de mai sus\n"
+"                                        aplicat/nu."
+
+#: view/settings/template.php:10
+
+msgid ""
+"You can configure your email and sms/chat template here,\n"
+"                Make use of placeholders to\n"
+"                fill the fields dynamically."
+msgstr ""
+"Puteți configura șablonul de e-mail și SMS / chat aici,\n"
+"                Utilizarea substituenților pentru\n"
+"                Completați câmpurile dinamic."
+
+#: view/settings/template.php:19
+
+msgid ""
+"Please note that placeholders can be applied only to\n"
+"                the\n"
+"                email and chat/sms body."
+msgstr ""
+"Vă rugăm să rețineți că substituenții pot fi aplicați numai pentru:\n"
+"                cel\n"
+"                Corpul de e-mail și chat / SMS."
+
+#: view/settings/template.php:28
+
+msgid ""
+"Also note, the @payment_link placeholder can only be\n"
+"                applied to\n"
+"                the email body sent after the quote is approved. You can "
+"also include HTML tags and\n"
+"                inline styles in the email body but the same wont be "
+"applicable to the chat/sms\n"
+"                body."
+msgstr ""
+"Rețineți, de asemenea, substituentul @payment_link poate fi doar\n"
+"                aplicat la\n"
+"                Corpul de e-mail trimis după aprobarea ofertei. De asemenea, "
+"puteți include etichete HTML și\n"
+"                Stiluri inline în corpul e-mailului, dar același lucru nu va "
+"fi aplicabil chat-ului / SMS-ului\n"
+"                corp."
+
+#: view/settings/template.php:48
+
+msgid "Use Predefined Email Templates"
+msgstr "Utilizați șabloane de e-mail predefinite"
+
+#: view/settings/template.php:56
+
+msgid ""
+"Enable this option to use predefined email templates within the plugin. You "
+"can configure the email content below."
+msgstr ""
+"Activați această opțiune pentru a utiliza șabloane de e-mail predefinite în "
+"cadrul pluginului. Puteți configura conținutul e-mailului de mai jos."
+
+#: view/settings/template.php:90
+msgid "Email Template"
+msgstr "Șablon e-mail"
+
+#: view/settings/template.php:107 view/settings/template.php:153
+#: view/settings/template.php:195
+
+msgid "Preview Template"
+msgstr "Previzualizare șablon"
+
+#: view/settings/template.php:144
+
+msgid ""
+"Rectangle Logo\n"
+"\t\t\t\t\t\t\t\t\t\t\tTemplate"
+msgstr ""
+"Logo dreptunghi\n"
+"\t\t\t\t\t\t\t\t\t\t\tȘablon"
+
+#: view/settings/template.php:191
+
+msgid "Non Logo Template"
+msgstr "Șablon non-logo"
+
+#: view/settings/template.php:228
+msgid "Company Logo"
+msgstr "Logo Companie"
+
+#: view/settings/template.php:241 view/settings/template.php:249
+
+msgid "d-none"
+msgstr "d-nici unul"
+
+#: view/settings/template.php:241
+msgid "Upload Image"
+msgstr "Incarcati imagine"
+
+#: view/settings/template.php:260
+
+msgid "upload png or jpeg file"
+msgstr "Încărcați fișierul PNG sau JPEG"
+
+#: view/settings/template.php:270
+
+msgid "Terms and Condition"
+msgstr "Termeni și condiții"
+
+#: view/settings/template.php:272
+
+msgid ""
+"Enable this option if you wish to include the terms and conditions in the "
+"email template."
+msgstr ""
+"Activați această opțiune dacă doriți să includeți termenii și condițiile în "
+"șablonul de e-mail."
+
+#: view/settings/template.php:304
+
+msgid "Terms and Condition Content"
+msgstr "Conținutul termenilor și condițiilor"
+
+#: view/settings/template.php:319
+
+msgid "Quote Request Email Template: Sent to the Site Administrator"
+msgstr ""
+"Șablon de e-mail pentru cerere de ofertă: trimis administratorului site-ului"
+
+#: view/settings/template.php:326 view/settings/template.php:444
+#: view/settings/template.php:556 view/settings/template.php:669
+msgid "Email Subject"
+msgstr "Subiect email"
+
+#: view/settings/template.php:328
+
+msgid ""
+"Enter the subject for the email sent to the administrator when a quote is "
+"received."
+msgstr ""
+"Introduceți subiectul pentru e-mailul trimis administratorului atunci când "
+"se primește o ofertă."
+
+#: view/settings/template.php:353
+
+msgid "Quote Request"
+msgstr "Cerere ofertă"
+
+#: view/settings/template.php:362 view/settings/template.php:479
+#: view/settings/template.php:591 view/settings/template.php:704
+msgid "Email Heading"
+msgstr "Titlu de poștă electronică"
+
+#: view/settings/template.php:364
+
+msgid ""
+"Enter the heading for the email sent to the administrator when a quote is "
+"received."
+msgstr ""
+"Introduceți titlul pentru e-mailul trimis administratorului atunci când se "
+"primește o ofertă."
+
+#: view/settings/template.php:388 view/settings/template.php:505
+
+msgid "Your Quote Request has been received."
+msgstr "Cererea dvs. de ofertă a fost primită."
+
+#: view/settings/template.php:398 view/settings/template.php:515
+#: view/settings/template.php:627 view/settings/template.php:740
+
+msgid "Email Body"
+msgstr "Corpul e-mailului"
+
+#: view/settings/template.php:400
+
+msgid ""
+"Enter the body for the email sent to the administrator when a quote is "
+"received."
+msgstr ""
+"Introduceți corpul pentru e-mailul trimis administratorului atunci când se "
+"primește o ofertă."
+
+#: view/settings/template.php:437
+
+msgid "Quote Requested Email Template: Sent to the Customer"
+msgstr "Șablon de e-mail solicitat pentru ofertă: trimis clientului"
+
+#: view/settings/template.php:446
+
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"requested."
+msgstr ""
+"Introduceți subiectul e-mailului trimis clientului atunci când se solicită o "
+"ofertă."
+
+#: view/settings/template.php:481
+
+msgid ""
+"Enter the heading for the email sent to the customer when a quote is "
+"requested."
+msgstr ""
+"Introduceți titlul pentru e-mailul trimis clientului atunci când se solicită "
+"o ofertă."
+
+#: view/settings/template.php:517
+
+msgid ""
+"Enter the body for the email sent to the customer when a quote is requested."
+msgstr ""
+"Introduceți corpul pentru e-mailul trimis clientului atunci când se solicită "
+"o ofertă."
+
+#: view/settings/template.php:549
+
+msgid "Quote Approved Email Template: Sent to the Customer"
+msgstr "Șablon de e-mail aprobat de ofertă: trimis clientului"
+
+#: view/settings/template.php:558
+
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"accepted by the administrator."
+msgstr ""
+"Introduceți subiectul pentru e-mailul trimis clientului atunci când o ofertă "
+"este acceptată de administrator."
+
+#: view/settings/template.php:593
+
+msgid ""
+"Enter the heading for the email sent to the customer after the quote request "
+"is accepted by the administrator."
+msgstr ""
+"Introduceți titlul pentru e-mailul trimis clientului după ce solicitarea de "
+"ofertă este acceptată de administrator."
+
+#: view/settings/template.php:617
+
+msgid "Your Quote Request has been approved."
+msgstr "Cererea dvs. de ofertă a fost aprobată."
+
+#: view/settings/template.php:629
+
+msgid ""
+"Enter the body for the email sent to the customer after the quote request is "
+"accepted by the administrator."
+msgstr ""
+"Introduceți corpul pentru e-mailul trimis clientului după ce solicitarea de "
+"ofertă este acceptată de administrator."
+
+#: view/settings/template.php:662
+
+msgid "Quote Rejected Email Template: Sent to the Customer"
+msgstr "Șablon de e-mail respins de ofertă: trimis clientului"
+
+#: view/settings/template.php:671
+
+msgid ""
+"Enter the subject for the email sent to the customer when a quote is "
+"rejected by the administrator."
+msgstr ""
+"Introduceți subiectul pentru e-mailul trimis clientului atunci când o ofertă "
+"este respinsă de administrator."
+
+#: view/settings/template.php:706
+
+msgid ""
+"Enter the heading for the email sent to the customer after the quote request "
+"is rejected by the administrator."
+msgstr ""
+"Introduceți titlul pentru e-mailul trimis clientului după ce solicitarea de "
+"ofertă este respinsă de administrator."
+
+#: view/settings/template.php:730
+
+msgid "Your Quote Request has been rejected."
+msgstr "Cererea dvs. de ofertă a fost respinsă."
+
+#: view/settings/template.php:742
+
+msgid ""
+"Enter the body for the email sent to the customer after the quote request is "
+"rejected by the administrator."
+msgstr ""
+"Introduceți corpul pentru e-mailul trimis clientului după ce cererea de "
+"ofertă este respinsă de administrator."
+
+#: view/settings/template.php:775
+
+msgid ""
+"Quote Requested SMS / Google Chat Template: Sent to the Site Administrator"
+msgstr ""
+"Citat solicitat SMS / șablon Google Chat: trimis administratorului site-ului"
+
+#: view/settings/template.php:782
+
+msgid "SMS And Google Chat Body"
+msgstr "SMS și Google Chat Body"
+
+#: view/settings/template.php:785
+
+msgid ""
+"Enter the content for the SMS/google chat notification sent to the "
+"administrator on receiving a quote request. you can enter text or fill the "
+"fields dynamically using placeholders from the above table. HTML tags are "
+"not accepted in this field."
+msgstr ""
+"Introduceți conținutul pentru notificarea SMS / chat Google trimisă "
+"administratorului la primirea unei solicitări de ofertă. Puteți introduce "
+"text sau completa câmpurile dinamic utilizând substituenți din tabelul de "
+"mai sus. Etichetele HTML nu sunt acceptate în acest câmp."
+
+#: view/settings/template.php:825
+msgid "Title"
+msgstr "Titlu"
+
+#: view/settings/template.php:826
+msgid "Placeholder"
+msgstr "Înlocuitor"
+
+#: view/settings/template.php:831
+
+msgid "Core Fields"
+msgstr "Câmpuri principale"
+
+#: view/settings/template.php:836
+msgid "Billing First Name"
+msgstr "Prenume de facturare"
+
+#: view/settings/template.php:837
+
+msgid "@billing_first_name"
+msgstr "@billing_first_name"
+
+#: view/settings/template.php:841
+msgid "Billing Last Name"
+msgstr "Nume de familie pt facturare"
+
+#: view/settings/template.php:842
+
+msgid "@billing_last_name"
+msgstr "@billing_last_name"
+
+#: view/settings/template.php:846
+msgid "Billing Company"
+msgstr "Date de facturare firma"
+
+#: view/settings/template.php:847
+
+msgid "@billing_company"
+msgstr "@billing_company"
+
+#: view/settings/template.php:851
+msgid "Billing Country"
+msgstr "Tara de facturare"
+
+#: view/settings/template.php:852
+
+msgid "@billing_country"
+msgstr "@billing_country"
+
+#: view/settings/template.php:855
+msgid "Billing Address 1"
+msgstr "Adresă de Facturare 1"
+
+#: view/settings/template.php:856
+
+msgid "@billing_address_1"
+msgstr "@billing_address_1"
+
+#: view/settings/template.php:860
+msgid "Billing Address 2"
+msgstr "Adresa de facturare 2"
+
+#: view/settings/template.php:861
+
+msgid "@billing_address_2"
+msgstr "@billing_address_2"
+
+#: view/settings/template.php:864
+msgid "Billing City"
+msgstr "Oraș facturare"
+
+#: view/settings/template.php:865
+
+msgid "@billing_city"
+msgstr "@billing_city"
+
+#: view/settings/template.php:868
+msgid "Billing State"
+msgstr "Stat/Județ facturare"
+
+#: view/settings/template.php:869
+
+msgid "@billing_state"
+msgstr "@billing_state"
+
+#: view/settings/template.php:872
+msgid "Billing Postcode"
+msgstr "Cod Poștal Facturare"
+
+#: view/settings/template.php:873
+
+msgid "@billing_postcode"
+msgstr "@billing_postcode"
+
+#: view/settings/template.php:876
+msgid "Billing Phone"
+msgstr "Telefon Facturare"
+
+#: view/settings/template.php:877
+
+msgid "@billing_phone"
+msgstr "@billing_phone"
+
+#: view/settings/template.php:880
+msgid "Billing Email"
+msgstr ""
+"\n"
+"E-mail de facturare"
+
+#: view/settings/template.php:881
+
+msgid "@billing_email"
+msgstr "@billing_email"
+
+#: view/settings/template.php:884
+msgid "Order Items"
+msgstr "Produse comandă"
+
+#: view/settings/template.php:885
+
+msgid "@order_items"
+msgstr "@order_items"
+
+#: view/settings/template.php:888
+
+msgid "Payment Link"
+msgstr "Link de plată"
+
+#: view/settings/template.php:889
+
+msgid "@payment_link"
+msgstr "@payment_link"
+
+#: view/settings/template.php:892
+msgid "Customer Note"
+msgstr "Mențiune Client"
+
+#: view/settings/template.php:893
+
+msgid "@customer_note"
+msgstr "@customer_note"
+
+#: view/settings/template.php:896
+msgid "Custom Fields"
+msgstr "Câmpuri personalizate"
+
+#: view/settings/widget.php:11
+
+msgid "Show Quote List Icon"
+msgstr "Afișare pictogramă listă ofertă"
+
+#: view/settings/widget.php:31
+msgid "Quote List Color On Hover"
+msgstr "Culoarea listei de citate la trecerea cu mouse-ul"
+
+#: view/settings/widget.php:33
+msgid "Select the color of the widget when a customer hovers over it."
+msgstr "Selectați culoarea widgetului atunci când un client trece peste el."
+
+#: view/settings/widget.php:61
+msgid "Quote List Icon Type"
+msgstr "Tip pictogramă listă ofertă"
+
+#: view/settings/widget.php:63
+msgid ""
+"You may face compatibility issues with specific themes when Fixed icon type "
+"is chosen."
+msgstr ""
+"Este posibil să vă confruntați cu probleme de compatibilitate cu anumite "
+"teme atunci când este ales tipul de pictogramă fixă."
+
+#: view/settings/widget.php:81
+msgid "Float"
+msgstr "Plutitoare"
+
+#: view/settings/widget.php:82
+msgid "Fixed"
+msgstr "Fixat"
+
+#: view/settings/widget.php:93
+msgid "Show Button Label Next to Icon"
+msgstr "Afișați eticheta butonului lângă pictogramă"
+
+#: view/settings/widget.php:126
+msgid "Button Label"
+msgstr "Etichetă buton formular"
+
+#: view/settings/widget.php:128
+msgid "Please enter the text that you would like to display as a button label."
+msgstr ""
+"Vă rugăm să introduceți textul pe care doriți să îl afișați ca etichetă de "
+"buton."
+
+#: view/settings/widget.php:163
+msgid "Show List Pop Up on Hover"
+msgstr "Afișați lista pop-up la trecerea cu mouse-ul"
+
+#: view/settings/widget.php:165
+msgid ""
+"Turn it on or off if you want to display or hide the list of products in the "
+"quote list by hovering over the quote list widget."
+msgstr ""
+"Activați-l sau dezactivați-l dacă doriți să afișați sau să ascundeți lista "
+"de produse din lista de oferte trecând cu mouse-ul peste widgetul listei de "
+"oferte."
+
+#. Plugin Name of the plugin/theme
+msgid "ELEX WooCommerce Request a Quote - Basic"
+msgstr "ELEX WooCommerce Solicitați o ofertă - de bază"
+
+#. Plugin URI of the plugin/theme
+
+msgid "https://elextensions.com/plugin/"
+msgstr "https://elextensions.com/plugin/"
+
+#. Description of the plugin/theme
+msgid ""
+"Create Request a Quote option for your WooCommerce products. You can also "
+"create and customize request a quote forms to be displayed on the frontend. "
+"The plugin will also send automated email notifications for quote "
+"submissions, approvals, and rejections."
+msgstr ""
+"Creați opțiunea Solicitați o ofertă pentru produsele dvs. De asemenea, "
+"puteți crea și personaliza formulare de solicitare a unei oferte pentru a fi "
+"afișate pe frontend. Pluginul va trimite, de asemenea, notificări automate "
+"prin e-mail pentru trimiteri de oferte, aprobări și respingeri."
+
+#. Author of the plugin/theme
+
+msgid "ELEXtensions"
+msgstr "ELEXtensionări"
+
+#. Author URI of the plugin/theme
+
+msgid "https://elextensions.com/"
+msgstr "https://elextensions.com/"
